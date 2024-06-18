@@ -4,7 +4,7 @@
 <p> гав гав гав гав</p>
   <h1>Импорт стиля</h1>
    <style>
-       @import url("woofmeow.css");
+       @import url("stardew.css");
    </style>
 </body>
 </html>

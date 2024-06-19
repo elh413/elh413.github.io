@@ -274,6 +274,7 @@ h3.left-menu-text {
 }
 .left-menu h3 {
 font-size: 14px;
+background: none!important;
 }
 .left-menu__gift a{
 font-size: 8px !important;}
@@ -930,6 +931,7 @@ h3.left-menu-text {
 }
 .left-menu h3 {
 font-size: 14px;
+background: none!important;
 }
 .left-menu__gift a{
 font-size: 8px !important;}

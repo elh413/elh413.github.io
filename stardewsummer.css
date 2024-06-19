@@ -471,13 +471,9 @@ margin-top: 40px;
         background-image: linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2));
         box-shadow: var(--Pixel-border);
         font-size: 10px;
-        display: flex;
         filter: brightness(0.95) sepia(30%) saturate(80%);
         font-family: 'Press Start 2P';
         padding: 3% !important;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         margin-left: 0px !important;
 }
 select {
@@ -1130,13 +1126,9 @@ margin-top: 40px;
         background-image: linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2));
         box-shadow: var(--Pixel-border);
         font-size: 10px;
-        display: flex;
         filter: brightness(0.95) sepia(30%) saturate(80%);
         font-family: 'Press Start 2P';
         padding: 3% !important;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         margin-left: 0px !important;
 }
 select {

@@ -439,28 +439,29 @@ background: url(https://i1.beon.fun/55/16/1655/70/1110570/image-17.png), url(htt
 background-repeat:  no-repeat, repeat;
         background-position: top right, center center;}
 .post-title, h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 6px solid transparent;
-    border-image: url(https://i1.beon.fun/55/16/1655/1/1110201/output-onlinepngtools-11.png) 24 fill repeat;
-    border-image-width: 24px;
-    border-image-outset: 6px;
-      padding: 0px 18px 0px 18px !important;
-    margin-top: 20px;
-    font-size: 9px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 50px;
-    max-width: fit-content;
-    text-align: center;
-text-decoration: none;
-filter: brightness(0.95) sepia(30%) saturate(80%);
+ display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 6px solid transparent;
+        border-image: url(https://i1.beon.fun/55/16/1655/1/1110201/output-onlinepngtools-11.png) 24 fill repeat;
+        border-image-width: 24px;
+        border-image-outset: 6px;
+        padding: 0px 18px 0px 18px !important;
+        font-size: 13px;
+        margin-top: 90px;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        height: 50px;
+        text-align: center;
+        text-decoration: none;
+        filter: brightness(0.95) sepia(30%) saturate(80%);
 }
 a.post-title:hover
-		{
+		{font-size: 13.5px;
+			max-width: 100%;
 			color: #eb7647;
-                        font-size: 15px;
 			}
 .tag:before {
     content: "🌻";
@@ -1095,28 +1096,30 @@ background: url(https://i1.beon.fun/55/16/1655/70/1110570/image-17.png), url(htt
 background-repeat:  no-repeat, repeat;
         background-position: top right, center center;}
 .post-title, h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 6px solid transparent;
-    border-image: url(https://i1.beon.fun/55/16/1655/1/1110201/output-onlinepngtools-11.png) 24 fill repeat;
-    border-image-width: 24px;
-    border-image-outset: 6px;
-      padding: 0px 18px 0px 18px !important;
-        margin-top: 20%;
-font-size: 11px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 50px;
-    max-width: fit-content;
-    text-align: center;
-text-decoration: none;
-filter: brightness(0.95) sepia(30%) saturate(80%);
+  display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 6px solid transparent;
+        border-image: url(https://i1.beon.fun/55/16/1655/1/1110201/output-onlinepngtools-11.png) 24 fill repeat;
+        border-image-width: 24px;
+        border-image-outset: 6px;
+        padding: 0px 18px 0px 18px !important;
+        font-size: 13px;
+        margin-top: 90px;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        height: 50px;
+        text-align: center;
+        text-decoration: none;
+        filter: brightness(0.95) sepia(30%) saturate(80%);
 }
 div.comment-header{
 margin-top: 10%;}
 a.post-title:hover
-		{
+		{font-size: 13.5px;
+			max-width: 100%;
 			color: #eb7647;
 			}
 .tag:before {

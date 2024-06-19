@@ -80,6 +80,11 @@ button, input:hover {
 background: #eb7647;
 
 }
+.spoiler {
+    display: none;
+    font-family: Nunito, sans-serif;
+    font-size: 14px !important;
+}
 [src="/i/logo2-deer.png"],  .user:before, #navbarSupportedContent > ul.navbar-nav.ml-auto > div > table > tbody > tr:nth-child(1) > td:nth-child(4) > ul > li > a:nth-child(2), div.post-content.blog_total_counter, body > div.bottombg > div.footer__infolinks.p-1, .left-menu br, [src="/i/user.png"], [src="/i/online.png"], [src="/i/offline.png"], [src="/i/blog.png"], .user:before, #page__admincontact, #page__rendertime, .pagination-goto{
 		display: none;
 	}
@@ -735,6 +740,11 @@ background-color: #f3e0c6;
 button, input:hover {
 background: #eb7647;
 
+}
+.spoiler {
+    display: none;
+    font-family: Nunito, sans-serif;
+    font-size: 14px !important;
 }
 [src="/i/logo2-deer.png"],  .user:before, #navbarSupportedContent > ul.navbar-nav.ml-auto > div > table > tbody > tr:nth-child(1) > td:nth-child(4) > ul > li > a:nth-child(2), div.post-content.blog_total_counter, body > div.bottombg > div.footer__infolinks.p-1, .left-menu br, [src="/i/user.png"], [src="/i/online.png"], [src="/i/offline.png"], [src="/i/blog.png"], .user:before, #page__admincontact, #page__rendertime, .pagination-goto{
 		display: none;

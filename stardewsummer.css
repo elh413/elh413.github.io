@@ -486,6 +486,9 @@ margin-top: 40px;
 .textarea-wrapper > textarea {
     font-family: 'Nunito';
     font-size: 16px;
+}
+form.messageform, input {
+font-size: 10px;
 }		
 select {
     background: #f0ca94;
@@ -1153,6 +1156,9 @@ a.post-title:hover
     font-family: 'Nunito';
     font-size: 16px;
 }
+form.messageform, input {
+font-size: 10px;
+}		
 select {
     background: #f0ca94;
 }

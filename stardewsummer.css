@@ -20,10 +20,12 @@ padding: 1%;
 * {  transition: all 0.3s ease-in;}
 
 .bodybg {
-    background: #F5E8D8 url(https://i.pinimg.com/originals/b2/29/1c/b2291c7633bcfe69cb7b3b7ba0d814ab.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+background-image: url(https://i1.beon.fun/55/16/1655/40/1111440/orange.png), 
+url(https://i1.beon.fun/55/16/1655/40/1111440/orange.png), url(https://i1.beon.fun/55/16/1655/54/1111854/mandalorian.png);
+background-repeat: no-repeat, no-repeat, repeat-x;
+background-attachment: fixed;
+background-size: auto, 25% 30%, 40% 100%;
+ background-position: left bottom, right top;
 }
 ::-webkit-scrollbar
 		{
@@ -105,16 +107,15 @@ content: "\f070";}
 /*--------------------top-menu--------------------*/
 nav.navbar {
 color: #ffffff !important;
-border-image-slice: 13 13 13 13;
-        border-image-width: 13px 13px 13px 13px;
-        border-image-repeat: round round;
-        border-image-source: url(https://i1.beon.fun/55/16/1655/59/1104359/Bezymyannyy.png);
-        border-style: solid;
-        padding: 13px 13px 13px 25px;
-        background-image: url(https://i1.beon.fun/55/16/1655/48/1107648/plants_preview_0-1-1.png), url(https://stardewcommunitywiki.com/mediawiki/images/thumb/c/c1/Indoor_Hanging_Basket.png/24px-Indoor_Hanging_Basket.png);
-        background-repeat: no-repeat;
-        background-color: #e8c7a0;
-        background-position: right bottom 10px, top 10px left 12px;}
+border-image-slice: 35 42 27 38  fill;
+border-image-width: 35px 42px 27px 38px;
+border-image-repeat: round stretch;
+padding: 35px 42px 27px 38px;
+border-image-source: 
+url(https://i1.beon.fun/55/16/1655/8/1112408/6673e9ab2c02a_1718872591_6673e9ab2c024-2.png);
+border-style: solid;
+background-repeat: no-repeat;
+background-position: right 40px bottom 24px, top 60px left 35px;}
 .navbar>.container {
 margin-left: 0;}
     .navbar-expand-md .navbar-collapse {
@@ -122,6 +123,9 @@ margin-left: 0;}
         flex-basis: auto;
         margin-left: 0;
     }
+.bg-white {
+background-color: #fff0;
+}
 nav.navbar a {
     color: #a5682a !important;
     white-space: nowrap;

@@ -483,6 +483,10 @@ margin-top: 40px;
         padding: 3% !important;
         margin-left: 0px !important;
 }
+.textarea-wrapper > textarea {
+    font-family: 'Nunito';
+    font-size: 16px;
+}		
 select {
     background: #f0ca94;
 }
@@ -1135,7 +1139,7 @@ a.post-title:hover
     margin-right: 1px;
 }
 .textareabg{
-margin-top: 40px;
+        margin-top: 40px;
         margin-bottom: 20px;
         background-color: #ffffff00;
         background-image: linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2));
@@ -1144,6 +1148,10 @@ margin-top: 40px;
         font-family: 'Press Start 2P';
         padding: 3% !important;
         margin-left: 0px !important;
+}
+.textarea-wrapper > textarea {
+    font-family: 'Nunito';
+    font-size: 16px;
 }
 select {
     background: #f0ca94;

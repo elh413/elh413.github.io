@@ -3,15 +3,14 @@
 	{
 /*--------------------Features--------------------*/
 		:root
-		{
-			--TextBox-Border-Shadow: #968e85;
-			--TextBox-Border-Size: 3px;
-                        --TextBox-Background: #ffcd82;
-			--TextBox-Background-Gradient-1: #ffcd82;
-			--TextBox-Background-Gradient-2: #eeb272;
-			--Pixel-border: rgb(144 62 1) 0px -3px, rgb(144 62 1) 0px 3px, rgb(144 62 1) 3px 0px, rgb(144 62 1) -3px 0px, rgb(144 62 1) -3px 0px, rgb(144 62 1) -3px 3px, rgb(144 62 1) -3px -3px, rgb(144 62 1) 3px -3px, rgb(144 62 1) 3px 3px, rgb(186 90 1) -3px -6px, rgb(186 90 1) 0px -6px, rgb(224 135 0) 3px -6px, rgb(186 90 1) 6px 0px, rgb(224 135 0) 6px -3px, rgb(186 90 1) 6px 3px, rgb(224 135 0) 0px 6px, rgb(186 90 1) 3px 6px, rgb(144 62 1) 6px 6px, rgb(186 90 2) -3px 6px, rgb(224 135 0) -6px 3px, rgb(144 62 1) -6px 6px, rgb(224 135 0) -6px 0px, rgb(186 90 1) -6px -3px, rgb(144 62 1) -6px -6px, rgb(144 62 1) 6px -6px, rgb(224 135 0) 6px -9px, rgb(224 135 0) 3px -9px, rgb(186 90 2) -6px -9px, rgb(91 43 42) 0px -12px, rgb(91 43 42) -6px -12px, rgb(91 43 42) 6px -12px, rgb(186 90 2) 0px 9px, rgb(186 90 2) -6px 9px, rgb(186 90 2) 6px 9px, rgb(186 90 2) -9px 6px, rgb(144 62 1) -9px 9px, rgb(186 90 2) -9px -6px, rgb(91 43 42) 0px 12px, rgb(91 43 42) 6px 12px, rgb(91 43 42) -6px 12px, rgb(144 62 1) -9px -9px, rgb(91 43 42) -12px 0px, rgb(91 43 42) -12px -6px, rgb(91 43 42) -12px 6px, rgb(224 135 0) 9px 0px, rgb(224 135 0) 9px 3px, rgb(186 90 2) 9px 6px, rgb(144 62 1) 9px 9px, rgb(224 135 0) 9px -6px, rgb(144 62 1) 9px -9px, rgb(91 43 42) 12px 6px, rgb(91 43 42) 12px -6px;
-		}
-/*--------------------BG--------------------*/
+		{--TextBox-Border-Shadow: #d68d8a;
+        --TextBox-Border-Size: 3px;
+        --TextBox-Background: #ffc3c3;
+        --TextBox-Background-Gradient-1: #ffc3c3;
+        --TextBox-Background-Gradient-2: #d8758f;
+        --Pixel-border: rgb(167 65 101) 0px -3px, rgb(167 65 101) 0px 3px, rgb(167 65 101) 3px 0px, rgb(167 65 101) -3px 0px, rgb(167 65 101) -3px 0px, rgb(167 65 101) -3px 3px, rgb(167 65 101) -3px -3px, rgb(167 65 101) 3px -3px, rgb(167 65 101) 3px 3px, rgb(183 63 99) -3px -6px, rgb(183 63 99) 0px -6px, rgb(199 69 104) 3px -6px, rgb(183 63 99) 6px 0px, rgb(199 69 104) 6px -3px, rgb(183 63 99) 6px 3px, rgb(199 69 104) 0px 6px, rgb(183 63 99) 3px 6px, rgb(167 65 101) 6px 6px, rgb(183 63 99) -3px 6px, rgb(199 69 104) -6px 3px, rgb(167 65 101) -6px 6px, rgb(199 69 104) -6px 0px, rgb(183 63 99) -6px -3px, rgb(167 65 101) -6px -6px, rgb(167 65 101) 6px -6px, rgb(199 69 104) 6px -9px, rgb(199 69 104) 3px -9px, rgb(183 63 99) -6px -9px, rgb(85 43 65) 0px -12px, rgb(85 43 65) -6px -12px, rgb(85 43 65) 6px -12px, rgb(183 63 99) 0px 9px, rgb(183 63 99) -6px 9px, rgb(183 63 99) 6px 9px, rgb(183 63 99) -9px 6px, rgb(167 65 101) -9px 9px, rgb(183 63 99) -9px -6px, rgb(85 43 65) 0px 12px, rgb(85 43 65) 6px 12px, rgb(85 43 65) -6px 12px, rgb(167 65 101) -9px -9px, rgb(85 43 65) -12px 0px, rgb(85 43 65) -12px -6px, rgb(85 43 65) -12px 6px, rgb(199 69 104) 9px 0px, rgb(199 69 104) 9px 3px, rgb(183 63 99) 9px 6px, rgb(167 65 101) 9px 9px, rgb(199 69 104) 9px -6px, rgb(167 65 101) 9px -9px, rgb(85 43 65) 12px 6px, rgb(85 43 65) 12px -6px;	}
+	}
+		/*--------------------BG--------------------*/
 
 body {
 padding: 1%;

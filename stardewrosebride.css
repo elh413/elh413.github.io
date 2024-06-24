@@ -41,7 +41,7 @@ background-size: auto, 25% 30%, 40% 100%;
 margin: 1%;
 			background: #e8c7a0;
 			border: 4px solid #e8c7a0;
-box-shadow: #d68d8a 0px -2px, #efd6d91 0px 2px, #d68d8a 2px 0px, #efd6d91 -2px 0px;
+box-shadow: #d68d8a 0px -2px, #efd6d9 0px 2px, #d68d8a 2px 0px, #efd6d9 -2px 0px;
 			background-clip: content-box;
 			cursor: cursor: url(https://glen-themes.gitlab.io/abt-pages/15/imgs/Stardew-Valley-Cursor.png), auto;
 		}
@@ -65,7 +65,7 @@ font-family: 'Press Start 2P';
 }
 input {
     overflow: visible;
-    box-shadow: #d68d8a 0px -2px, #efd6d91 0px 2px, #d68d8a 2px 0px, #efd6d91 -2px 0px;
+    box-shadow: #d68d8a 0px -2px, #efd6d9 0px 2px, #d68d8a 2px 0px, #efd6d9 -2px 0px;
     margin-left: 10px;
     margin-bottom: 5px;
     background-color: #efd6d9;
@@ -377,7 +377,7 @@ content: url(https://i1.beon.fun/55/16/1655/87/1104487/Mail-1.png);
 }
 #beon-fnplayer {
     background-color: #e8c7a0;
-box-shadow: #d68d8a 0px -2px, #efd6d91 0px 2px, #d68d8a 2px 0px, #efd6d91 -2px 0px;
+box-shadow: #d68d8a 0px -2px, #efd6d9 0px 2px, #d68d8a 2px 0px, #efd6d9 -2px 0px;
 }
 #fnplayer-volume-inner {
     background-color: #a74165;
@@ -727,7 +727,7 @@ background-size: 40% 100%;
 margin: 1%;
 			background: #e8c7a0;
 			border: 4px solid #e8c7a0;
-box-shadow: #d68d8a 0px -2px, #efd6d91 0px 2px, #d68d8a 2px 0px, #efd6d91 -2px 0px;
+box-shadow: #d68d8a 0px -2px, #efd6d9 0px 2px, #d68d8a 2px 0px, #efd6d9 -2px 0px;
 			background-clip: content-box;
 			cursor: cursor: url(https://glen-themes.gitlab.io/abt-pages/15/imgs/Stardew-Valley-Cursor.png), auto;
 		}
@@ -751,7 +751,7 @@ font-family: 'Press Start 2P';
 }
 input {
     overflow: visible;
-    box-shadow: #d68d8a 0px -2px, #efd6d91 0px 2px, #d68d8a 2px 0px, #efd6d91 -2px 0px;
+    box-shadow: #d68d8a 0px -2px, #efd6d9 0px 2px, #d68d8a 2px 0px, #efd6d9 -2px 0px;
     margin-left: 10px;
     margin-bottom: 5px;
     background-color: #efd6d9;
@@ -1063,7 +1063,7 @@ content: url(https://i1.beon.fun/55/16/1655/87/1104487/Mail-1.png);
 }
 #beon-fnplayer {
     background-color: #e8c7a0;
-box-shadow: #d68d8a 0px -2px, #efd6d91 0px 2px, #d68d8a 2px 0px, #efd6d91 -2px 0px;
+box-shadow: #d68d8a 0px -2px, #efd6d9 0px 2px, #d68d8a 2px 0px, #efd6d9 -2px 0px;
 }
 #fnplayer-volume-inner {
     background-color: #a74165;

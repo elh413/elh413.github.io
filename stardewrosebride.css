@@ -33,14 +33,14 @@ background-size: auto, 25% 30%, 40% 100%;
 		}
 		::-webkit-scrollbar-thumb
 		{
-			background: #9f542c;
+			background: #a74165;
 			cursor:url(https://glen-themes.gitlab.io/abt-pages/15/imgs/Stardew-Valley-Hand.png), auto;
 		}
 		::-webkit-scrollbar-track
 		{
 margin: 1%;
-			background: #e8c7a0;
-			border: 4px solid #e8c7a0;
+			background: #efd6d9;
+			border: 4px solid #efd6d9;
 box-shadow: #d68d8a 0px -2px, #efd6d9 0px 2px, #d68d8a 2px 0px, #efd6d9 -2px 0px;
 			background-clip: content-box;
 			cursor: cursor: url(https://glen-themes.gitlab.io/abt-pages/15/imgs/Stardew-Valley-Cursor.png), auto;
@@ -366,7 +366,7 @@ content: url(https://i1.beon.fun/55/16/1655/87/1104487/Mail-1.png);
  div.left-menu__user-notification.left-menu__unread-message > p, div.blog__last-comments a , div.blog__iread a  {margin-top: 20px;}
 /*player*/
 #fnplayer-volume-mask {
-    border-color: #e8c7a0 transparent transparent transparent;
+    border-color: #efd6d9 transparent transparent transparent;
 }
 #fnplayer-play {
     border-color: transparent transparent transparent #a74165;
@@ -376,7 +376,7 @@ content: url(https://i1.beon.fun/55/16/1655/87/1104487/Mail-1.png);
     background: #a74165;
 }
 #beon-fnplayer {
-    background-color: #e8c7a0;
+    background-color: #efd6d9;
 box-shadow: #d68d8a 0px -2px, #efd6d9 0px 2px, #d68d8a 2px 0px, #efd6d9 -2px 0px;
 }
 #fnplayer-volume-inner {
@@ -387,7 +387,7 @@ box-shadow: #d68d8a 0px -2px, #efd6d9 0px 2px, #d68d8a 2px 0px, #efd6d9 -2px 0px
     background-color: #a74165;
 }
 #fnplayer-slider-inner {
-    background-color: #e8c7a0;
+    background-color: #efd6d9;
 }
 
 /*--------------------content--------------------*/
@@ -719,14 +719,14 @@ background-size: 40% 100%;
 		}
 		::-webkit-scrollbar-thumb
 		{
-			background: #9f542c;
+			background: #a74165;
 			cursor:url(https://glen-themes.gitlab.io/abt-pages/15/imgs/Stardew-Valley-Hand.png), auto;
 		}
 		::-webkit-scrollbar-track
 		{
 margin: 1%;
-			background: #e8c7a0;
-			border: 4px solid #e8c7a0;
+			background: #efd6d9;
+			border: 4px solid #efd6d9;
 box-shadow: #d68d8a 0px -2px, #efd6d9 0px 2px, #d68d8a 2px 0px, #efd6d9 -2px 0px;
 			background-clip: content-box;
 			cursor: cursor: url(https://glen-themes.gitlab.io/abt-pages/15/imgs/Stardew-Valley-Cursor.png), auto;
@@ -809,7 +809,7 @@ content: "\f070";}
     border-style: solid;
     background-image: url(https://i1.beon.fun/55/16/1655/48/1107648/plants_preview_0-1-1.png), url(https://stardewcommunitywiki.com/mediawiki/images/thumb/c/c1/Indoor_Hanging_Basket.png/24px-Indoor_Hanging_Basket.png);
     background-repeat: no-repeat;
-    background-color: #e8c7a0;
+    background-color: #efd6d9;
     border-image-slice: 13 13 13 13;
     border-image-width: 13px 13px 8px 13px;
     background-position: left bottom 5px, top 10px left 12px;
@@ -1052,7 +1052,7 @@ content: url(https://i1.beon.fun/55/16/1655/87/1104487/Mail-1.png);
  div.left-menu__user-notification.left-menu__unread-message > p, div.blog__last-comments a , div.blog__iread a  {margin-top: 20px;}
 /*player*/
 #fnplayer-volume-mask {
-    border-color: #e8c7a0 transparent transparent transparent;
+    border-color: #efd6d9 transparent transparent transparent;
 }
 #fnplayer-play {
     border-color: transparent transparent transparent #a74165;
@@ -1062,7 +1062,7 @@ content: url(https://i1.beon.fun/55/16/1655/87/1104487/Mail-1.png);
     background: #a74165;
 }
 #beon-fnplayer {
-    background-color: #e8c7a0;
+    background-color: #efd6d9;
 box-shadow: #d68d8a 0px -2px, #efd6d9 0px 2px, #d68d8a 2px 0px, #efd6d9 -2px 0px;
 }
 #fnplayer-volume-inner {
@@ -1073,7 +1073,7 @@ box-shadow: #d68d8a 0px -2px, #efd6d9 0px 2px, #d68d8a 2px 0px, #efd6d9 -2px 0px
     background-color: #a74165;
 }
 #fnplayer-slider-inner {
-    background-color: #e8c7a0;
+    background-color: #efd6d9;
 }
 
 /*--------------------content--------------------*/

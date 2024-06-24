@@ -448,7 +448,7 @@ span.comments_count span::before {
     font-weight: bold;
 }
 .post-content, .comment-content{
-background: url(https://stardewcommunitywiki.com/mediawiki/images/4/42/Strawberry_Decal.png), url(https://i1.beon.fun/55/16/1655/91/1116891/output-onlinepngtools-1.png);
+background: url(https://stardewvalleywiki.com/mediawiki/images/thumb/d/da/Plush_Bunny.png/36px-Plush_Bunny.png), url(https://i1.beon.fun/55/16/1655/91/1116891/output-onlinepngtools-1.png);
     box-shadow: var(--Pixel-border);
 border-right: calc(var(--TextBox-Border-Size) * 2) solid var(--TextBox-Border-Shadow);
 border-top: calc(var(--TextBox-Border-Size) * 2) solid var(--TextBox-Border-Shadow);
@@ -472,7 +472,7 @@ background-repeat:  no-repeat, repeat;
         border-image-outset: 6px;
         padding: 0px 18px 0px 18px !important;
         font-size: 13px;
-        margin-top: 90px;
+        
         max-width: 80%;
         margin-left: auto;
         margin-right: auto;
@@ -1131,7 +1131,7 @@ span.comments_count span::before {
     font-weight: bold;
 }
 .post-content, .comment-content{
-background: url(https://stardewcommunitywiki.com/mediawiki/images/4/42/Strawberry_Decal.png), url(https://i1.beon.fun/55/16/1655/91/1116891/output-onlinepngtools-1.png);
+background: url(https://stardewvalleywiki.com/mediawiki/images/thumb/d/da/Plush_Bunny.png/36px-Plush_Bunny.png), url(https://i1.beon.fun/55/16/1655/91/1116891/output-onlinepngtools-1.png);
     box-shadow: var(--Pixel-border);
 border-right: calc(var(--TextBox-Border-Size) * 2) solid var(--TextBox-Border-Shadow);
 border-top: calc(var(--TextBox-Border-Size) * 2) solid var(--TextBox-Border-Shadow);
@@ -1156,7 +1156,7 @@ background-repeat:  no-repeat, repeat;
         border-image-outset: 6px;
         padding: 0px 18px 0px 18px !important;
         font-size: 11px;
-        margin-top: 90px;
+        
         margin-left: auto;
         margin-right: auto;
         width: fit-content;

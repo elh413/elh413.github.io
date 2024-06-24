@@ -455,7 +455,7 @@ border-top: calc(var(--TextBox-Border-Size) * 2) solid var(--TextBox-Border-Shad
     background-clip: padding-box;
     padding: 1%;
 margin-top: 60px !important;
-        background-position: top left, center center;
+        background-position: top right 3px, center center;
 background-repeat:  no-repeat, repeat;
 }
 .comment-content {

@@ -19,8 +19,7 @@ padding: 1%;
 * {  transition: all 0.3s ease-in;}
 
 .bodybg {
-background-image: url(https://i1.beon.fun/55/16/1655/40/1111440/orange.png), 
-url(https://i1.beon.fun/55/16/1655/40/1111440/orange.png), url(https://i1.beon.fun/55/16/1655/54/1111854/mandalorian.png);
+background-image: url(https://i1.beon.fun/55/16/1655/72/1111572/pink.png), url(https://i1.beon.fun/55/16/1655/72/1111572/pink.png), url(https://i1.beon.fun/55/16/1655/45/1111845/dreamy.png); 
 background-repeat: no-repeat, no-repeat, repeat-x;
 background-attachment: fixed;
 background-size: auto, 25% 30%, 40% 100%;
@@ -47,7 +46,7 @@ box-shadow: #D68F54 0px -2px, #FFDAA1 0px 2px, #D68F54 2px 0px, #FFDAA1 -2px 0px
 			cursor: cursor: url(https://glen-themes.gitlab.io/abt-pages/15/imgs/Stardew-Valley-Cursor.png), auto;
 		}
 a {
-    color: #a5682a;
+    color: #593046;
     cursor: url(https://glen-themes.gitlab.io/abt-pages/15/imgs/Stardew-Valley-Hand.png), auto;
 font-family: 'Press Start 2P';
 font-size: 9px;
@@ -90,8 +89,8 @@ background: #eb7647;
 		display: none;
 	}
 .btn-outline-primary {font-size: 10px;
-border-color: #a5682a;
-color: #a5682a;}
+border-color: #593046;
+color: #593046;}
 .btn-outline-primary:hover{ 
 color: #eb7647;}
 
@@ -111,7 +110,7 @@ border-image-width: 35px 42px 27px 38px;
 border-image-repeat: round stretch;
 padding: 35px 42px 27px 38px;
 border-image-source: 
-url(https://i1.beon.fun/55/16/1655/8/1112408/6673e9ab2c02a_1718872591_6673e9ab2c024-2.png);
+url(https://i1.beon.fun/55/16/1655/17/1116817/photo1718903657.jpeg-1.png);
 border-style: solid;
 background-repeat: no-repeat;
 background-position: right 40px bottom 24px, top 60px left 35px;}
@@ -132,7 +131,7 @@ display: flex;
 background-color: #fff0;
 }
 nav.navbar a {
-    color: #a5682a !important;
+    color: #593046 !important;
     white-space: nowrap;
 }
 .navbar-brand {
@@ -173,7 +172,7 @@ text-decoration: none;
         border-image-slice: 13 13 13 13 fill;
         border-image-width: 13px 13px 13px 13px;
         border-image-repeat: round round;
-        border-image-source: url(https://i1.beon.fun/55/16/1655/59/1104359/Bezymyannyy.png);
+        border-image-source: url(https://i1.beon.fun/55/16/1655/10/1116810/Bezymyannyy1.jpg);
         border-style: solid;
         padding: 0px 0px 5px 5px;
 }
@@ -343,7 +342,7 @@ content: url(https://i1.beon.fun/55/16/1655/59/1104259/Speech_bubble-1-1.png);
 border-image-slice: 13 13 13 13 fill;
         border-image-width: 13px 13px 13px 13px;
         border-image-repeat: round round;
-        border-image-source: url(https://i1.beon.fun/55/16/1655/59/1104359/Bezymyannyy.png);
+        border-image-source: url(https://i1.beon.fun/55/16/1655/10/1116810/Bezymyannyy1.jpg);
         border-style: solid;
         padding: 13px 13px 13px 13px;
 		}
@@ -357,7 +356,7 @@ transition: all 1s ease-in;
 div.blog__about {border-image-slice: 13 13 13 13 fill;
         border-image-width: 13px 13px 13px 13px;
         border-image-repeat: round round;
-        border-image-source: url(https://i1.beon.fun/55/16/1655/59/1104359/Bezymyannyy.png);
+        border-image-source: url(https://i1.beon.fun/55/16/1655/10/1116810/Bezymyannyy1.jpg);
         border-style: solid;
         padding: 13px 13px 13px 13px;}
 
@@ -449,7 +448,7 @@ span.comments_count span::before {
     font-weight: bold;
 }
 .post-content, .comment-content{
-background: url(https://i1.beon.fun/55/16/1655/11/1110311/image-17.png), url(https://glen-themes.gitlab.io/abt-pages/15/imgs/bg_pattern.png);
+background: url(https://stardewcommunitywiki.com/mediawiki/images/4/42/Strawberry_Decal.png), url(https://i1.beon.fun/55/16/1655/70/1116770/output-onlinepngtools-1.png);
     box-shadow: var(--Pixel-border);
 border-right: calc(var(--TextBox-Border-Size) * 2) solid var(--TextBox-Border-Shadow);
 border-top: calc(var(--TextBox-Border-Size) * 2) solid var(--TextBox-Border-Shadow);
@@ -468,7 +467,7 @@ background-repeat:  no-repeat, repeat;
         justify-content: center;
         align-items: center;
         border: 6px solid transparent;
-        border-image: url(https://i1.beon.fun/55/16/1655/1/1110201/output-onlinepngtools-11.png) 24 fill repeat;
+        border-image: url(https://i1.beon.fun/55/16/1655/36/1116236/output-onlinepngtools-11-1.png) 24 fill repeat;
         border-image-width: 24px;
         border-image-outset: 6px;
         padding: 0px 18px 0px 18px !important;
@@ -707,7 +706,7 @@ padding: 1%;
 }
 
 .bodybg {
-background-image: url(https://i1.beon.fun/55/16/1655/54/1111854/mandalorian.png);
+background-image: url(https://i1.beon.fun/55/16/1655/72/1111572/pink.png);
 background-repeat: repeat-x;
 background-attachment: fixed;
 background-size: 40% 100%;
@@ -733,7 +732,7 @@ box-shadow: #D68F54 0px -2px, #FFDAA1 0px 2px, #D68F54 2px 0px, #FFDAA1 -2px 0px
 			cursor: cursor: url(https://glen-themes.gitlab.io/abt-pages/15/imgs/Stardew-Valley-Cursor.png), auto;
 		}
 a {
-    color: #a5682a;
+    color: #593046;
     cursor: url(https://glen-themes.gitlab.io/abt-pages/15/imgs/Stardew-Valley-Hand.png), auto;
 font-family: 'Press Start 2P';
 font-size: 9px;
@@ -776,8 +775,8 @@ background: #eb7647;
 		display: none;
 	}
 .btn-outline-primary {font-size: 10px;
-border-color: #a5682a;
-color: #a5682a;}
+border-color: #593046;
+color: #593046;}
 .btn-outline-primary:hover{ 
 color: #eb7647;}
 
@@ -806,7 +805,7 @@ content: "\f070";}
     list-style: none;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
     transition-duration: .25s;
-    border-image-source: url(https://i1.beon.fun/55/16/1655/59/1104359/Bezymyannyy.png);
+    border-image-source: url(https://i1.beon.fun/55/16/1655/10/1116810/Bezymyannyy1.jpg);
     border-style: solid;
     background-image: url(https://i1.beon.fun/55/16/1655/48/1107648/plants_preview_0-1-1.png), url(https://stardewcommunitywiki.com/mediawiki/images/thumb/c/c1/Indoor_Hanging_Basket.png/24px-Indoor_Hanging_Basket.png);
     background-repeat: no-repeat;
@@ -847,7 +846,7 @@ background: url(https://stardewvalleywiki.com/mediawiki/images/3/34/Night_Sky_De
     display: block;
     padding: 15px 18px 3px 24px;
     text-align: right;
-    color: #a5682a;
+    color: #593046;
     font-family: 'Press Start 2P';
     font-size: 13px;
     font-weight: 600;
@@ -893,7 +892,7 @@ display:none;
         border-image-width: 13px 13px 13px 13px;
         border-image-repeat: round round;
         justify-content: center;
-        border-image-source: url(https://i1.beon.fun/55/16/1655/59/1104359/Bezymyannyy.png);
+        border-image-source: url(https://i1.beon.fun/55/16/1655/10/1116810/Bezymyannyy1.jpg);
         border-style: solid;
         font-size: 12px;
         padding: 10px 10px 5px 5px;
@@ -956,7 +955,7 @@ a,#beon-fnplayer, h3,  input {
         border-image-slice: 13 13 13 13 fill;
         border-image-width: 13px 13px 13px 13px;
         border-image-repeat: round round;
-        border-image-source: url(https://i1.beon.fun/55/16/1655/59/1104359/Bezymyannyy.png);
+        border-image-source: url(https://i1.beon.fun/55/16/1655/10/1116810/Bezymyannyy1.jpg);
         border-style: solid;
         color: white;
         padding: 15px 0px 5px 5px;
@@ -1029,7 +1028,7 @@ content: url(https://i1.beon.fun/55/16/1655/59/1104259/Speech_bubble-1-1.png);
 border-image-slice: 13 13 13 13 fill;
         border-image-width: 13px 13px 13px 13px;
         border-image-repeat: round round;
-        border-image-source: url(https://i1.beon.fun/55/16/1655/59/1104359/Bezymyannyy.png);
+        border-image-source: url(https://i1.beon.fun/55/16/1655/10/1116810/Bezymyannyy1.jpg);
         border-style: solid;
         padding: 13px 13px 13px 13px;
 		}
@@ -1043,7 +1042,7 @@ transition: all 1s ease-in;
 div.blog__about {border-image-slice: 13 13 13 13 fill;
         border-image-width: 13px 13px 13px 13px;
         border-image-repeat: round round;
-        border-image-source: url(https://i1.beon.fun/55/16/1655/59/1104359/Bezymyannyy.png);
+        border-image-source: url(https://i1.beon.fun/55/16/1655/10/1116810/Bezymyannyy1.jpg);
         border-style: solid;
         padding: 13px 13px 13px 13px;}
 
@@ -1132,7 +1131,7 @@ span.comments_count span::before {
     font-weight: bold;
 }
 .post-content, .comment-content{
-background: url(https://i1.beon.fun/55/16/1655/11/1110311/image-17.png), url(https://glen-themes.gitlab.io/abt-pages/15/imgs/bg_pattern.png);
+background: url(https://stardewcommunitywiki.com/mediawiki/images/4/42/Strawberry_Decal.png), url(https://i1.beon.fun/55/16/1655/70/1116770/output-onlinepngtools-1.png);
     box-shadow: var(--Pixel-border);
 border-right: calc(var(--TextBox-Border-Size) * 2) solid var(--TextBox-Border-Shadow);
 border-top: calc(var(--TextBox-Border-Size) * 2) solid var(--TextBox-Border-Shadow);
@@ -1152,7 +1151,7 @@ background-repeat:  no-repeat, repeat;
         justify-content: center;
         align-items: center;
         border: 6px solid transparent;
-        border-image: url(https://i1.beon.fun/55/16/1655/1/1110201/output-onlinepngtools-11.png) 24 fill repeat;
+        border-image: url(https://i1.beon.fun/55/16/1655/36/1116236/output-onlinepngtools-11-1.png) 24 fill repeat;
         border-image-width: 24px;
         border-image-outset: 6px;
         padding: 0px 18px 0px 18px !important;

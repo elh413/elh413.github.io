@@ -430,6 +430,7 @@ font-size: 9px!important;}
     color: #666666;
     margin-bottom: 10px;
 }
+
     span.comments_count span {
         font-family: 'Press Start 2P';
 font-size: 0 !important;
@@ -459,6 +460,11 @@ background-repeat:  no-repeat, repeat;
 background: url(https://i1.beon.fun/55/16/1655/70/1110570/image-17.png), url(https://glen-themes.gitlab.io/abt-pages/15/imgs/bg_pattern.png);
 background-repeat:  no-repeat, repeat;
         background-position: top right, center center;}
+div#commentpreviewplace
+{
+    font-family: Nunito, sans-serif;
+    font-size: 1rem;
+}
 .post-title, h1 {
  display: flex;
         justify-content: center;
@@ -1156,6 +1162,11 @@ background-repeat:  no-repeat, repeat;
         text-align: center;
         text-decoration: none;
         filter: brightness(0.95) sepia(30%) saturate(80%);
+}
+div#commentpreviewplace
+{
+    font-family: Nunito, sans-serif;
+    font-size: 1rem;
 }
 div.comment-header{
 margin-top: 10%;}

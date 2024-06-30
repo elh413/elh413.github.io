@@ -336,7 +336,7 @@ margin-right: 5px;
 content: url(https://i1.beon.fun/55/16/1655/59/1104259/Speech_bubble-1-1.png);
 }
 
-.blog__gifts, .blog__tags,.left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments,  div.community__moders,  div.community__members, div.blog__read-me, div.blog__iread,  div.blog__last-comments{height:45px;
+    div.left-menu>*:not(div.blog__about){height:45px;
 
 			overflow: hidden;
 			transition: 0.1s;
@@ -349,7 +349,7 @@ border-image-slice: 13 13 13 13 fill;
         padding: 13px 13px 13px 13px;
 		}
 
-		.blog__gifts:active, .blog__tags:active, .left-menu__user-notification:active,div.left-menu__user-notification.left-menu__unread-message:active, .left-menu__friends, .left-menu__friends_offline:active, div.left-menu__user-notification.left-menu__friends:active, .left-menu__friends.left-menu__friends_offline:active,div.notifications__comments:active, div.blog__about:active, div.community__moders:active, div.community__members:active, div.blog__read-me:active,div.blog__iread:active, div.blog__last-comments:active
+		div.left-menu>*:active
 		{height: 100%;
 			max-height: 100%;
 			transition: 0.1s;
@@ -1023,7 +1023,7 @@ margin-right: 5px;
 content: url(https://i1.beon.fun/55/16/1655/59/1104259/Speech_bubble-1-1.png);
 }
 
-.blog__gifts, .blog__tags,.left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments,  div.community__moders,  div.community__members, div.blog__read-me, div.blog__iread,  div.blog__last-comments{height:45px;
+    div.left-menu>*:not(div.blog__about){height:45px;
 
 			overflow: hidden;
 			transition: 0.1s;
@@ -1036,7 +1036,7 @@ border-image-slice: 13 13 13 13 fill;
         padding: 13px 13px 13px 13px;
 		}
 
-		.blog__gifts:active, .blog__tags:active, .left-menu__user-notification:active,div.left-menu__user-notification.left-menu__unread-message:active, .left-menu__friends, .left-menu__friends_offline:active, div.left-menu__user-notification.left-menu__friends:active, .left-menu__friends.left-menu__friends_offline:active,div.notifications__comments:active, div.blog__about:active, div.community__moders:active, div.community__members:active, div.blog__read-me:active,div.blog__iread:active, div.blog__last-comments:active
+		div.left-menu>*:active
 		{height: 100%;
 			max-height: 100%;
 			transition: 0.1s;

@@ -84,7 +84,7 @@ p {font-size: 16px;
 span {
 font-size: 11px;}
 .readertime, .post-opt {
-    font-size: 7px;
+    font-size: 10px;
     color: #587157;
 }
  a, .crumb-item {
@@ -343,6 +343,11 @@ font-size: 0px;
 content: "🌾";
 font-size:12px;
 margin-right: 3px;
+}
+.tag_bar > span {
+margin-right: 4px;
+font-size: 18px;
+cursor:url(https://i1.beon.fun/55/16/1655/59/1149459/frame_apngframe4.png), auto;
 }
 .fa, .fas {
     color: #97ba6c;

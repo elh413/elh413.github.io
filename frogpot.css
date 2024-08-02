@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap');
+
+/*--------------------Features--------------------*/
+* {outline: 0;
+}
+
+::-webkit-scrollbar {
+width: 10px;
+height: 
+10px;
+cursor:url(https://i99.beon.fun/www.rw-designer.com/cursor-view/146926.png), auto!important;
+}
+::-webkit-scrollbar-thumb {
+background: #97ba6c;
+cursor:url(https://i1.beon.fun/55/16/1655/99/1149599/frame_apngframe4.png), auto!important;
+}
+::-webkit-scrollbar-track {
+margin: 1%;
+background:linear-gradient(180deg, #FFFFFF 66%, #f5ffeb 100%);
+border: 4px solid #f5ffeb;
+box-shadow: #f5ffeb 0px -2px, #f5ffeb 0px 2px, #f5ffeb 2px 0px, #f5ffeb -2px 0px;
+background-clip: content-box;
+cursor:url(https://i99.beon.fun/www.rw-designer.com/cursor-view/146926.png), auto!important;
+}
+img.flag, [src="/i/logo2-deer.png"],  .user:before, div.post-content.blog_total_counter, body > div.bottombg > div.footer__infolinks.p-1, .left-menu br, [src="/i/user.png"], [src="/i/online.png"], [src="/i/offline.png"], [src="/i/blog.png"], .user:before, #page__admincontact, #page__rendertime, .pagination-goto, div#footer.p-1{display: none;
+}
+
+button, input, optgroup, select, textarea,.btn-secondary, .btn-primary {
+    background: #e7efe5;
+    border-radius: 0.25rem;
+    border: solid 1px #5b7f47;
+}
+button:hover, input:hover, optgroup:hover, select:hover {cursor: url(https://i1.beon.fun/55/16/1655/59/1149459/frame_apngframe4.png), auto;
+}
+
+[type=reset], [type=submit], button, html [type=button],.btn-secondary, .btn-primary{
+background-image: linear-gradient(360deg, #97ba6c 0%, rgba(255, 255, 255, 0.008) 63%);
+margin-left: 5px
+}
+
+[type=reset]:hover, [type=submit]:hover, button:hover, html [type=button]:hover,.btn-secondary:hover, .btn-primary:hover {
+    background-color: #97ba6c;
+transition: 0.2s;
+}
+::selection {
+background:#cbd7c9}
+.avatar-select-label-selected {
+    border: 4px solid #97ba6c;
+}
+/*--------------------BG--------------------*/
+
+html {cursor: url(https://i99.beon.fun/www.rw-designer.com/cursor-view/146926.png), auto;
+}
+body {background-image:url(https://i1.beon.fun/55/16/1655/68/1142168/qRKSbw.png), url(https://i1.beon.fun/55/16/1655/59/1142159/ezgif-2-0c2aba9505.gif);
+background-repeat: no-repeat, no-repeat;
+background-position: top right -150%, left bottom;
+background-attachment: fixed;
+background-size: calc(calc(85vw + 2.2vh + 0.1vmin)), calc(15vw + 2.2vh + 0.1vmin);
+    width: calc(070vw + 0.2vh + 0.1vmin);
+    margin: auto;
+    background-color: #e7efe5;
+    margin-top: 1%;
+    box-shadow: 0.354rem 0.354rem 0rem 0rem #7c906854;
+    border-top: solid 1px #97ba6c;
+    border-right: solid 1px #97ba6c;
+    border-bottom: solid 1px #97ba6c;
+    border-radius: 0.25rem;
+    border-left: solid 1px #97ba6c;
+cursor: url(https://i99.beon.fun/www.rw-designer.com/cursor-view/146926.png), auto;
+}
+.left-menu h3:hover, .fa:hover, .fas:hover, [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover, [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover:before, span[data-target="#deleteconfirmmodal"]:before, .cur-p{
+cursor: url(https://i1.beon.fun/55/16/1655/19/1149319/146927.png), auto;
+color:#174f1e!important;
+    transition: 0.8s;
+transition-delay: 0.1;
+}
+
+div#app {
+    padding: 2.3%;
+    background: url(https://i1.beon.fun/55/16/1655/43/1142143/output-onlinepngtools-1.png);
+}
+p {font-size: 16px;
+}
+span {
+font-size: 11px;}
+.readertime, .post-opt {
+    font-size: 7px;
+    color: #587157;
+}
+ a, .crumb-item {
+        font-family: 'Anonymous Pro'!important;
+        font-size: 15px!important;
+font-weight: 600;
+  color: #97ba6c!important;
+    text-shadow: 1px 1px 2px #ffffff, 0 0 1px #ffffff, 0 0 0.2px #ffffff;
+    }
+a:hover,.crumb-item:hover, .pc-menu a:hover {color:#174f1e!important;
+    transition: 0.8s;
+transition-delay: 0.1;
+text-decoration: none;
+cursor: url(https://i1.beon.fun/55/16/1655/19/1149319/146927.png), auto;
+}
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]
+		{position: fixed;
+border-image-slice: 228 0 0 0;
+    border-image-width: 228px 0px 0px 0px;
+    border-image-outset: 0px 0px 0px 0px;
+    padding: 228px 100px 0px 100px;
+    border-image-repeat: round round;
+border-image-source:url(https://i1.beon.fun/55/16/1655/91/1149091/tumblr_ogk7yl6ndl1ryi9hko1_400-1.png);
+    border-style: solid;
+    left: -1%;
+    top: -1%;
+cursor: url(https://i1.beon.fun/55/16/1655/19/1149319/146927.png), auto!important;
+font-size: 0px!important;
+font-family: 'Font Awesome 5 Free'!important;
+		}
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before{
+content: "\f077";
+cursor: url(https://i1.beon.fun/55/16/1655/19/1149319/146927.png), auto;
+font-size: 25px!important;
+font-family: 'Font Awesome 5 Free'!important;
+ font-weight: 600;
+ color: #97ba6c !important;
+}
+
+a.my-menu.for-mobile.d-none.d-md-inline{
+position: fixed;
+padding: 70px 0px 0px 103px!important;
+    left: -1%;
+    top: 45%;
+font-size: 0px!important;
+font-family: 'Font Awesome 5 Free'!important;
+}
+a.my-menu.for-mobile.d-none.d-md-inline:before{
+content: "\f078";
+font-size: 25px;}
+div.crumbs {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    padding: 0 0%;
+}
+
+/*--------------------top-menu--------------------*/
+
+.navbar>.container {
+        display: flex;
+        white-space: nowrap;
+        flex-direction: column;
+}
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgb(0 0 0 / 0%) !important;
+    margin-left: 10%;
+}
+.bg-white {margin: auto;
+ background: white;
+    border-image-slice: 0 0 31 0;
+    border-image-width: 0px 0px 31px 0px;
+    border-image-outset: 0px 0px 25px 0px;
+    border-image-repeat: round round;
+font-size: 0px;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/9/1092409/Lace_Ribbon_Olive.gif);
+    border-style: solid;
+}
+.bg-white:not(a.my-menu.for-mobile.d-none.d-md-inline):hover  ul.navbar-nav.ml-auto{
+ height: 80px;
+transition: 0.9s;
+transition-delay: 0.5s;
+}
+ul.navbar-nav.ml-auto {
+    height: 0px;
+    overflow: hidden;
+    transition: 0.4s;
+    transition-delay: 0.1s;
+}
+ .pc-menu a {
+        font-size:calc(0.6vw + 0.1vh + 0.1vmin)!important;
+        padding: 0px !important;
+color: #97ba6;
+    }
+    .navbar-expand-md .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        max-width: 100%;
+justify-content: center;
+}
+
+
+.navbar-brand {
+    font-size: 30px !important;
+    font-weight: bold;
+    color: #97ba6c !important;
+    border-image-slice: 0 14 28 25;
+    border-image-width: 0px 14px 28px 25px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: round round;
+    border-image-source:url(https://64.media.tumblr.com/7a849c12a863acefdaf0139c300fda3b/3c448fbec2faa2b6-1e/s250x400/531a08498c3dd0501679447d533dee0934852613.gifv);
+    padding: 0px 14px 0px 25px;
+    border-style: solid;
+}
+
+/*--------------------Crumbs--------------------*/
+/*--------------------.py-4--------------------*/
+main.py-4 {
+padding: 2% !important;
+    background-image: linear-gradient(180deg, #FFFFFF 66%, #f5ffeb 100%);
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-size: cover;
+    border-color: #97ba6c;
+    border-style: solid;
+    border-width: 3px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+/*--------------------left-menu--------------------*/
+  .blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments {
+        height: 45px;
+        overflow: hidden;
+        transition: 0.1s;
+        transition-delay: 10s;
+   border-image-slice: 18 8 12 12 fill;
+    border-image-width: 18px 8px 12px 12px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: round round;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/73/1141373/output-onlinepngtools.png);
+    border-style: solid;
+padding: 10px 8px 12px 12px;
+margin-top: 20px;
+    }
+.blog__gifts:active, .blog__tags:active, .left-menu__user-notification:active,div.left-menu__user-notification.left-menu__unread-message:active, .left-menu__friends, .left-menu__friends_offline:active, div.left-menu__user-notification.left-menu__friends:active, .left-menu__friends.left-menu__friends_offline:active,div.notifications__comments:active, div.blog__about:active, div.community__moders:active, div.community__members:active, div.blog__read-me:active,div.blog__iread:active, div.blog__last-comments:active
+		{height: 100%;
+			max-height: 100%;
+			transition: 0.1s;
+transition: all 1s ease-in;
+padding: 10px 27px 30px 6px
+		}
+div.left-menu__user-notification.left-menu__unread-message p {font-size: 10px;
+}
+div.blog__about {
+    border-image-slice: 18 8 12 12 fill;
+    border-image-width: 18px 8px 12px 12px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: round round;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/73/1141373/output-onlinepngtools.png);
+    border-style: solid;
+padding: 10px 8px 12px 12px;
+margin-top: 20px;}
+.left-menu h3 {
+   color: #97ba6c;
+    font-family: 'Anonymous Pro';
+    font-size:calc(0.8vw + 0.7vh + 0.1vmin)!important;
+font-weight:bold;
+display: flex;
+    padding-bottom: 15px;
+    background-color: transparent !important;
+    justify-content: center;
+}
+.left-menu  {
+border: 1px solid #aaa0!important;
+width: 30%;
+}
+[value="Поиск"]{
+background:url(https://i1.beon.fun/55/16/1655/90/1148090/tumblr_cd231ea37f8e38ff6c36872f0ba76e47_a7615959_75.png);
+height: 25px;
+width: 25px;
+padding-top: 10px;
+background-repeat: no-repeat;
+font-size: 0px;
+transition: 0.5s;
+background-position: right bottom;
+}
+[value="Поиск"]:hover{
+background:url(https://i1.beon.fun/55/16/1655/91/1148091/tumblr_cd231ea37f8e38ff6c36872f0ba76e47_a7615959_75.gif);
+background-repeat: no-repeat;
+opacity:1;
+ background-position: right bottom;
+transition: 0.5s;
+}
+[src="//beon.fun/i/design-off.png"] {
+display: none;
+}
+a[href^="/design/disable"]{
+content"";
+color:#174f1e!important;
+}
+a[href^="/design/disable"]:before{
+content: url(https://i1.beon.fun/55/16/1655/55/1149655/frame_00_delay-1s.png);
+}
+/*--------------------content--------------------*/
+
+.post-content, .comment-content {
+background-image: linear-gradient(180deg, #FFFFFF 66%, #f5ffeb 100%);
+margin-bottom: 15px;
+box-shadow: 0.354rem 0.354rem 0rem 0rem #7c906854;
+}
+.post-header {
+    margin-left: 0px!important;
+}
+.content {
+    width: 80%;
+    font-family: 'Anonymous Pro', monospace;
+}
+.textareabg {
+    background-color: #f8fafc00;
+}
+
+
+.post-content, .comment-content {
+    border: solid 1px #97ba6c;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+}
+
+.post-title, h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(180deg, #d1dfb7 36%, #97ba6c 84%);
+    text-align: center;
+font-size: 16px!important;
+    font-weight: bold;
+text-shadow: 1px 1px 2px #97ba6c, 0 0 1px #97ba6c, 0 0 0.2px #97ba6c;
+background-position: 0% 0%;
+    background-repeat: repeat;
+    background-size: cover;
+    border-color: #97ba6c;
+    border-style: solid;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    text-decoration: none;
+    color: #f8fafc!important;
+}
+.post-row, .comment-row, .post-title-user {
+margin-left: 10px;
+}
+.post__tags-list {
+font-size: 0px;
+}
+.tag:before {
+content: "🌾";
+font-size:12px;
+margin-right: 3px;
+}
+.fa, .fas {
+    color: #97ba6c;
+font-size: 20px;
+}
+[href$="/edit"], a[href^="//beon.fun/repost/comment/"], a[href^="//beon.fun/repost/post/"], a[href^="//beon.fun/repost/topic/"],span[data-target="#deleteconfirmmodal"], span[data-target="#deleteconfirmmodal"] {    font-family: 'Font Awesome 5 Free'!important;
+content: "";
+text-decoration: unset;
+font-size: 0px!important;
+}
+
+[href$="/edit"]::before{
+content: "✎";
+font-size: 20px;
+color: #97ba6c;
+text-decoration: unset;
+}
+span[data-target="#deleteconfirmmodal"]::before{
+content: "🗑";
+font-size: 20px;
+text-decoration: unset;
+color: #97ba6c;
+}
+a[href^="//beon.fun/repost/comment/"]::before{
+content: "\f079";
+font-size: 20px;
+color: #97ba6c;
+text-decoration: unset;
+}
+a[href^="//beon.fun/repost/topic/"]::before{
+content: "\f079";
+font-size: 20px;
+color: #97ba6c;
+text-decoration: unset;
+}
+a[href^="//beon.fun/repost/post/"]::before{
+content: "\f079";
+font-size: 20px;
+color: #97ba6c;
+text-decoration: unset;
+}
+span[data-target="#deleteconfirmmodal"]:before{
+content: "\f2ed";
+font-size: 20px;
+color: #97ba6c;
+}
+
+.liked .fas, .reposted .fas, .bookmarked .fas {
+color: #ccc37b !important;
+cursor: url(https://i1.beon.fun/55/16/1655/52/1149452/frame_apngframe2-1.png), auto;
+}
+
+.fa-heart:before, a[href^="//beon.fun/repost/comment/"]::before,a[href^="//beon.fun/repost/comment/"]::before, a[href^="//beon.fun/repost/comment/"]::before{
+cursor: url(https://i1.beon.fun/55/16/1655/52/1149452/frame_apngframe2-1.png), auto;
+}
+
+.post-opt a:hover {
+text-decoration:unset;
+color: #6d874e !important;
+}
+.post__tags-list {
+ margin-bottom: 15px;
+}
+.mt-3, .my-3 {
+margin-left: 2%;
+}
+@media only screen and (max-width: 800px){
+body,.content, .left-menu {
+width:100%;
+}
+body {
+background-image:url(), url();}
+.menu__btn {
+display: flex;
+    align-items: center;
+    margin: auto !important;
+    position: fixed;
+    background: #97cd7a7d url(https://i1.beon.fun/55/16/1655/27/1150127/bgf8f8f8-flat750x075f-pad750x1000f8f8f8_3_optimized-1-1.png);
+    right: 20px;
+    height: 35px;
+    top: 10px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 35px;
+    background-position: center center;
+}
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+        background-color: #00000000;
+     }
+
+
+.menu__item {
+    display: block;
+    padding: 15px 18px 3px 24px;
+    text-align: right;
+    color: #a5682a;
+    font-family: 'Press Start 2P';
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+}		
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"], a.my-menu.for-mobile.d-none.d-md-inline {
+position: fixed;
+bottom: 5px;
+width: 40px;
+color: #174f1e !important;
+padding: 0px!important;
+border: 0px;
+height: 60px;
+left:0%;
+}
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none{
+        position: fixed;
+        left: -2%;
+        top: 10%;
+        font-size: 0!important;
+        z-index: 3;
+
+font-family: 'Font Awesome 5 Free'!important;
+}
+a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
+    content: "\f078";
+font-family: 'Font Awesome 5 Free'!important;
+ font-size: 25px;
+color: #174f1e !important;
+width: 40px;
+}
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before {
+color: #174f1e !important;
+}
+.left-menu h3, .left-menu > div.mobile_open_menu > h3 {
+    font-family: 'Anonymous Pro';
+    font-size: 18px!important;
+}
+div.mobile_open_menu > h3 {
+color: #174f1e!important;
+margin-top: 10px;
+}
+
+[type=reset], [type=submit], button, html [type=button], .btn-secondary, .btn-primary {
+    margin-top: 10px;
+}
+.post-avatar img {
+        width: 80px !important;
+    }
+.post-row, .comment-row, .post-title-user {
+    margin-left: 3px;
+}
+.fas, .far, .tag_bar > * {
+    font-size: 0.8rem!important;
+    padding: 0rem!important;
+}
+.bg-white:not(a.my-menu.for-mobile.d-none.d-md-inline):hover  ul.navbar-nav.ml-auto {
+height: 0px;}
+#menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    border: solid 2px #97ba6c;
+    border-image-slice: 18 8 12 12 fill;
+    border-image-width: 18px 8px 12px 12px;
+    border-image-outset: 0px 0px 0px 0px;
+    display: flex;
+    border-image-repeat: repeat repeat;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/73/1141373/output-onlinepngtools.png);
+    border-style: solid;
+    padding: 10px 8px 12px 12px;
+    right: 0;
+    flex-direction: column;
+    align-items: center;
+}
+.menu__item {
+        font-weight: 800;
+        font-size: 18px !important;}
+[href$="/edit"]::before, span[data-target="#deleteconfirmmodal"]::before,a[href^="//beon.fun/repost/comment/"]::before,a[href^="//beon.fun/repost/topic/"]::before,a[href^="//beon.fun/repost/post/"]::before, span[data-target="#deleteconfirmmodal"]:before, .comment-header{ 
+font-size: 0.8rem!important;
+}
+[href$="/edit"]::before {
+    content: "✐";
+font-weight:1000;
+}
+
+}

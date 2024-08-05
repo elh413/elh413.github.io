@@ -75,7 +75,7 @@ background-size: calc(calc(85vw + 2.2vh + 0.1vmin)), calc(15vw + 2.2vh + 0.1vmin
     border-left: solid 1px #97ba6c;
 cursor: url(https://i99.beon.fun/www.rw-designer.com/cursor-view/146926.png), auto;
 }
-.left-menu h3:hover,.btn:not(:disabled):not(.disabled, .fa:hover, .fas:hover, [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover, [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover:before, span[data-target="#deleteconfirmmodal"]:before, .cur-p{
+.left-menu h3:hover, .fa:hover, .fas:hover, [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover, [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover:before, span[data-target="#deleteconfirmmodal"]:before, .cur-p{
 cursor: url(https://i1.beon.fun/55/16/1655/19/1149319/146927.png), auto;
 color:#174f1e!important;
     transition: 0.8s;
@@ -221,7 +221,6 @@ padding: 2% !important;
     border-top-right-radius: 0.5rem;
 }
 /*--------------------left-menu--------------------*/
-/*player*/
 
 #fnplayer-play {
     border-color: transparent transparent transparent #97ba6c;

@@ -75,7 +75,7 @@ background-size: calc(calc(85vw + 2.2vh + 0.1vmin)), calc(15vw + 2.2vh + 0.1vmin
     border-left: solid 1px #97ba6c;
 cursor: url(https://i99.beon.fun/www.rw-designer.com/cursor-view/146926.png), auto;
 }
-.left-menu h3:hover, .fa:hover, .fas:hover, [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover, [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover:before, span[data-target="#deleteconfirmmodal"]:before, .cur-p{
+.left-menu h3:hover,.btn:not(:disabled):not(.disabled, .fa:hover, .fas:hover, [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover, [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover:before, span[data-target="#deleteconfirmmodal"]:before, .cur-p{
 cursor: url(https://i1.beon.fun/55/16/1655/19/1149319/146927.png), auto;
 color:#174f1e!important;
     transition: 0.8s;
@@ -221,6 +221,34 @@ padding: 2% !important;
     border-top-right-radius: 0.5rem;
 }
 /*--------------------left-menu--------------------*/
+/*player*/
+
+#fnplayer-play {
+    border-color: transparent transparent transparent #97ba6c;
+}
+
+#fnplayer-stop {
+    background: #97ba6c;
+}
+#beon-fnplayer {
+    background-color: #f5ffeb;
+}
+#fnplayer-volume-inner {
+    background-color: #97ba6c;
+    border: 1px solid #97ba6c;
+}
+#fnplayer-slider {
+    background-color: #97ba6c;
+}
+#fnplayer-slider-inner {
+    background-color: #f5ffeb;
+}
+#beon-fnplayer, #fnplayer-slider, #fnplayer-play, #fnplayer-play.paused {
+ border-radius: 0;
+cursor: url(https://i1.beon.fun/55/16/1655/52/1149452/frame_apngframe2-1.png), auto;}
+#fnplayer-volume-mask {
+    border-color: #f5ffeb transparent transparent transparent;
+}
   .blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments {
         height: 45px;
         overflow: hidden;

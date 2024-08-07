@@ -269,18 +269,18 @@ background-image: url(https://i1.beon.fun/55/16/1655/18/1155118/448230.png);
 }
  div.blog__about {
 position: fixed;
-right: 5%;
-top: 65%;
-background: white;
-font-size: calc(0.6vw + 0.6vh + 0.1vmin);
-border-image-slice: 152 157 12 12;
-border-image-width: 152px 157px 12px 12px;
-border-image-outset: 30px 42px 8px 10px;
-border-image-repeat: stretch stretch;
-border-image-source: url(https://i1.beon.fun/55/16/1655/49/1155149/af3513442e231858c58e572df8ee71fa-square-floral-frame-stroke-2.png);
-border-style: solid;
-filter: brightness(0.9) invert(.7) sepia(.5) hue-rotate(0deg) saturate(200%);
-color: #ffffff!;
+    right: 2%;
+    top: 45%;
+    background: white;
+    font-size: calc(0.6vw + 0.6vh + 0.1vmin);
+    width: calc(20.6vw + 0.6vh + 0.1vmin);
+    border-image-slice: 152 157 12 12;
+    border-image-width: 152px 157px 12px 12px;
+    border-image-outset: 30px 42px 8px 10px;
+    border-image-repeat: stretch stretch;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/49/1155149/af3513442e231858c58e572df8ee71fa-square-floral-frame-stroke-2.png);
+    border-style: solid;
+    filter: brightness(0.9) invert(.7) sepia(.5) hue-rotate(0deg) saturate(200%);
 }
 div.blog__about > h3, .mw-100 {
 display: none;}

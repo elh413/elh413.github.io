@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css?family=Garamond&display=swap');
+/*--------------------Features--------------------*/
+* {outline: 0;
+transition: all 0.2s ease-in;
+}
+::-webkit-scrollbar {
+width: 5px;
+height: 5px;
+}
+::-webkit-scrollbar-thumb {
+background: #dec494;
+border: 1px solid #dec494;
+}
+::-webkit-scrollbar-track {
+margin: 1%;
+background: transparent;
+border: 1px solid #dec494;
+box-shadow: #dec494 0px -2px, #dec494 0px 2px, #dec494 2px 0px, #dec494 -2px 0px;
+background-clip: content-box;
+}
+::selection {
+background:#b28e3a;}
+.pc-menu a:hover, .left-menu a:hover, div.blog__about a:hover{ 
+color: #898989 !important;}
+a {
+    color: #89723c;
+}
+a:hover {
+color: #dfb95e;
+text-decoration: unset;}
+.post-title:hover, h1:hover, [style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:hover, a.my-menu.for-mobile.d-none.d-md-inline:hover{
+filter: brightness(0.9) invert(.7) sepia(.5) hue-rotate(0deg) saturate(200%) drop-shadow(3px 2px 3px #ddc394);
+color: #898989 !important;
+}
+
+a[href^="//beon.fun/roleplays"], img.flag, [src="/i/logo2-deer.png"],  .user:before, div.post-content.blog_total_counter, body > div.bottombg > div.footer__infolinks.p-1, .left-menu br, [src="/i/user.png"], [src="/i/online.png"], [src="/i/offline.png"], [src="/i/blog.png"], .user:before, #page__admincontact, #page__rendertime, .pagination-goto, div#footer.p-1, .m2 {display: none;
+}
+button, input, optgroup, select, textarea,.btn-secondary, .btn-primary, .btn-outline-primary {
+    background: #f7f7f7;
+    color: black;
+    border: solid 1px #89723c;
+}
+.textareabg {
+    background-color: #f8fafc00;
+}
+ .btn-outline-primary:hover, .btn-secondary:hover, .btn-primary:hover, {
+background-color: #cbdbb0;
+border-color: #97ba6c;
+}
+[type=reset], [type=submit], button, html [type=button],.btn-secondary, .btn-primary{
+background:  #f7f7f7;
+margin-left: 5px;
+margin-top: 5px;
+}
+
+[type=reset]:hover, [type=submit]:hover, button:hover, html [type=button]:hover,.btn-secondary:hover, .btn-primary:hover {
+    background-color: #d5c791;
+transition: 0.2s;
+}
+/*--------------------BG--------------------*/
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+div#app {
+    padding: 0%;
+}
+
+body {
+background-image:url(https://i1.beon.fun/55/16/1655/53/1156953/68b44b87-3ab0-4145-81ee-8fbdf2840651.jpg), url(https://i1.beon.fun/55/16/1655/52/1154052/59D6E451-6CB0-4C4C-8688-5137C7A4AE23.png);
+background-repeat: no-repeat, no-repeat;
+background-position: top right, left -4% bottom -75%;
+background-attachment: fixed;
+background-size: calc(calc(23vw + 2.2vh + 0.1vmin)), calc(30vw + 0.2vh + 0.1vmin);
+    margin: auto;
+    background-color: #e3e3e3;
+    margin-top: 1%;
+font-family: Garamond;
+    font-size: 16px;
+}
+/*--------------------top-menu--------------------*/
+ .pc-menu a {
+        font-size:calc(0.8vw + 0.1vh + 0.1vmin)!important;
+        white-space: nowrap;
+        padding: 0px !important;
+}
+
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+    height: 120px;
+    border: double #d5c791 3px;
+    color: transparent;
+background: #6c5f48;
+}
+.pc-menu {
+filter:brightness(0.9) invert(.7) sepia(.5) hue-rotate(0deg) saturate(200%);
+    line-height: 0.85;
+    background-image: url(https://i1.beon.fun/55/16/1655/15/1155315/a1d8e0165517e93b9643ae12ef0d142e-rectangular-frame-floral-design-1-1.png), url(https://i1.beon.fun/55/16/1655/51/1155451/a1d8e0165517e93b9643ae12ef0d142e-rectangular-frame-floral-design-1-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom right, top left;
+    padding-right: 3%;
+}
+
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]
+{position: fixed!important;
+    right: 3%;
+    top: 25%;
+    font-size: 0px !important;
+    width: 40px;
+    height: 40px;
+    background: url(https://i1.beon.fun/55/16/1655/56/1155656/585583.png);
+    background-size: contain;
+filter: brightness(0.9) invert(.7) sepia(.5) hue-rotate(0deg) saturate(200%);
+}
+a.my-menu.for-mobile.d-none.d-md-inline{
+position: fixed;
+    right: 3%;
+    top: 35%;
+    transform: rotate(180deg);
+font-size: 0px!important;
+    width: 40px;
+    height: 40px;
+    background: url(https://i1.beon.fun/55/16/1655/56/1155656/585583.png);
+    background-size: contain;
+filter: brightness(0.9) invert(.7) sepia(.5) hue-rotate(0deg) saturate(200%);
+}
+.navbar-light .navbar-brand{
+    color: rgba(0, 0, 0, .9);
+   border-image-slice: 42 27 37 89;
+    border-image-width: 42px 27px 37px 89px;
+    border-image-outset: 42px 12px 47px 40px;
+    border-image-repeat: stretch stretch;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/70/1155270/41b512a721349fab1314379bb9ab9a37-hexagon-floral-frame-stroke-1-1.png);
+ border-style: solid;
+    filter: brightness(0.9) invert(.7) sepia(.5) hue-rotate(0deg) saturate(200%);
+
+}
+.navbar-light .navbar-brand:hover{
+filter: brightness(0.9) invert(.7) sepia(.5) hue-rotate(0deg) saturate(200%) drop-shadow(1px 0px 1px #ddc394);
+color: #898989 !important;
+transition: all 0.5s ease-in;
+}
+/*--------------------Crumbs--------------------*/
+.crumbs {
+    padding: 0 1%;
+    width: 45%;
+    margin: auto;
+}
+.crumb-item {
+       font-weight: lighter;
+    position: fixed;
+    right: 5%;
+    font-size: calc(0.8vw + 0.1vh + 0.1vmin) !important;
+    bottom: 39%;
+    max-width: calc(15vw + 0.1vh + 0.1vmin) !important;
+    font-family: Garamond;
+    font-style: italic;
+z-index: 2;
+}
+div.crumbs {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    padding: 0 0%;
+}
+/*--------------------.py-4--------------------*/
+.py-4 {
+    display: flex;
+    flex-direction: row;
+}
+
+/*--------------------left-menu--------------------*/
+[src="//beon.fun/i/design-off.png"] {
+display: none;
+}
+a[href^="/design/disable"] {
+color:#174f1e!important;
+}
+a[href^="/design/disable"]:before{
+content: url(https://i1.beon.fun/55/16/1655/97/1156797/paint-palette_342312.png);
+}
+.left-menu {
+border: 1px solid #aaa0!important;
+}
+ .blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments{
+        height: 45px;
+        overflow: hidden;
+margin-top: 20px;
+padding-top: 10px;
+padding-left: 0px;
+        transition-delay: 10s;
+background:transparent!important;
+    }
+.blog__gifts:active, .blog__tags:active, .left-menu__user-notification:active,div.left-menu__user-notification.left-menu__unread-message:active,  .left-menu__friends_offline:active, div.left-menu__user-notification.left-menu__friends:active, .left-menu__friends.left-menu__friends_offline:active,div.notifications__comments:active,  div.community__moders:active, div.community__members:active, div.blog__read-me:active,div.blog__iread:active, div.blog__last-comments:active
+{height: 100%;
+max-height: 100%;
+transition: 0.1s;
+background: #6e614b9c !important;
+}
+div.left-menu__user-notification.left-menu__unread-message p {
+font-size: 13px;
+    font-weight: bolder;
+}
+.blog__tags a{ font-size: 16px!important;
+}
+
+.left-menu h3 {
+color: #8c753f00;
+font-family: 'Anonymous Pro';
+font-weight:bolder;
+padding-bottom: 10px;
+background-color: white!important;
+border: solid black 1px;
+width: 40px;
+height: 35px;
+white-space: nowrap;
+transition: all 0.9s ease-in;
+border-bottom-right-radius: 0.5rem;
+border-top-right-radius: 0.5rem;
+filter: brightness(0.9) invert(.7) sepia(.5) hue-rotate(10deg) saturate(200%);
+background-repeat: no-repeat;
+background-position: center right 5px;
+background-size: 28px 28px;
+}
+.left-menu h3:hover {
+width: 100%;
+color: #000000;
+text-shadow: 1px 1px 0px #ffffff, 0 0 3px #ffffff, 0 0 1.2px #ffffff;
+font-size:16px!important;
+background-color: #ffffff26 !important;
+}
+ div.left-menu__user-notification.left-menu__unread-message > h3 {
+    background-image: url(https://i1.beon.fun/55/16/1655/39/1155039/448216.png);
+}
+div.notifications__comments > h3 {
+    background-image: url(https://i1.beon.fun/55/16/1655/85/1155085/6202560.png)!important;
+}
+.left-menu__friends_offline> h3, .left-menu__friends> h3, .left-menu__friends.left-menu__friends_offline> h3 {
+background-image: url(https://i1.beon.fun/55/16/1655/86/1155086/6202639.png)!important;
+}
+
+div.community__members> h3 {
+background-image: url(https://i1.beon.fun/55/16/1655/91/1155091/heart_5243284.png);
+}
+div.blog__read-me > h3 {
+background-image: url(https://i1.beon.fun/55/16/1655/92/1155092/leaf_4139114.png);
+}
+div.community__moders> h3 {
+background-image: url(https://i1.beon.fun/55/16/1655/89/1155089/feather_3013146.png);
+}
+div.blog__tags> h3 {
+background-image: url(https://i1.beon.fun/55/16/1655/87/1155087/7257596.png);
+}
+div.blog__last-comments > h3 {
+background-image: url(https://i1.beon.fun/55/16/1655/80/1155080/448220.png);
+}
+div.left-menu__user-notification > h3 {
+background-image: url(https://i1.beon.fun/55/16/1655/18/1155118/448230.png);
+}
+ div.blog__about {
+position: fixed;
+right: 5%;
+top: 65%;
+background: white;
+font-size: calc(0.6vw + 0.6vh + 0.1vmin);
+border-image-slice: 152 157 12 12;
+border-image-width: 152px 157px 12px 12px;
+border-image-outset: 30px 42px 8px 10px;
+border-image-repeat: stretch stretch;
+border-image-source: url(https://i1.beon.fun/55/16/1655/49/1155149/af3513442e231858c58e572df8ee71fa-square-floral-frame-stroke-2.png);
+border-style: solid;
+filter: brightness(0.9) invert(.7) sepia(.5) hue-rotate(0deg) saturate(200%);
+color: #ffffff!;
+}
+div.blog__about > h3, .mw-100 {
+display: none;}
+div.blog__about:active {
+height: inherit;}
+
+.left-menu a {
+    color: #ffffff;
+    text-shadow: 1px 1px 2px black, 0 0 1px black, 0 0 0.2px black;
+    font-weight: 800;
+}
+div.blog__about a {
+    color: #000000!important;
+    text-shadow: unset!important;
+}
+
+/*--------------------content--------------------*/
+
+.content {
+margin-left: 6%;
+border: 5px double #89723c;
+width: 50%;
+background: #e3e3e3;
+}
+
+.post-content, .comment-content {
+    padding: 2%;
+}
+.post-row, .comment-row {
+    display: flex;
+padding: 2%;
+    filter: brightness(0.95) sepia(5%) saturate(80%);
+    box-shadow: 2.2px 2.2px 3.3px #6f6f6fad;
+border-width: 0px 5px 0px 2px;
+    border-style: solid double solid groove;
+    border-color: #cbc8c8;
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+
+}
+.post-title, h1 {
+display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px !important;
+    font-weight: bold;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-size: cover;
+    border-color: #89723c;
+    border-style: double;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    text-decoration: none;
+    color: #000000 !important;
+border-image-slice: 17 44 16 51 fill;
+    border-image-width: 17px 44px 16px 51px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: round stretch;
+    height: 50px;
+    font-size: calc(0.8vw + 0.1vh + 0.1vmin) !important;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/37/1155737/pngtree-white-simple-title-banner-png-image_6251823-2.png);
+    border-style: solid;
+filter: brightness(0.9) invert(.7) sepia(.5) hue-rotate(0deg) saturate(200%);
+}
+
+[href$="/edit"]::before, span[data-target="#deleteconfirmmodal"]::before,a[href^="//beon.fun/repost/comment/"]::before,a[href^="//beon.fun/repost/topic/"]::before,a[href^="//beon.fun/repost/post/"]::before, span[data-target="#deleteconfirmmodal"]:before{ 
+font-size: 0.8rem!important;
+}
+.fa, .fas {
+    color: #97ba6c;
+font-size: 20px;
+}
+.fa, .fas {
+filter: brightness(0.9) invert(.7) sepia(.5) hue-rotate(10deg) saturate(200%);
+}
+.liked .fas, .reposted .fas, .bookmarked .fas {
+    color: #000000 !important;
+}
+.fas, .far, .tag_bar > * {
+    font-size: 0.8rem!important;
+    padding: 0rem!important;
+}
+.fa-heart:before, a[href^="//beon.fun/repost/comment/"]::before,a[href^="//beon.fun/repost/comment/"]::before, a[href^="//beon.fun/repost/comment/"]::before{
+ font-size: 0.8rem!important;
+    padding: 0rem!important;
+}
+
+.post__tags-list {
+ margin-bottom: 15px;
+}
+[href$="/edit"]::before{
+content: "✎";
+    text-decoration: unset;
+    font-size: 15px !important;
+    font-weight: bolder;
+    color: #8e7972;
+}
+a[href^="//beon.fun/repost/post/"]::before, a[href^="//beon.fun/repost/topic/"]::before, a[href^="//beon.fun/repost/comment/"]::before{
+    content: "\f079";
+font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+  color: #8e7972;
+}
+span[data-target="#deleteconfirmmodal"]::before{
+content: "\f2ed";
+font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+  color: #8e7972;
+}
+
+[href$="/edit"], a[href^="//beon.fun/repost/post/"], a[href^="//beon.fun/repost/topic/"],span[data-target="#deleteconfirmmodal"], a[href^="//beon.fun/repost/comment/"]{  
+font-size: 0px!important;
+}
+
+.tag:before {
+content: "✧";
+font-size:12px;
+margin-right: 3px;
+}
+.tag_bar > span {
+margin-right: 4px;
+font-size: 18px;
+}
+@media only screen and (max-width: 800px){
+body {
+background-image:url(), url();}
+.content, .left-menu {
+width:100%;
+    margin-left: 0%;
+
+}
+.left-menu h3 {
+width: 100%!important;
+}
+.py-4 {
+    display: flex;
+    flex-direction: column;
+}
+.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about{
+height: 100%;
+max-height: 100%;
+transition: 0.1s;
+position: relative;
+transition-delay: 10s;
+background: #6e614b9c !important;
+        margin-top: 35px;
+    }
+.crumb-item {
+    font-weight: lighter;
+    position: relative;
+    right: 0%;
+    font-size: 14px!important;
+    bottom: 0%;
+z-index: 0;
+    max-width: 100%;}
+
+.left-menu h3{
+width: 100%;
+color: #000000;
+text-shadow: 1px 1px 0px #ffffff, 0 0 3px #ffffff, 0 0 1.2px #ffffff;
+font-size:16px!important;
+background-color: #ffffff26 !important;
+text-shadow: unset;
+}
+div.blog__about {
+right: -5%;
+        font-size: 14px;
+        width: 90%;
+}
+div.blog__about a{color: #ffffff!important;
+}
+.post-avatar img {
+        width: 80px !important;
+    }
+.post-title, h1 {
+    border-image-outset: 5px 9px 8px 15px;
+    font-size: 15px !important;
+    margin-bottom: 15px;
+}
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+    left: 2%;
+    width: 25px;
+    height: 25px;
+}
+.d-inline {
+    display: inline !important;
+    position: fixed;
+ left: 2%;
+    width: 25px;
+    height: 25px;
+ top: 35%;
+    transform: rotate(180deg);
+font-size: 0px!important;
+    background: url(https://i1.beon.fun/55/16/1655/56/1155656/585583.png);
+    background-size: contain;
+filter: brightness(0.9) invert(.7) sepia(.5) hue-rotate(0deg) saturate(200%);
+z-index: 3;
+}
+a.load_ignored_comments {
+margin-top: 10px;
+font-size: 12px;} 
+.navbar-brand {
+    font-size: 24px;
+    margin-left: 20%;
+}
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background-color: #d3ba8d;
+}
+.menu__box {
+    z-index: 1;
+    display: flex;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: -100%;
+    width: 250px;
+    height: 100%;
+    margin: 0;
+    padding: 75px 0;
+    filter: brightness(0.9) invert(.7) sepia(.5) hue-rotate(0deg) saturate(200%);
+    list-style: none;
+    background-color: #ffffff;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    transition-duration: .25s;
+    flex-direction: column;
+    border-image-slice: 152 157 12 12;
+    border-image-width: 152px 157px 12px 12px;
+    border-image-outset: 25px 0px 6px 10px;
+    border-image-repeat: stretch stretch;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/49/1155149/af3513442e231858c58e572df8ee71fa-square-floral-frame-stroke-2.png);
+    border-style: solid;
+    align-items: center;
+}
+    .hamburger-menu {
+        display: inline-block;
+        margin-right: 30%;
+    }
+}

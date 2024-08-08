@@ -268,7 +268,7 @@ position: fixed;
     right: 2%;
     top: 45%;
     background: white;
-    font-size: calc(0.6vw + 0.6vh + 0.1vmin);
+    font-size: calc(0.55vw + 0.6vh + 0.1vmin);
     width: calc(20.6vw + 0.6vh + 0.1vmin);
     border-image-slice: 152 157 12 12;
     border-image-width: 152px 157px 12px 12px;

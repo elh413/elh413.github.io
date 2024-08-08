@@ -408,6 +408,8 @@ margin-right: 3px;
 margin-right: 4px;
 font-size: 18px;
 }
+
+import url('https://fonts.googleapis.com/css?family=Garamond&display=swap');
 @media only screen and (max-width: 800px){
 body {
 background-image:url(), url();}

@@ -412,7 +412,7 @@ background-image:url(), url();}
 .content, .left-menu {
 width:100%;
     margin-left: 0%;
-
+font-family: 'EB Garamond';
 }
 .left-menu h3 {
 width: 100%!important;

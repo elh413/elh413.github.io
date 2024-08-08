@@ -282,7 +282,9 @@ div.blog__about > h3, .mw-100 {
 display: none;}
 div.blog__about:active {
 height: inherit;}
-
+#beon-fnplayer {
+    width: 85%;
+}
 .left-menu a {
     color: #ffffff;
     text-shadow: 1px 1px 2px black, 0 0 1px black, 0 0 0.2px black;

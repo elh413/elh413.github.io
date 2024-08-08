@@ -234,8 +234,8 @@ background-size: 28px 28px;
 }
 .left-menu h3:hover {
 width: 100%;
-color: #000000;
-text-shadow: 1px 1px 0px #ffffff, 0 0 3px #ffffff, 0 0 1.2px #ffffff;
+color: #ffffff;
+text-shadow: 1px 1px 0px #000000, 0 0 3px #000000, 0 0 1.2px #000000;
 font-size:16px!important;
 background-color: #ffffff26 !important;
 }
@@ -266,6 +266,12 @@ background-image: url(https://i1.beon.fun/55/16/1655/80/1155080/448220.png);
 }
 div.left-menu__user-notification > h3 {
 background-image: url(https://i1.beon.fun/55/16/1655/18/1155118/448230.png);
+}
+div.blog__gifts> h3 {
+background-image: url(https://i1.beon.fun/55/16/1655/5/1157105/shape_14636767.png);
+}
+div.blog__iread > h3 {
+background-image: url(https://i1.beon.fun/55/16/1655/4/1157104/reading_14940253.png);
 }
  div.blog__about {
 position: fixed;

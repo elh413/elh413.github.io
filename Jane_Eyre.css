@@ -453,6 +453,7 @@ div.blog__about {
 right: -5%;
         font-size: 14px;
         width: 90%;
+    color: white!important;
 }
 div.blog__about a{color: #ffffff!important;
 }

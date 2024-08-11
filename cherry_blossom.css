@@ -359,7 +359,12 @@ background-image: url(https://i1.beon.fun/55/16/1655/5/1157105/shape_14636767.pn
 div.blog__iread > h3 {
 background-image: url(https://i1.beon.fun/55/16/1655/4/1157104/reading_14940253.png);
 }
- 
+div.blog__iread > h3 {
+background-image: url(https://i1.beon.fun/55/16/1655/51/1160651/6944655-1-1.png);
+}
+div.blog__gifts > h3 {
+background-image: url(https://i1.beon.fun/55/16/1655/61/1160661/6944830-1-1.png);
+}
 .mw-100 {
 display: none;
 }
@@ -374,10 +379,10 @@ div.blog__about a {
 }
 div.blog__about > h3 {
 width: 100%;
-color: pink;
-font-size: 14px;
 background: #ffffff00;
 padding-top: 10px;
+font-size: 18px;
+    color: #e18d8d;
 }
 div.blog__about {
 background: #e8fcfb;
@@ -389,6 +394,7 @@ border-image-outset: 2px 3px 0px 0px;
     border-image-source: url(https://i1.beon.fun/55/16/1655/22/1159022/Pngtree-small-fresh-border-pink-flower_5748824-1.png);
     border-style: solid;
     padding: 15px;
+	text-align: center;
 }
 
 /*--------------------content--------------------*/

@@ -272,6 +272,11 @@ margin-bottom: 3px
 #fnplayer-slider > span {
     color: white;
 }
+.left-menu-text {
+    padding-left: 5px;
+    color: #e18d8d;
+    font-weight: bold;
+}
  .blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments{
         height: 45px;
         overflow: hidden;

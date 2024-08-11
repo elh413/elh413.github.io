@@ -192,7 +192,7 @@ filter: brightness(0.95);
 }
 
 .pc-menu a {
-font-size: calc(0.8vw + 0.1vh + 0.1vmin) !important;
+font-size: calc(0.7vw + 0.1vh + 0.1vmin) !important;
     white-space: nowrap;
     padding: 0px !important;
     color: #854a4a !important;

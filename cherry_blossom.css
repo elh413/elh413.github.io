@@ -242,6 +242,34 @@ border: 0px solid #aaa0!important;
 width: 23.5%;
 margin-right: 0px!important;
 }
+#fnplayer-volume-mask {
+border-color: #f0d0d0 transparent transparent transparent;
+}
+#fnplayer-play {
+    border-color: transparent transparent transparent #e18d8d;
+margin-bottom: 3px
+}
+
+#fnplayer-stop {
+    background: #e18d8d;
+margin-bottom: 3px
+}
+#beon-fnplayer {
+    background-color: #f99c9c5e;
+}
+#fnplayer-volume-inner {
+    background-color: #e18d8d;
+    border: 1px solid #e18d8d;
+}
+#fnplayer-slider {
+    background-color: #e18d8d;
+}
+#fnplayer-slider-inner {
+    background-color: #f99c9c5e;
+}
+#fnplayer-slider > span {
+    color: white;
+}
  .blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments{
         height: 45px;
         overflow: hidden;

@@ -244,7 +244,7 @@ padding: 2% !important;
 }
 #beon-fnplayer, #fnplayer-slider, #fnplayer-play, #fnplayer-play.paused {
  border-radius: 0;
-cursor: url(https://i1.beon.fun/55/16/1655/52/1149452/frame_apngframe2-1.png), auto;}
+}
 #fnplayer-volume-mask {
     border-color: #f5ffeb transparent transparent transparent;
 }

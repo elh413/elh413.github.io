@@ -262,7 +262,7 @@ cursor: url(https://i1.beon.fun/55/16/1655/52/1149452/frame_apngframe2-1.png), a
 padding: 10px 8px 12px 12px;
 margin-top: 20px;
     }
-.blog__gifts:active, .blog__tags:active, .left-menu__user-notification:active,div.left-menu__user-notification.left-menu__unread-message:active, .left-menu__friends, .left-menu__friends_offline:active, div.left-menu__user-notification.left-menu__friends:active, .left-menu__friends.left-menu__friends_offline:active,div.notifications__comments:active, div.blog__about:active, div.community__moders:active, div.community__members:active, div.blog__read-me:active,div.blog__iread:active, div.blog__last-comments:active
+.blog__gifts:active, .blog__tags:active, .left-menu__user-notification:active,div.left-menu__user-notification.left-menu__unread-message:active, .left-menu__friends, .left-menu__friends_offline:active, div.left-menu__user-notification.left-menu__friends:active, .left-menu__friends.left-menu__friends_offline:active,div.notifications__comments:active, div.community__moders:active, div.community__members:active, div.blog__read-me:active,div.blog__iread:active, div.blog__last-comments:active
 		{height: 100%;
 			max-height: 100%;
 			transition: 0.1s;
@@ -289,6 +289,9 @@ display: flex;
     padding-bottom: 15px;
     background-color: transparent !important;
     justify-content: center;
+}
+.left-menu__gift img {
+    width: 40px;
 }
 .left-menu  {
 border: 1px solid #aaa0!important;

@@ -1,0 +1,649 @@
+/*--------------------Features--------------------*/
+* {
+outline: 0;
+transition: all 0.2s ease-in;
+}
+a {
+    color: #815308;
+}
+a:hover, .pc-menu a:hover{
+    color: #fffaf2!important;
+text-decoration: unset;
+}
+@keyframes fadeImgAnimation {
+ 0 {
+   border-image-source: url(https://i1.beon.fun/55/16/1655/93/1162893/71049a1ef7d20b709b08fed5a7f5cab63416bf97_s2_n2_y1.png);
+
+}
+10% {
+   border-image-source: url(https://i1.beon.fun/55/16/1655/23/1163323/output-onlinepngtools-7.png);
+ }
+30% {
+   border-image-source: url(https://i1.beon.fun/55/16/1655/8/1163308/output-onlinepngtools-3.png);
+ }
+50% {
+border-image-source: url(https://i1.beon.fun/55/16/1655/7/1163307/output-onlinepngtools-4.png);
+    }
+90% {
+border-image-source: url(https://i1.beon.fun/55/16/1655/6/1163306/output-onlinepngtools-5.png);
+    }
+    100% {
+border-image-source: url(https://i1.beon.fun/55/16/1655/5/1163305/output-onlinepngtools-6.png);
+
+    }
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeOutAnimation {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+a[href^="//beon.fun/roleplays"], img.flag, [src="/i/logo2-deer.png"],  .user:before, div.post-content.blog_total_counter, body > div.bottombg > div.footer__infolinks.p-1, .left-menu br, [src="/i/user.png"], [src="/i/online.png"], [src="/i/offline.png"], [src="/i/blog.png"], .user:before, #page__admincontact, #page__rendertime, .pagination-goto, div#footer.p-1, .m2 {display: none;
+}
+.btn-outline-primary:hover, .btn-secondary:hover, .btn-primary:hover {
+    background: #f2c866;
+    color: white;
+border-color: #b75168;
+}
+.quotation {
+    border-left: 3px solid #edba5d;
+}
+[type=reset], [type=submit], button, html [type=button],.btn-secondary, .btn-primary{
+background: #d5c98f;
+    color: white !important;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-width: 1px;
+    border-color: #d5c98f;
+
+}
+[type=reset]:hover, [type=submit]:hover, button:hover, html [type=button]:hover,.btn-secondary:hover, .btn-primary:hover {
+background:  #c1d7f0;
+transition: 2s;
+}
+.btn-outline-primary {
+    color: #edba5d;
+    background-color: transparent;
+    background-image: none;
+    border-color: #edba5d;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    border: 1px solid #d6d6d6;
+    background: #e6e6e6;
+    line-height: inherit;
+}
+[src="//beon.fun/i/design-off.png"] {
+display: none;
+}
+a[href^="/design/disable"] {
+color: #ffffff !important;
+filter: saturate(0.5) hue-rotate(35deg);
+}
+a[href^="/design/disable"]:before{
+content: url(https://i1.beon.fun/55/16/1655/3/1160403/paint-palette_4429657-1.png);
+width: 20px !important;
+}
+::-webkit-scrollbar {
+width: 5px;
+height: 5px;
+}
+::-webkit-scrollbar-thumb {
+background: #edba5d;
+border: 3px solid #edba5d;
+}
+::-webkit-scrollbar-track {
+margin: 1%;
+background: transparent;
+border: 1px solid #edba5d;
+box-shadow: #edba5d 0px -2px, #edba5d 0px 2px, #edba5d 2px 0px, #edba5d -2px 0px;
+background-clip: content-box;
+}
+::selection {
+background:#bfaa7d;}
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes pulse {
+	0% {
+color: #fffaf2;
+text-shadow: 1px 1px 1px #adaa8b, 0 0 1px #ffffff, 0 0 0.2px #ffffff;
+	}
+
+	70% {
+text-shadow: 0px 0px 1px  #ffffff, 0 0 1px #ffffff, 0 0 0.2px #ffffff;
+	}
+
+	100% {
+color: #fffaf2;
+text-shadow: 1px 1px 2px #adaa8b, 0 0 1px #ffffff, 0 0 0.2px #ffffff;
+	}
+}
+
+
+/*--------------------BG--------------------*/
+body:after {
+ content: url(https://i1.beon.fun/55/16/1655/93/1162893/71049a1ef7d20b709b08fed5a7f5cab63416bf97_s2_n2_y1.png) url(https://i1.beon.fun/55/16/1655/23/1163323/output-onlinepngtools-7.png)  url(https://i1.beon.fun/55/16/1655/8/1163308/output-onlinepngtools-3.png) url(https://i1.beon.fun/55/16/1655/7/1163307/output-onlinepngtools-4.png) url(https://i1.beon.fun/55/16/1655/6/1163306/output-onlinepngtools-5.png) url(https://i1.beon.fun/55/16/1655/5/1163305/output-onlinepngtools-6.png);
+width: 0;
+height:0;
+overflow: hidden;
+z-index:-1;
+position: absolute;
+}
+body {
+background-color: #c1d7f0;
+    background-image: url(https://i1.beon.fun/55/16/1655/27/1164127/image1.png), url(https://i1.beon.fun/55/16/1655/15/1164415/image1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top, bottom left -5%;
+    background-size: 35% 85%, 20% 35%;
+font-family: georgia;
+}
+
+/*--------------------top-menu--------------------*/
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgb(0 0 0 / 0%) !important;
+ background: #7fff0000;
+color: transparent;
+}
+.navbar-light .navbar-brand {
+    color: rgb(106 53 35);
+    border-image-slice: 99 79 0 0;
+    border-image-width: 50px 40px 0px 0px;
+    border-image-outset: 15px 0px 0px 0px;
+    border-image-repeat: round stretch;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/16/1164816/image.psd-1.png);
+    border-style: solid;}
+    .navbar-expand-md>.container {
+        flex-wrap: nowrap;
+        margin: unset;
+    }
+.navbar-light .navbar-brand:hover{
+    border-image-width: 100px 80px 0px 0px; 
+transition: all 0.9s ease-in;
+padding-top: 5px;}
+.post-title-user {
+    font-size: 1rem;
+    border-style: solid;
+    border-width: 1px 1px 0px 1px;
+    padding: 3px;
+    color: #815308;
+    border-color: #815308;
+    background: #f2c866;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+margin-left: 5px;
+}
+.pc-menu a {
+    text-shadow: 1px 1px 2px #bfaa7d, 0 0 1px #c3bda2, 0 0 0.2px #666666;
+    color: #6a3523 !important;
+    white-space: nowrap;
+font-size: calc(0.8vw + 0.1vh + 0.1vmin) !important;
+
+}
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]
+{position: fixed!important;
+    right: 30%;
+    top: 25%;
+    font-size: 0px !important;
+    width: 40px;
+    height: 40px;
+    background: url(https://i1.beon.fun/55/16/1655/56/1155656/585583.png);
+    background-size: contain;
+filter: brightness(0.9) invert(.7) sepia(.5) hue-rotate(0deg) saturate(200%);
+}
+a.my-menu.for-mobile.d-none.d-md-inline{
+position: fixed;
+    right: 30%;
+    top: 35%;
+    transform: rotate(180deg);
+font-size: 0px!important;
+    width: 40px;
+    height: 40px;
+    background: url(https://i1.beon.fun/55/16/1655/56/1155656/585583.png);
+    background-size: contain;
+filter: brightness(0.9) invert(.7) sepia(.5) hue-rotate(0deg) saturate(200%);
+}
+/*--------------------Crumbs--------------------*/
+div.crumbs {
+margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    background-image: linear-gradient(to right, rgba(213, 193, 111, 0.5) 0, rgba(213, 193, 111, 0.5) 50%, rgba(192, 200, 208, 0.2) 50%, rgba(192, 200, 208, 0.2) 100%), linear-gradient(to bottom, rgba(213, 193, 111, 0.5) 0, rgba(213, 193, 111, 0.5) 50%, rgba(192, 200, 208, 0.2) 50%, rgba(192, 200, 208, 0.2) 100%);
+    background-size: 15px 15px;
+    background-color: #d3deee;
+}
+
+span.spoiler {
+color: black;
+}
+.fa, .fas, .datebg {
+color:#edba5d;
+    text-shadow: 1px 1px 2px #adaa8b, 0 0 1px #666666, 0 0 0.2px #666666;
+font-size: 20px;
+}
+.liked .fas, .reposted .fas, .bookmarked .fas {
+    color: #ff0000 !important;
+}
+.fas, .far, .tag_bar > * {
+    font-size: 0.8rem!important;
+    padding: 0rem!important;
+}
+.fa-heart:before, a[href^="//beon.fun/repost/comment/"]::before,a[href^="//beon.fun/repost/comment/"]::before, a[href^="//beon.fun/repost/comment/"]::before{
+ font-size: 0.8rem!important;
+    padding: 0rem!important;
+}
+[href$="/edit"]::before{
+content: "✎";
+    text-decoration: unset;
+    font-size: 15px !important;
+    font-weight: bolder;
+    color: #edba5d;
+    text-shadow: 1px 1px 2px #adaa8b, 0 0 1px #666666, 0 0 0.2px #666666;
+}
+a[href^="//beon.fun/repost/post/"]::before, a[href^="//beon.fun/repost/topic/"]::before, a[href^="//beon.fun/repost/comment/"]::before{
+    content: "\f079";
+font-family: 'Font Awesome 5 Free'!important;
+    font-size: 15px !important;
+    font-weight: 900;
+color: #edba5d;
+    text-shadow: 1px 1px 2px #adaa8b, 0 0 1px #666666, 0 0 0.2px #666666;
+}
+span[data-target="#deleteconfirmmodal"]::before{
+content: "\f2ed";
+    font-size: 14px !important;
+font-family: 'Font Awesome 5 Free'!important;
+    font-weight: 900;
+ color: #edba5d;
+    text-shadow: 1px 1px 2px #adaa8b, 0 0 1px #666666, 0 0 0.2px #666666;
+}
+
+[href$="/edit"], a[href^="//beon.fun/repost/post/"], a[href^="//beon.fun/repost/topic/"], a[href^="//beon.fun/repost/comment/"], span[data-target="#deleteconfirmmodal"]{  
+font-size: 0px!important;
+}
+span.comments_count  span{
+font-size: 0!important;}
+span.comments_count span::before {
+        font-size: 1.3rem;
+        padding: 0.3rem;
+        content: "\f075";
+color: #edba5d;
+font-family: 'Font Awesome 5 Free'!important;
+    }
+
+.post__tags-list {
+    font-size: 0;
+    margin-bottom: 15px;
+}
+.tag:before {
+content: url(https://i1.beon.fun/55/16/1655/55/1164755/ginkgo_2656643.png);
+font-size:12px;
+margin-right: 1px;
+}
+a.tag {
+padding-left: 5px;
+    font-size: 14px;
+    color: #edba5d;
+    font-weight: bold;
+}
+
+/*--------------------.py-4--------------------*/
+.py-4 {
+    display: flex;
+    flex-direction: row-reverse;  
+    background-repeat: repeat-y;
+    background-position: top left;
+    padding-left: 20px;
+}
+
+/*--------------------left-menu--------------------*/
+ .blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments{
+        height: 45px;
+        overflow: hidden;
+width: 100%;
+padding-left: 0px;
+        transition-delay: 10s;
+background:transparent!important;
+order: 2;
+    }
+.blog__gifts:active, .blog__tags:active, .left-menu__user-notification:active,div.left-menu__user-notification.left-menu__unread-message:active,  .left-menu__friends_offline:active, div.left-menu__user-notification.left-menu__friends:active, .left-menu__friends.left-menu__friends_offline:active,div.notifications__comments:active,  div.community__moders:active, div.community__members:active, div.blog__read-me:active,div.blog__iread:active, div.blog__last-comments:active
+{height: 100%;
+max-height: 100%;
+transition: 0.1s;
+background: transparent !important;
+}
+div.left-menu__user-notification.left-menu__unread-message p {
+font-size: 13px;
+    font-weight: bolder;
+}
+.blog__tags a{ font-size: 16px!important;
+}
+
+.left-menu a {
+    font-weight: 800;
+    color: #815308;
+font-size: 12px;
+}
+.left-menu-text {
+order: 2;
+}
+div.blog__about:hover {
+   animation: fadeImgAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+opacity: 1;
+  transition: all 0.5s ease;
+}
+.mw-100 {
+display: none;
+}
+#app > main > div.left-menu > div.blog__about > div:nth-child(3) {
+order: 1;}
+div.blog__about > h3 {
+display:none;
+}
+div.blog__about  .left-menu-text{
+opacity: 0; 
+transition: 0.5s;
+    transition-delay: 5s;
+   animation: fadeOutAnimation ease 13s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+ div.blog__about  .left-menu-text:hover {
+   animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+transition: 0.5s;
+    transition-delay: 5s;
+color: #fffaf2!important;
+}
+div.blog__about {
+    padding: 15px;
+	text-align: center;
+flex-direction: column;
+padding: 15px;
+padding: 15px;
+    display: flex;
+width: 100%;
+    border-image-slice: 0 0 0 0 fill;
+    border-image-width: 20px 0px 0px 0px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: round round;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/93/1162893/71049a1ef7d20b709b08fed5a7f5cab63416bf97_s2_n2_y1.png);
+    border-style: solid;
+    color: #ff000000!important;
+   animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+transition: 0.5s;
+    transition-delay: 5s;
+opacity: 1;
+filter: contrast(0.8) saturate(0.8);
+text-shadow: 1px 1px 2px #bfaa7d, 0 0 1px #c3bda2, 0 0 0.2px #666666;
+}
+
+#fnplayer-volume-mask {
+border-color: #d9cc59 transparent transparent transparent;
+}
+#fnplayer-play {
+    border-color: transparent transparent transparent #c4cbd5;
+margin-bottom: 3px
+}
+
+#fnplayer-stop {
+    background:#c4cbd5;
+margin-bottom: 3px
+}
+#beon-fnplayer {
+    background-color: #efeac0;
+}
+#fnplayer-volume-inner {
+    background-color: #c4cbd5;
+    border: 1px solid #c4cbd5;
+}
+#fnplayer-slider {
+    background-color: #c4cbd5;
+}
+#fnplayer-slider-inner {
+    background-color: #efeac0;
+}
+#fnplayer-slider > span {
+    color: white;
+}
+.left-menu h3 {
+  color: #fffaf2;
+    font-weight: bold;
+    text-align:center!important;
+    text-shadow: 1px 1px 2px #adaa8b, 0 0 1px #ffffff, 0 0 0.2px #ffffff;
+background-color: transparent !important;
+    padding: 10px;
+border-top-style: dashed;
+    border-color: #e5db86;
+    border-width: 2px;
+    font-size: 15px;
+}
+div.left-menu__user-notification.left-menu__unread-message > h3 {
+
+animation: pulse 2s infinite;
+}
+div.notifications__comments > h3 {
+
+animation: pulse 2s infinite;
+}
+div.left-menu__user-notification > h3 {
+animation: pulse 2s infinite;
+}
+.left-menu__friends_offline> h3, .left-menu__friends> h3, .left-menu__friends.left-menu__friends_offline> h3 {
+animation: unset!important;
+}
+/*--------------------content--------------------*/
+.content {
+width: 65%;
+margin-right: auto;
+}
+.post-text, .comment-base {
+    background: #e6e6e6;
+padding: 0px 15px 0px 10px;
+    background-image: linear-gradient(90deg, transparent 79px, #ec706300 79px, #ec706300 81px, transparent 81px), linear-gradient(#00000012 .1em, transparent .1em);
+    background-size: 100% 1em;
+font-size: 1rem;
+margin-right: 10px;
+    border-image-slice: 40 40 0 0;
+    border-image-width: 20px 20px 0px 0px;
+    border-image-outset: 0px 10px 0px 0px;
+    border-image-repeat: round round;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/86/1164586/image.psd-6-1-_waifu2x_art_noise2.png);
+    border-style: solid;
+    box-shadow: 2.2px 0.2px 3.3px #6f6f6f;
+}
+.post-text.comment-text {
+border: unset;
+background: unset;
+background-image: unset;
+box-shadow: unset;}
+.left-menu {
+display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: -5px;
+    margin-right: 0px !important;
+background: linear-gradient(180deg, #c4cbd5 70%, #d2ceab 100%);
+    border: 4px solid #d2ceab !important;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 15px;
+}
+.post-title, h1 {
+display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: center;
+    font-size: 18px;
+    color: #bc9c4a !important;
+    text-decoration: unset !important;
+}
+.post-row, .comment-row {
+display: flex;
+    flex-direction: row-reverse;
+    background: url(https://i.imgur.com/0kjMcUe.png);
+    border-radius: 0.5rem;
+    background-repeat:  repeat;
+border-left: 7px groove #dfe4ea;
+    box-shadow: 2.2px 0.2px 3.3px #6f6f6f;
+}
+.post-avatar, .sign{
+padding: 10px;}
+.post-avatar > a > img {
+    max-height: 110px;
+    min-width: 110px;
+    object-fit: cover;
+    background: white;
+    padding: 5px 5px 20px 5px;
+}
+.post-avatar a:before{
+content: "";
+position: absolute;
+height: 120px;
+width: 120px;
+background-image: url(https://i1.beon.fun/55/16/1655/34/1164634/Novyy-proekt.png);
+background-size: cover;
+margin-top: -10px;
+    margin-left: 0px;
+z-index: 999;
+border-image-slice: 0 0 100 100;
+    border-image-width: 0px 0px 50px 50px;
+    border-image-outset: 0px 0px 10px 10px;
+    border-image-repeat: round round;
+border-image-source:url("https://i1.beon.fun/55/16/1655/26/1164626/image.psd-7-2.png");
+border-style:solid;
+}
+.sign {
+opacity: 0;
+height: 120px;
+position: absolute;
+width: 120px;
+margin-top: -110px;
+}
+ .post-avatar:hover .sign  {
+opacity:1;
+font-size: 9px;
+position: absolute;
+height: 110px;
+width: 110px;
+margin-top: -110px;
+z-index: 99;
+transition: 1.5s;
+padding-top: 10px;
+background: white;
+}
+.textareabg {
+    background-color: #ffffff00 !important;
+    margin-left: 0 !important;
+}
+@media only screen and (max-width: 800px){
+.py-4 {
+    display: flex;
+    flex-direction: column!important;
+padding-left: 0px;
+}
+body {
+background-image: url(https://i1.beon.fun/55/16/1655/27/1164127/image1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+    background-size: contain;
+}
+.left-menu, .content {
+    width: 100%;
+}
+.post-avatar img {
+        width: 80px !important;
+	margin-top: 5px;
+    }
+.post-row, .comment-row {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+.post-row, .comment-row {
+    background-image: url(https://i1.beon.fun/55/16/1655/37/1165737/output-onlinepngtools.png), url(https://i.imgur.com/0kjMcUe.png);
+    background-position: top right;
+    background-size: 250px 250px, auto;
+    background-repeat: no-repeat;
+}
+    .left-menu > div.mobile_open_menu {
+        display: block;
+        width: 100%;
+    }
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+    left: 2%;
+    width: 25px;
+    height: 25px;
+z-index: 999;
+width: 40px;
+        height: 40px;
+filter: brightness(0.9) invert(.3) sepia(.9) hue-rotate(0deg) saturate(200%);
+}
+.d-inline {
+    display: inline !important;
+    position: fixed;
+ left: 2%;
+    width: 25px;
+    height: 25px;
+ top: 35%;
+font-size: 0px!important;
+transform: rotate(180deg);
+    font-size: 0px !important;
+    width: 40px;
+    height: 40px;
+    background: url(https://i1.beon.fun/55/16/1655/56/1155656/585583.png);
+    background-size: contain;
+filter: brightness(0.9) invert(.3) sepia(.9) hue-rotate(0deg) saturate(200%);
+z-index: 999;
+}
+    .hamburger-menu {
+        right: 5%;
+        position: absolute;
+    }
+.menu__box {
+    overflow-y: scroll;
+    background-image: url(https://i1.beon.fun/55/16/1655/37/1165737/output-onlinepngtools.png), url(https://i.imgur.com/0kjMcUe.png);
+    background-position: top right;
+    background-size: 250px 250px, auto;
+    background-repeat: no-repeat;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+}
+.post-title, h1 {
+    text-shadow: 1px 1px 2px #adaa8b, 0 0 1px #ffffff, 0 0 0.2px #ffffff;
+    color: #ffffff !important;
+}
+div.blog__about  .left-menu-text {
+opacity: 1;
+animation: unset;
+
+}
+div.blog__about {
+    border: unset;
+animation: unset;
+    color: #ff000000!important;
+   animation: unset;
+opacity: 1;
+}
+}

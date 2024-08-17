@@ -360,11 +360,13 @@ div.blog__about  .left-menu-text{
 opacity: 0; 
 transition: 0.5s;
     transition-delay: 5s;
-   animation: fadeOutAnimation ease 13s;
+   animation: fadeOutAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
- div.blog__about  .left-menu-text:hover {
+div.blog__about .left-menu-text:hover ~ .left-menu-text,
+div.blog__about .left-menu-text:hover,
+div.blog__about:hover .left-menu-text {
    animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;

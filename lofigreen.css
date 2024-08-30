@@ -61,7 +61,7 @@ a {
     text-decoration: none;
     font-family: 'Anonymous Pro' !important;
 }
-a:hover {
+a:hover, .left-menu a:hover {
 text-decoration: none;
 color: white;
 }

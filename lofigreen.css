@@ -394,6 +394,10 @@ font-size: 20px;
     font-size: 0.8rem!important;
     padding: 0rem!important;
 }
+.tag:before {
+    filter: sepia(0.5) brightness(1.5) hue-rotate(30deg);
+}
+
 .fa-heart:before, a[href^="//beon.fun/repost/comment/"]::before,a[href^="//beon.fun/repost/comment/"]::before, a[href^="//beon.fun/repost/comment/"]::before{
  font-size: 0.8rem!important;
     padding: 0rem!important;

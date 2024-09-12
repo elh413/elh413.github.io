@@ -209,6 +209,7 @@ margin-top: 0px;
 #fnplayer-stop {
     background: #74422d;
 }
+
 #beon-fnplayer {
   height: 16px;
     width: 90%;
@@ -216,7 +217,12 @@ margin-top: 0px;
     align-items: center;
     background-color: #e0c49e;
     margin: 2px;
-    margin-bottom: 100px;
+    margin-bottom: 160px;
+    transition: all 0.9s ease-in;
+}
+div.blog__about:hover #beon-fnplayer {
+transition: all 0.9s ease-in;
+    margin-bottom: 0px;
 }
 #fnplayer-volume-inner {
     background-color: #74422d;
@@ -467,7 +473,7 @@ background-color: #f8f2e2bf;
     background-size: 100% 1em;
     font-size: 1rem;
 }
-.fa-heart:before, a[href^="//beon.fun/repost/comment/"]::before,a[href^="//beon.fun/repost/comment/"]::before, a[href^="//beon.fun/repost/comment/"]::before{
+ a[href^="//beon.fun/repost/comment/"]::before,a[href^="//beon.fun/repost/comment/"]::before, a[href^="//beon.fun/repost/comment/"]::before{
  font-size: 0.8rem!important;
     padding: 0rem!important;
     color: #60161e;

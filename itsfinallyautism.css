@@ -423,7 +423,7 @@ filter: drop-shadow(2px 2px 2px #8b645a);
     border-style: solid;
     padding: 10px 40px 0px 47px;
     font-size: 10px;
-    width: 204px;
+    width: 204px !important;
     height: 125px;
 color: transparent;
     margin-bottom: -90px;

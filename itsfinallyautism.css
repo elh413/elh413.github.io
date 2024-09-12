@@ -257,9 +257,9 @@ padding: 4px;
 display: flex;
 text-align-last: center;
 }
-div.blog__about  .left-menu-text{
+div.blog__about {
     transition: all 0.9s ease-in;
-    width: 120%;
+    width: 100%;
     transition-delay: 0.5s;
     background: url(https://i1.beon.fun/55/16/1655/47/1192747/output-onlinepngtools-1.png);
     background-color: #bd976c !important;
@@ -267,8 +267,8 @@ div.blog__about  .left-menu-text{
     max-height: 300px;
     overflow: hidden;
 transition-delay: 5s;
-}	
-div.blog__about  .left-menu-text:active{
+}
+div.blog__about:active {
  max-height: 100%;
     transition: all 0.9s ease-in;
 transition-delay: 5s;

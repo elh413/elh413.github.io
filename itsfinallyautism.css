@@ -562,7 +562,7 @@ div#app {
     border-style: solid;
     padding: 10px 40px 0px 47px;
     font-size: 10px;
-           width:190px!important
+           width:190px!important;
         position: absolute;
         height: 130px;
         color: #5d2812;

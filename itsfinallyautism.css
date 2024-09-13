@@ -562,7 +562,7 @@ div#app {
     border-style: solid;
     padding: 10px 40px 0px 47px;
     font-size: 10px;
-           width: 190px;
+           width:190px!important
         position: absolute;
         height: 130px;
         color: #5d2812;
@@ -570,7 +570,7 @@ div#app {
         font-weight: bolder;
         text-decoration: none;
         right: 7%;
-        margin-top: 70%;
+        margin-top: 55%;
 margin-bottom: 0;
     transform: rotate(20deg);
     justify-content: center;

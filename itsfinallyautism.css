@@ -665,4 +665,11 @@ display: none;
 .menu__item {
 color: #74422d;
 }
+    .mb-3, .my-3 {
+    margin-bottom: 1rem !important;
+    justify-content: center;
+    display: flex;
+    text-align-last: center;
+    flex-direction: column;
+}
 }

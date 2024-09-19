@@ -658,6 +658,8 @@ display: none;
         position: relative;
                 margin: auto;
 }
+    .textareabg h1 {display: none;}
+
 .menu__box {
     z-index: 9999;
     background-color: #ebcbac !important;

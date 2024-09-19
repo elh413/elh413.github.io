@@ -651,6 +651,13 @@ background-size: 95%, auto;
 .m2 {
 display: none;
 }
+    div.blog__about {
+    max-height: 100%;
+    }
+    h1 {
+        position: relative;
+                margin: auto;
+}
 .menu__box {
     z-index: 9999;
     background-color: #ebcbac !important;
@@ -672,4 +679,7 @@ color: #74422d;
     text-align-last: center;
     flex-direction: column;
 }
+        .fas, .far, .tag_bar > * {
+        font-size: 1rem;
+    }
 }

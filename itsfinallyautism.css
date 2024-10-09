@@ -398,6 +398,26 @@ padding: 15px;}
     transform: rotate(-15deg);
     object-fit: cover;
 }
+.sign {
+opacity: 0;
+height: 120px;
+position: absolute;
+width: 120px;
+margin-top: -110px;
+}
+ .post-avatar:hover .sign  {
+opacity:1;
+font-size: 9px;
+position: absolute;
+height: 110px;
+width: 110px;
+margin-top: -110px;
+z-index: 99;
+transition: 1.5s;
+padding-top: 10px;
+    transform: rotate(-15deg);
+background: white;
+}
 .post-avatar > a:before{
 content: "";
 font-size: 10px;

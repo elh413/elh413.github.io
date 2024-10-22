@@ -816,4 +816,7 @@ div#app {
     border-image-source: unset;
     border-style: unset;
 }
+	div.blog__about {
+         min-width: 100%;
+	}
 }

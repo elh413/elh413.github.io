@@ -1,0 +1,635 @@
+/*--------------------Features--------------------*/
+fa[href^="//beon.fun/roleplays"], img.flag, [src="/i/logo2-deer.png"],  div.post-content.blog_total_counter, body > div.bottombg > div.footer__infolinks.p-1, .left-menu br, [src="/i/user.png"], [src="/i/online.png"], [src="/i/offline.png"], [src="/i/blog.png"], #page__admincontact, #page__rendertime, .pagination-goto, div#footer.p-1, .m2, [src="//beon.fun/i/design-off.png"], div.blog__about.mb-3 > h3, .user:before, #navbarSupportedContent > ul.navbar-nav.ml-auto > div > table > tbody > tr:nth-child(1) > td:nth-child(4) > ul > li > a:nth-child(2), .pc-menu{
+display: none;
+}
+::-webkit-scrollbar
+{
+    background-color: #ebebeb !important;
+width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+margin: 5px;
+    font-family: inherit;
+    background-color: #000000 !important;
+border: solid #ebebeb 5px;
+}
+* {
+outline: 0;
+transition: all 0.2s ease-in;
+text-decoration: unset!important;
+}
+a, span, .post-title-date{
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: white;
+    text-decoration: unset!;
+}
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+    background: white;
+}
+[type=reset]:hover, [type=submit]:hover, button:hover, html [type=button]:hover {
+    -webkit-appearance: button;
+    background: black;
+color: white;
+}
+img:not(#imagefsmodal img), iframe {
+filter: contrast(1.1) grayscale(1);
+}
+img:not(#imagefsmodal img):hover, iframe:hover {
+filter: unset;
+}
+.btn-outline-primary {
+    color: #000000;
+    background-color: transparent;
+    background-image: none;
+    border-color: #000000;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #000000;
+    border-color:#000000;
+}
+
+.btn-outline-primary.focus,.btn-outline-primary:focus {
+    box-shadow: 0 0 0 .2rem rgba(52,144,220,.5)
+}
+
+.btn-outline-primary.disabled,.btn-outline-primary:disabled {
+    color: #000000;
+    background-color: transparent
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active,.btn-outline-primary:not(:disabled):not(.disabled):active,.show>.btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,.btn-outline-primary:not(:disabled):not(.disabled):active:focus,.show>.btn-outline-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgb(40 45 48 / 50%)
+}
+.modal-footer>:not(:first-child), .btn:not(:disabled):not(.disabled){
+    background: #000000;
+color: white;
+    border: black solid 1px;
+}
+/*--------------------BG--------------------*/
+body {
+        background-color: #868686;
+        background-image: url(https://i1.beon.fun/55/16/1655/97/1256497/output-onlinepngtools-17.png);
+        background-attachment: fixed;
+    }
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+font-size: 0px !important;
+        height: 30px;
+        filter: grayscale(1) invert(1);
+        width: 30px;
+        background: url(https://i1.beon.fun/55/16/1655/6/1227606/send_7461606.png);
+        background-size: 32px 32px;
+        position: absolute;
+        background-position: center;
+        border-radius: 50% !important;
+        transform: rotate(180deg);
+        margin-left: 150px;
+        margin-top: -45px;
+}
+
+
+/*--------------------top-menu--------------------*/
+.menu__btn {
+    border-radius: 26px;
+    padding: 4px;
+    background: url(https://cdn-icons-png.freepik.com/512/7461/7461569.png?ga=GA1.1.1376536022.1728212759);
+    background-position: center;
+    background-size: 30px 30px;
+    filter: grayscale(1) invert(1);
+        transform: scale(1.1)
+}
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background-color: transparent;
+    height: 2.1px;
+    width: 17px;
+}
+.hamburger-menu {
+    display: block;
+    position: absolute;
+    right: 50px;
+    top: 0px;
+    z-index: 999;
+}
+.navbar-light .navbar-brand:before {
+    position: absolute;
+    height: 30px;
+    filter: grayscale(1) invert(1);
+    width: 30px;
+    margin-left: -25px;
+    content: "";
+    background-image: url(https://i1.beon.fun/55/16/1655/98/1222798/power-button_7461593.png);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: center;
+    background-size: 32px 32px;
+    background-color: #d3dde7;
+top: -10px;
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: rgba(0, 0, 0, .9);
+}
+.navbar-light .navbar-brand {
+    font-size: 0px;
+    position: absolute;
+}
+.bg-white {
+    background: transparent;
+    width: 130px;
+    margin: unset !important;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+a.my-menu.for-mobile.d-none.d-md-inline {
+    font-size: 0px !important;
+    height: 30px;
+ filter: grayscale(1) invert(1);
+    width: 30px;
+    margin-left: 0px;
+    margin-top: -10px;
+    background: url(https://i1.beon.fun/55/16/1655/6/1227606/send_7461606.png);
+    background-size: 32px 32px;
+    position: absolute;
+    background-position: center;
+    border-radius: 50% !important;
+}
+#menu__toggle:checked ~ .menu__btn {
+    border-radius: 26px;
+    padding: 4px;
+    background: url(https://cdn-icons-png.freepik.com/512/7461/7461569.png?ga=GA1.1.1376536022.1728212759);
+    background-position: center;
+    background-size: 30px 30px;
+    filter: grayscale(1);
+    transform: rotate(90deg);
+    transition: 0.3s;
+}
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgb(0 0 0 / 0%) !important;
+}
+.menu__box {
+    z-index: 1;
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 40px 0;
+    list-style: none;
+    background-color: #f8fafc;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    transition-duration: .25s;
+}
+/*--------------------Crumbs--------------------*/
+div.crumbs {
+    width: 80%;
+    margin-left: auto;
+}
+/*--------------------.py-4--------------------*/
+.datebg {
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 90%;
+    margin-left: auto !important;
+}
+/*--------------------left-menu--------------------*/
+.left-menu h3:hover {
+width: 100%;
+color: #ffffff;
+font-size:16px!important;
+background-color: black!important;
+}
+ div.left-menu__user-notification.left-menu__unread-message > h3 {
+    background-image: url(https://i1.beon.fun/55/16/1655/38/1256038/6986963.png);
+}
+div.notifications__comments > h3 {
+    background-image: url(https://i1.beon.fun/55/16/1655/31/1256031/4129700.png)!important;
+}
+.left-menu__friends_offline> h3, .left-menu__friends> h3, .left-menu__friends.left-menu__friends_offline> h3 {
+background-image: url(https://i1.beon.fun/55/16/1655/29/1256029/8860842.png)!important;
+}
+
+div.community__members> h3 {
+background-image: url(https://i1.beon.fun/55/16/1655/32/1256032/3369137.png);
+}
+div.blog__read-me > h3 {
+background-image: url(https://i1.beon.fun/55/16/1655/13/1256013/learn_5387469.png);
+}
+div.community__moders> h3 {
+background-image: url(https://i1.beon.fun/55/16/1655/30/1256030/6964988.png);
+}
+div.blog__tags> h3 {
+background-image: url(https://i1.beon.fun/55/16/1655/10/1256010/price-tag_7780607.png);
+}
+div.blog__last-comments > h3 {
+background-image: url(https://i1.beon.fun/55/16/1655/11/1256011/pending_18222175.png);
+}
+div.left-menu__user-notification > h3 {
+background-image: url(https://i1.beon.fun/55/16/1655/28/1256028/16421677.png);
+}
+div.blog__gifts> h3 {
+background-image: url(https://i1.beon.fun/55/16/1655/41/1256041/548427.png);
+}
+div.blog__iread > h3 {
+    background-image: url(https://i1.beon.fun/55/16/1655/23/1256023/3145740.png);
+}
+.left-menu h3 {
+        color: #8c753f00;
+        font-family: 'Anonymous Pro';
+        font-weight: bolder;
+        padding-bottom: 10px;
+        background-color: white !important;
+        border: solid #000000 2px;
+        width: 40px;
+        height: 35px;
+        white-space: nowrap;
+        transition: all 0.9s ease-in;
+        background-repeat: no-repeat;
+        background-position: center right 5px;
+        background-size: 28px 28px;
+filter: contrast(0.8);
+}
+
+   .blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments {
+height: 45px;
+ overflow: hidden;
+padding-left: 0px;
+    transition-delay: 10s;
+padding-top: 10px;
+order: 2;
+}
+.blog__gifts:active, .blog__tags:active, .left-menu__user-notification:active,div.left-menu__user-notification.left-menu__unread-message:active,  .left-menu__friends_offline:active, div.left-menu__user-notification.left-menu__friends:active, .left-menu__friends.left-menu__friends_offline:active,div.notifications__comments:active,  div.community__moders:active, div.community__members:active, div.blog__read-me:active,div.blog__iread:active, div.blog__last-comments:active
+{height: 100%;
+max-height: 100%;
+transition: 0.1s;
+}
+div.left-menu {
+    margin-right: 5px;
+    margin-bottom: auto;
+    display: flex;
+    padding: 0;
+    border: 1px solid #aaaaaa00;
+    flex-direction: column;
+width: 300px;
+}
+div.blog__about{
+opacity: 0;
+max-width: 220px;
+margin: auto;
+}
+div.blog__about:hover {
+opacity: 1;
+  transition: all 0.5s ease;
+}
+div.blog__about .left-menu-text:hover ~ .left-menu-text,
+div.blog__about .left-menu-text:hover,
+div.blog__about:hover .left-menu-text{
+opacity: 1;
+background-color: #dcdddf;
+}
+div.blog__about h3 {
+display: none;
+}
+#fnplayer-play {
+    border-color: transparent transparent transparent black;
+}
+#fnplayer-stop {
+    border: 0;
+    background:  black;
+}
+    #fnplayer-volume-inner {
+        background-color: #000000;
+        border: 1px solid #000000;
+    }
+#beon-fnplayer {
+height: 16px;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid black;
+    margin: 2px;
+}
+#fnplayer-slider-inner {
+    background-color: black;
+}
+#fnplayer-slider {
+    background-color: #ffffff;
+}
+#fnplayer-volume-mask {
+    border-color: #ffffff transparent transparent transparent;
+}
+.mw-100 {
+        max-width: 100px !important;
+        min-width: 100px !important;
+        border-radius: 50%;
+        min-height: 100px;
+        max-height: 100px;
+        object-fit: cover;
+        border: 5px solid #282827;
+        margin-top: -210px;
+                margin-right: -90px;
+}
+    div.left-menu::before {
+        content: "";
+        height: 300px;
+width: 300px;
+        display: block;
+        background: url(https://i1.beon.fun/55/16/1655/76/1256476/image.psd-21.png);
+        background-repeat: no-repeat;
+        background-size: 300px 300px;
+    }
+/*--------------------content--------------------*/
+.fa-heart:before, a[href^="//beon.fun/repost/comment/"]::before,a[href^="//beon.fun/repost/comment/"]::before, a[href^="//beon.fun/repost/comment/"]::before{
+ font-size: 0.8rem!important;
+    padding: 0rem!important;
+}
+.post-title-user:before{
+content:"C:\\Пользователи\\"!important;
+}
+[href$="/edit"]::before{
+content: "✎";
+    text-decoration: unset;
+    font-size: 15px !important;
+    font-weight: bolder;
+    color: #000000;
+}
+a[href^="//beon.fun/repost/post/"]::before, a[href^="//beon.fun/repost/topic/"]::before, a[href^="//beon.fun/repost/comment/"]::before{
+    content: "\f079";
+font-family: 'Font Awesome 5 Free'!important;
+    font-size: 15px !important;
+    font-weight: 900;
+color: #000000;
+}
+span[data-target="#deleteconfirmmodal"]::before{
+content: "\f2ed";
+    font-size: 14px !important;
+font-family: 'Font Awesome 5 Free'!important;
+    font-weight: 900;
+ color: #000000;
+}
+span[data-target="#deleteconfirmmodal"]::before,   [onclick="deleteComment(this)"]:before{
+content: "\f2ed";
+font-family: 'Font Awesome 5 Free'!important;
+     color: #000000 !important;
+}
+[href$="/edit"], a[href^="//beon.fun/repost/post/"], a[href^="//beon.fun/repost/topic/"], a[href^="//beon.fun/repost/comment/"], span[data-target="#deleteconfirmmodal"], [onclick="deleteComment(this)"], .fa-trash-alt:before{  
+font-size: 0px!important;
+}
+.fa-heart:before, [href$="/edit"]::before, a[href^="//beon.fun/repost/post/"]::before, a[href^="//beon.fun/repost/topic/"]::before, a[href^="//beon.fun/repost/comment/"]::before, span[data-target="#deleteconfirmmodal"]::before, .fa-retweet:before, .fa-bookmark:before, .fa-exclamation-triangle:before, .fa-quote-left:before, .fa-step-forward:before, .fa-step-backward:before, [onclick="deleteComment(this)"]:before {
+font-size: 12px !important;
+}
+.post-row, .comment-row, .post-title-user {
+text-decoration: unset!important;
+margin-left: 10px;
+}
+a.user{
+    font-size: 10px!important;
+}
+a.post-title-user{
+order: -1;
+}
+
+.post-title:before,  .comment-header .post-title-date + a:before, .post-header > span:before, .comment-header a.post-title-user:after{
+content:"\\";
+    font-weight: 100;
+    font-size: 10px;
+    font-family: Nunito, sans-serif;
+}
+.post-title-date {
+    order: 99;
+padding-left: 0;
+}
+.post-header{
+margin-left:0px!important;}
+
+.comment-header .user-drop-menu {
+    margin-top: -3px;
+margin-left: 0px;
+}
+.post-header, .comment-header {
+    margin-left: 0px !important;
+flex-direction: row;
+    align-items: center;
+display:flex;
+justify-content: flex-start;
+    padding-right: 5px;
+order: -1;
+}
+.user:before, a.post-title-user, a.post-title-user, .post-title, .fa-chevron-down:before, .post-title-date, .post-header > span, .comment-header .post-title-date + a, .comment-header .post-title-date, .comment-header .fa-chevron-down:before, .post-header > span:before{
+font-size: 10px !important;
+}
+.user:hover:before, a.post-title-user:hover, a.post-title-user:hover, .post-title:hover, .fa-chevron-down:hover:before, .post-title-date:hover, .post-header > span:hover, .comment-header .post-title-date + a:hover, .comment-header .post-title-date:hover, .comment-header .fa-chevron-down:hover:before, .post-header > span:hover:before {
+           filter: invert(1)contrast(1.1);
+}
+.fa-chevron-down:before, .comment-header .fa-chevron-down:before{
+content: "cmd.exe";
+    font-family: Nunito, sans-serif;
+    font-weight: 600;
+}
+.user-drop-menu {
+margin-left: -6px;
+    margin-right: unset;
+}
+.post-row, .comment-row {
+    display: flex;
+    margin-top: 1%;
+}
+.comment-header .post-title-date + a {
+margin: 1px;
+}
+.user-drop-menu span:before {
+margin-right: -5px;
+}
+.sign {
+    opacity: 0;
+    height: 120px;
+    position: absolute;
+    width: 120px;
+    margin-top: -110px;
+}
+ .post-avatar:hover .sign  {
+opacity:1;
+font-size: 9px;
+position: absolute;
+height: 110px;
+width: 100px;
+margin-top: -110px;
+z-index: 2;
+transition: 1.5s;
+padding-top: 10px;
+background: white;
+}
+.post-content, .comment-content {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+span.comments_count span::before {
+        font-size: 1.3rem;
+        padding: 0.3rem;
+        content: "\f075";
+        color: #000000 !important;
+        font-family: 'Font Awesome 5 Free' !important;
+    }
+.mt-3 {
+margin-top: 5rem !important;
+}
+span.comments_count  span{
+font-size: 0!important;
+}
+.post-title{
+text-decoration: unset!important;
+}
+.h1, h1 {
+    display: none;
+}
+.tag:before {
+    content: "#";
+    margin-right: 1px;
+}
+    .post-row, .comment-row {
+        display: flex;
+        margin-top: 1%;
+        background-image: url(https://i1.beon.fun/55/16/1655/7/1256507/0kjMcUe.png);
+        padding: 10px;
+        border-left: 7px groove #e8e8e8;
+    }
+.textareabg {
+    background-color: #e6e6e600;
+    background-image: url(https://i1.beon.fun/55/16/1655/97/1256497/output-onlinepngtools-17.png);
+    background-attachment: fixed;
+}
+/*--------------------Mobile--------------------*/
+
+@media only screen and (max-width: 800px){ 
+ .shadow-sm,  .left-menu, .content, .bg-white {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+.post-row, .comment-row, .post-title-user {
+    margin-left: 0px;
+}
+.post-content, .comment-content {
+        margin: 15px 0px 0px 0px !important;
+    }
+.post-avatar img {
+        width: 80px !important;
+	margin-top: 5px;
+    }
+.post-header, .comment-header {
+    margin-left: 0px !important;
+    flex-direction: row;
+    display: flex;
+    padding-right: 5px;
+    order: -1;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+#usermenu {
+z-index: 9999;
+}
+.navbar-light .navbar-brand:before {
+    margin-left: -10px;
+          margin-top: -13px;
+}
+.hamburger-menu {
+    right: 80%;
+    top: 5px;
+}
+.navbar-light .navbar-brand:before {
+    top: 9px;
+}
+    .left-menu > div.mobile_open_menu h3 {
+        display: block;
+        font-size: 0px!important;
+border-radius: 50%;
+background-color: black!important;
+        width: 50px;
+        height: 50px;
+background-image: url(https://i1.beon.fun/55/16/1655/19/1256619/10948330.png);
+ background-size: 50px 50px;
+filter: unset;
+        background-position: center center;
+    }
+.left-menu > div.mobile_open_menu {
+        display: block;
+        margin-top: -105px;
+        margin-left: 165px;
+}
+#app > main > div.left-menu > div.mobile_open_menu > h3 > i {
+display: none;
+}
+div.blog__about{
+opacity: 1;
+        max-width: 100% !important;
+}
+.mw-100 {
+    margin-right: 20px;
+}
+.left-menu h3 {
+width: 100%;
+color: #ffffff;
+font-size:16px!important;
+background-color: black!important;
+}
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+        left: 85%;
+        z-index: 10;
+        top: 15%;
+        position: fixed;
+    }
+    .d-inline {
+        left: 90%;
+        top: 25%;
+        position: fixed;
+        z-index: 10;
+font-size: 0px !important;
+    height: 30px;
+        filter: grayscale(1) invert(1);
+    width: 30px;
+    background: url(https://i1.beon.fun/55/16/1655/6/1227606/send_7461606.png);
+   background-size: 32px 32px;
+    background-position: center;
+    border-radius: 50% !important;
+    }
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+font-size: 0px !important;
+    height: 30px;
+    width: 30px;
+    background: url(https://i1.beon.fun/55/16/1655/6/1227606/send_7461606.png);
+    background-size: 32px 32px;
+    background-position: center;
+    border-radius: 50% !important;
+    transform: rotate(180deg);
+    margin-left: 20px;
+    margin-top: -45px;
+        filter: grayscale(1) invert(1);
+    }
+ .fas, .far, .tag_bar > * {
+        font-size: 0.8rem;
+        padding: 0.25rem;
+    }
+.fa-heart:before, [href$="/edit"]::before, a[href^="//beon.fun/repost/post/"]::before, a[href^="//beon.fun/repost/topic/"]::before, a[href^="//beon.fun/repost/comment/"]::before, span[data-target="#deleteconfirmmodal"]::before, .fa-retweet:before, .fa-bookmark:before, .fa-exclamation-triangle:before, .fa-quote-left:before, .fa-step-forward:before, .fa-step-backward:before, [onclick="deleteComment(this)"]:before {
+    font-size: 12px !important;
+}
+}

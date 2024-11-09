@@ -80,6 +80,10 @@ filter: unset;
 color: white;
     border: black solid 1px;
 }
+::selection {
+   color: #fff;
+   background-color: #000; 
+}
 /*--------------------BG--------------------*/
 body {
         background-color: #868686;

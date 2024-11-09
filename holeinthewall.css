@@ -555,6 +555,11 @@ text-decoration: unset!important;
     width: 80px;
     margin-top: -90px;
 }
+	.post-avatar:hover .sign {
+    height: 80px;
+    width: 80px;
+    margin-top: -80px;
+	}
 .post-header, .comment-header {
     margin-left: 0px !important;
     flex-direction: row;

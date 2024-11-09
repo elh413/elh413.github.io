@@ -648,4 +648,11 @@ font-size: 0px !important;
 .fa-heart:before, [href$="/edit"]::before, a[href^="//beon.fun/repost/post/"]::before, a[href^="//beon.fun/repost/topic/"]::before, a[href^="//beon.fun/repost/comment/"]::before, span[data-target="#deleteconfirmmodal"]::before, .fa-retweet:before, .fa-bookmark:before, .fa-exclamation-triangle:before, .fa-quote-left:before, .fa-step-forward:before, .fa-step-backward:before, [onclick="deleteComment(this)"]:before {
     font-size: 12px !important;
 }
+	div.crumbs {
+    width: 100%;
+    margin-top: 20px;
+}
+	div.left-menu {
+    overflow: hidden;
+	}
 }

@@ -302,6 +302,7 @@ div.blog__about .left-menu-text:hover ~ .left-menu-text,
 div.blog__about .left-menu-text:hover,
 div.blog__about:hover .left-menu-text{
 opacity: 1;
+	-webkit-animation: fadeInFromNone 1.5s ease-out;
 background-color: #dcdddf;
 }
 div.blog__about h3 {
@@ -356,6 +357,21 @@ width: 300px;
         background-repeat: no-repeat;
         background-size: 300px 300px;
     }
+    input[type="text"] {
+width: 50%;
+    }
+    input[type="text"], input[type="submit"] {
+        font-size: 12px;
+        font-weight: bold;
+    }
+div.blog__about {
+    text-align: center;
+}
+.left-menu a:hover{
+        font-weight: bold;
+background: #0000006b;
+    border-radius: 10px
+}
 /*--------------------content--------------------*/
 .fa-heart:before, a[href^="//beon.fun/repost/comment/"]::before,a[href^="//beon.fun/repost/comment/"]::before, a[href^="//beon.fun/repost/comment/"]::before{
  font-size: 0.8rem!important;

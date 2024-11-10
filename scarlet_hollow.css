@@ -671,4 +671,24 @@ div#newpostform.textareabg.p-1 {
 border-image-outset: 24px 0px 3px 15px;
         margin-left: 4px !important;
 }
+    .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background-color: #444444;
+}
+.menu__box {
+    border-image-slice: 95 115 10 105 fill;
+    border-image-width: 75px 95px 10px 80px;
+    border-image-outset: 20px 0px 10px 0px;
+    border-image-repeat: stretch stretch;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/53/1255853/image.psd-20.png);
+    filter: drop-shadow(2px 2px 2px #000);
+    border-style: solid;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    background-color: #eceff100;
+    font-weight: bold;
+}
 }

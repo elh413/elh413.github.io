@@ -712,4 +712,7 @@ border-image-outset: 24px 0px 3px 15px;
     color: #282828 !important;
     font-size: 20px !important;
 }
+    .quotation {
+    border-left: 3px solid #000000;
+    }
 }

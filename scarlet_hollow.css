@@ -705,4 +705,11 @@ border-image-outset: 24px 0px 3px 15px;
     background-color: #eceff100;
     font-weight: bold;
 }
+    .p-1 {
+    padding: 1.25rem !important;
+}
+    .textareabg span, div.tag_bar span {
+    color: #282828 !important;
+    font-size: 20px !important;
+}
 }

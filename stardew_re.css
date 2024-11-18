@@ -828,15 +828,8 @@ span.comments_count a {
     max-width: 70px;
     object-fit: cover;
 }
-[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"], a.my-menu.for-mobile.d-none.d-md-inline {
-    position: fixed;
-    bottom: 5px;
-        left:0px;
-width: 40px;
-	 content: "↑ ";
-	    color: #f5eadb;
-        font-size: 40px !important;
-        height: 60px;
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]{
+   fonr-size: 0px; 
 }
 a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none{
  font-size: 0px;
@@ -846,6 +839,9 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none{
     text-shadow: 1px 1px 2px #ffffff, 0 0 1px black, 0 0 0.2px white;
     color: #f5eadb !important;
     font-size: 40px;
+z-index: 3;
+        left: 0;
+        bottom: 30%;			  
 }
 .textareabg {
     margin: 0px 10px 5px 10px !important;
@@ -854,7 +850,15 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none{
         font-size: 0.8rem;
 }
 [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before {
-    font-size: 0px;
+position: fixed;
+    bottom: 60%;
+        left:0px;
+width: 40px;
+	
+	 content: "↑ ";
+	    color: #f5eadb;
+        font-size: 40px !important;
+        
 }
 nav.navbar {
     margin: 0.5% 0% 0px 0px !important;

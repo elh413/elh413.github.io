@@ -1,0 +1,936 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pixelify+Sans&display=swap');
+
+/*--------------------Features--------------------*/
+	    :root {
+        --TextBox-Border-Shadow: #9da3e5;
+        --TextBox-Border-Size: 3px;
+        --TextBox-Background: #b9bcf;
+        --TextBox-Background-Gradient-1: #e9e4ff;
+        --TextBox-Background-Gradient-2: #7880cd;
+        --Text-Colors: #7880cd!important;
+       --Link-Colors-Hover: #e9e4ff!important;
+        --Background-General: #99a3fc;
+        --Background-Hover: #7880cd;
+        --Box-Shadow: #7880cd 0px -2px, #e9e4ff 0px 2px, #7880cd 2px 0px, #e9e4ff -2px 0px;
+        --Pixel-border: #7880cd 0px -3px, #7880cd 0px 3px, #7880cd 3px 0px, #7880cd -3px 0px, #7880cd -3px 0px, #7880cd -3px 3px, #7880cd -3px -3px, #7880cd 3px -3px, #7880cd 3px 3px, #9da3e5 -3px -6px, #9da3e5 0px -6px,#b9bcf7 3px -6px, #9da3e5 6px 0px,#b9bcf7 6px -3px, #9da3e5 6px 3px,#b9bcf7 0px 6px, #9da3e5 3px 6px, #7880cd 6px 6px, #9da3e5 -3px 6px,#b9bcf7 -6px 3px, #7880cd -6px 6px,#b9bcf7 -6px 0px, #9da3e5 -6px -3px, #7880cd -6px -6px, #7880cd 6px -6px,#b9bcf7 6px -9px,#b9bcf7 3px -9px, #9da3e5 -6px -9px, #99a3fc 0px -12px, #99a3fc -6px -12px, #99a3fc 6px -12px, #9da3e5 0px 9px, #9da3e5 -6px 9px, #9da3e5 6px 9px, #9da3e5 -9px 6px, #7880cd -9px 9px, #9da3e5 -9px -6px, #99a3fc 0px 12px, #99a3fc 6px 12px, #99a3fc -6px 12px, #7880cd -9px -9px, #99a3fc -12px 0px, #99a3fc -12px -6px, #99a3fc -12px 6px,#b9bcf7 9px 0px,#b9bcf7 9px 3px, #9da3e5 9px 6px, #7880cd 9px 9px,#b9bcf7 9px -6px, #7880cd 9px -9px, #99a3fc 12px 6px, #99a3fc 12px -6px;
+    }
+    
+/*--------------------BG--------------------*/
+ul {
+  list-style-type: none;
+  padding: 5px 10px 0px 10px;
+}
+body {
+    cursor: url(https://i1.beon.fun/55/16/1655/84/1267684/image.psd-35.png), auto;
+	   animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.bodybg {
+ background-image: url(https://preview.redd.it/starry-night-from-marus-cutscene-you-can-use-it-as-wallpaper-v0-wsf12fughy9c1.jpeg?width=1080&crop=smart&auto=webp&s=67581da0ffc3d9ba6583587139fc6dfaf6fdcfff);
+background-repeat:  repeat-x;
+background-attachment: fixed;
+background-size: 40% 100%;
+ background-position:right top;
+}
+::-webkit-scrollbar
+		{
+			width: 10px;
+			height: 10px;
+
+		}
+		::-webkit-scrollbar-thumb
+		{
+			background: #7880cd;
+			cursor:url(https://i1.beon.fun/55/16/1655/86/1267686/image.psd-36-2.png), auto;
+		}
+		::-webkit-scrollbar-track
+		{
+margin: 1%;
+			background: #e9e4ff!important;
+			border: 4px solid #e9e4ff!important;
+box-shadow: var(--Box-Shadow);
+			background-clip: content-box;
+			cursor: cursor: url(https://i1.beon.fun/55/16/1655/84/1267684/image.psd-35.png), auto;
+		}
+a {
+    color: var(--Text-Colors);
+    cursor: url(https://i1.beon.fun/55/16/1655/86/1267686/image.psd-36-2.png), auto;
+font-family: 'Press Start 2P';
+font-size: 9px;
+}
+ a:hover{ 
+color: var(--Link-Colors-Hover);
+    transition: 0.5s;
+text-decoration: none;
+}
+::selection, .quotation{
+background: var( --Background-General)!important;
+        width: fit-content;
+color: white;
+border-left: 3px solid #000000;}
+span {
+font-family: 'Press Start 2P';
+    font-size: 7px;
+    color: var(--Text-Colors);
+}
+.post-title-date {
+    font-size: 6px;
+    color: var(--Text-Colors);
+
+}
+input {
+    overflow: visible;
+    box-shadow: var(--Box-Shadow);
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background-color: var( --Background-General);
+    font-size: 7px!important;
+    color: var(--Text-Colors);
+    border: 0px;
+font-family: 'Press Start 2P';
+}
+input:focus {
+    outline: 0px dotted;
+    outline: 0px auto -webkit-focus-ring-color
+background-color: var( --Background-General);
+}
+button, input:hover {
+background:var(--Background-Hover);
+color:var(--Link-Colors-Hover)!important;
+    transition: 0.5s;
+
+}
+[href$="/edit"], a[href^="//beon.fun/repost/post/"], a[href^="//beon.fun/repost/topic/"], a[href^="//beon.fun/repost/comment/"], span[data-target="#deleteconfirmmodal"], [onclick="deleteComment(this)"], .fa-trash-alt:before {
+    font-size: 0px !important;
+}
+.spoiler {
+    display: none;
+    font-family: Nunito, sans-serif;
+     font-size: 16px !important;
+    color: black;
+}
+
+[src="/i/logo2-deer.png"],  .user:before, #navbarSupportedContent > ul.navbar-nav.ml-auto > div > table > tbody > tr:nth-child(1) > td:nth-child(4) > ul > li > a:nth-child(2), div.post-content.blog_total_counter, body > div.bottombg > div.footer__infolinks.p-1, .left-menu br, [src="/i/user.png"], [src="/i/online.png"], [src="/i/offline.png"], [src="/i/blog.png"], .user:before, #page__admincontact, #page__rendertime, .pagination-goto, div.blog__about h3{
+		display: none;
+	}
+.btn-outline-primary {font-size: 10px;
+border-color: var(--Text-Colors);
+color: var(--Text-Colors);}
+.btn:not(:disabled):not(.disabled), .btn:not(:disabled):not(.disabled) {font-size: 10px;
+border-color: var(--Text-Colors);
+background: var( --Background-General);
+color: var(--Text-Colors);
+}
+.btn-outline-primary:hover,  .btn:not(:disabled):not(.disabled):hover, .btn:not(:disabled):not(.disabled):hover{ 
+color: var(--Link-Colors-Hover) ;
+background: var(--Background-Hover);
+border-color: var(--Text-Colors);
+}
+
+[src="//beon.fun/i/design-off.png"] {
+display: none;}
+a[href^="/design/disable"]{
+color: #f5eadb!important;}
+a[href^="/design/disable"]:before{
+font-family: 'Font Awesome 5 Free';
+font-size: 16px;
+content: "\f070";}
+/*--------------------top-menu--------------------*/
+nav.navbar {
+    margin: 0.5% 20% 0px 30px !important;
+border-image-slice: 35 42 27 38  fill;
+border-image-width: 35px 42px 27px 38px;
+border-image-repeat: round stretch;
+padding: 35px 42px 27px 38px;
+border-image-source: 
+url(https://i1.beon.fun/55/16/1655/83/1267583/image.psd-30.png);
+border-style: solid;
+background-repeat: no-repeat;
+background-position: right 40px bottom 24px, top 60px left 35px;
+}
+.navbar>.container {
+display: flex;
+    max-width: 192px;
+flex-direction: column;
+}
+    .navbar-expand-md .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        margin-left: 0;
+    }
+.bg-white {
+background-color: #fff0;
+}
+nav.navbar a {
+    color:  var(--Text-Colors)!important;
+    white-space: nowrap;
+}
+.navbar-brand {
+    font-size: 16px;
+
+}
+a.navbar-brand:hover {
+color:var(--Link-Colors-Hover)!important;
+transition: 0.3;
+}
+
+.pc-menu a {
+  font-size: calc(0.5vw + 0.2vh + 0.1vmin);
+padding: 0px !important;
+color: var(--Text-Colors);
+}
+.pc-menu a:hover {
+    transition: 0.5s;
+color: var(--Link-Colors-Hover) !important;
+text-decoration: none;
+}
+.m2 {
+    font-size: 6px;
+    color: var(--Text-Colors);
+    font-family: 'Press Start 2P';
+    width: 200px;
+}
+
+/*--------------------Crumbs--------------------*/
+
+div.crumbs {
+    margin: 10px 20% 0px 30px !important;
+    color: var(--Text-Colors);
+    box-shadow: var(--Box-Shadow);
+margin-left: 30px;
+    background-color: var( --Background-General);
+    display: flex;
+    font-family: 'Press Start 2P';
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.crumbs span {
+color: var(--TextBox-Background-Gradient-1);
+}
+div.crumbs a {
+font-family: 'Press Start 2P';
+}
+.pagination {
+    font-size: 9px;
+}
+/*--------------------.py-4--------------------*/
+.py-4 {
+    display: flex;
+}
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]
+		{position: fixed;
+    cursor: pointer;
+content: "↑ ";
+    right: 16.5%;
+font-size: 0px!important;
+    top: 40%;
+	font-family: 'Press Start 2P';
+z-index: 99;
+		}
+ [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover{
+			filter: drop-shadow(0 0 0.75rem rgb(228, 242, 242));
+transition: all 0.1s ease-in;
+cursor: url(https://i1.beon.fun/55/16/1655/86/1267686/image.psd-36-2.png), auto;
+}
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before {
+content: "↑ ";
+color: #e9e4ff;
+cursor:url(https://i1.beon.fun/55/16/1655/86/1267686/image.psd-36-2.png), auto;
+font-size: 40px;}
+a.my-menu.for-mobile.d-none.d-md-inline:before{
+content: "↓";
+        text-shadow: 1px 1px 2px #ffffff, 0 0 1px black, 0 0 0.2px white;
+color: #e9e4ff !important;
+font-size: 40px;
+z-index: 99;
+}
+a.my-menu.for-mobile.d-none.d-md-inline{
+ position: fixed;
+    right: 19%;
+    font-size: 0px;
+    top: 60%;
+		}
+a.my-menu.for-mobile.d-none.d-md-inline:hover{
+			filter: drop-shadow(0 0 0.75rem rgb(228, 242, 242));
+}
+/*--------------------left-menu--------------------*/
+.mw-100 {
+        max-width: 100px !important;
+        min-width: 100px !important;
+        min-height: 100px;
+        max-height: 100px;
+        object-fit: cover;
+}
+a,#beon-fnplayer, h3,  input {
+    cursor: url(https://i1.beon.fun/55/16/1655/86/1267686/image.psd-36-2.png), auto;
+}
+.left-menu {
+    font-family: 'Press Start 2P';
+    width: fit-content;
+    text-align: start;
+    display: flex;
+    font-size: x-small;
+    flex-direction: row;
+    box-shadow: var(--Pixel-border);
+    z-index: 1;
+    background-image: linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+    position: absolute;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin-left: 40px;
+margin-top: 50px;
+}
+
+[src="//beon.fun/i/offline.png"], [src="//beon.fun/i/online.png"] {
+    transform: scale(0.8)!important;
+    margin-bottom: 2px;
+filter: hue-rotate(145deg);
+}
+ .left-menu a,  .blog__tags a {
+font-size: 10px!important;
+color: #42466e!important;}
+
+
+.left-menu__gift a{
+font-size: 8px !important;}
+ .left-menu a:hover {
+color: var(--Link-Colors-Hover)!important;
+}
+
+   .blog__gifts, .blog__tags,.left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments,  div.community__moders,  div.community__members, div.blog__read-me, div.blog__iread,  div.blog__last-comments{
+max-height:70px;
+width: 70px;
+overflow: hidden;
+display: block;
+transition: max-height 0.5s ease-in;
+}
+
+.blog__gifts:hover, .blog__tags:hover, .left-menu__user-notification:hover,div.left-menu__user-notification.left-menu__unread-message:hover, .left-menu__friends:hover, .left-menu__friends_offline:hover, div.left-menu__user-notification.left-menu__friends:hover, .left-menu__friends.left-menu__friends_offline:hover,div.notifications__comments:hover, div.community__moders:hover, div.community__members:hover, div.blog__read-me:hover,div.blog__iread:hover, div.blog__last-comments:hover
+		{height: auto;
+    max-height: 500px!important;
+min-width: 400px!important;
+    box-shadow: var(--Pixel-border);
+    z-index: 1;
+    background-image: linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+    overflow: visible;
+display: block;
+z-index: 999;
+display: block;
+transition: max-height 0.5s ease-in;
+}
+div.blog__about {
+       order: -1;
+position: fixed;
+    top: 2.5%;
+width: 18%;
+font-size: 8px!important;
+font-size: 8px !important;
+    background: url(https://i1.beon.fun/55/16/1655/85/1267585/image.psd-31.png);
+    box-shadow: var(--Pixel-border);
+    border-right: calc(var(--TextBox-Border-Size)* 2) solid var(--TextBox-Border-Shadow);
+    border-top: calc(var(--TextBox-Border-Size)* 2) solid var(--TextBox-Border-Shadow);
+    background-clip: padding-box;
+    padding: 1%;
+    right: 1%;
+
+}
+div.blog__about:hover {
+position: fixed;
+    right: 1%;
+    top: 2.5%;
+width: 18%;
+}
+div.blog__about a {
+color: var( --Text-Colors)!important;
+font-size: 8px!important;}
+ .left-menu h3:hover {
+width: 100%!important;
+transition: all 0.1s ease-in;
+position: sticky;
+font-size: 16px !important;
+color: #42466e!important;
+background-position: right center;
+  transition-delay: 0.1s;
+}
+.left-menu-text {
+    padding-left: 5px;
+    text-align: center;
+}
+ .left-menu__friends> h3, .left-menu__friends.left-menu__friends_offline> h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/a/ac/Squid_Ink.png),linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2))!important;
+}
+ div.left-menu__user-notification.left-menu__unread-message > h3 {
+    background-image: url(https://i1.beon.fun/55/16/1655/87/1104487/Mail-1.png),linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2))!important;
+}
+div.notifications__comments > h3 {
+    background-image: url(https://i1.beon.fun/55/16/1655/59/1104259/Speech_bubble-1-1.png),linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2))!important;
+}
+div.community__members> h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/8/81/Squid.png),linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2))!important;
+}
+div.blog__read-me > h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/thumb/f/f4/Night_Sky_Decal_3.png/27px-Night_Sky_Decal_3.png),linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2))!important;
+     background-size: 16px 27px, auto;
+}
+div.community__moders> h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/d/dd/Qi_Mask.png),linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2))!important;
+}
+div.blog__tags> h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/f/fc/Fairy_Dust.png),linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2))!important;
+}
+div.blog__last-comments > h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/e/e7/Sea_Urchin.png),linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2))!important;
+}
+
+div.blog__gifts> h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/4/4b/Purple_Mushroom.png),linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2))!important;
+}
+div.blog__iread > h3 {
+    background-image: url(https://stardewvalleywiki.com/mediawiki/images/3/34/Night_Sky_Decal_1.png),linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2))!important;
+    background-size: 17px 23px, auto;
+}
+div.left-menu__user-notification > h3{
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/6/61/UFO_animated.gif),linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2));
+}
+.left-menu h3 {
+color: #8c753f00;
+    font-family: 'Anonymous Pro';
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-style: ridge;
+    border-width: 1px;
+    border-top-color: transparent;
+    border-right-color: var(--TextBox-Border-Shadow) !important;
+    border-bottom-color: var(--TextBox-Border-Main-1);
+    border-left-color: transparent;
+    width: 70px;
+    height: 70px;
+    white-space: nowrap;
+    border-right: 1px solid var(--TextBox-Border-Shadow);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 40px 40px, auto;
+    background-color: var( --Background-General)!important;
+font-family: 'Press Start 2P';
+  transition-delay: 0.1s;
+font-size: 18px;
+}
+
+/*player*/
+#fnplayer-volume-mask {
+    border-color: var(--Background-General) transparent transparent transparent;
+}
+#fnplayer-play {
+    border-color: transparent transparent transparent var(--Text-Colors);
+}
+
+#fnplayer-stop {
+    background: var(--Text-Colors);
+}
+#beon-fnplayer {
+    background-color: var( --Background-General);
+box-shadow: var(--Box-Shadow);
+}
+#fnplayer-volume-inner {
+    background-color: var(--Text-Colors);
+    border: 1px solid var(--Text-Colors);
+}
+#fnplayer-slider {
+    background-color: var(--Text-Colors);
+}
+#fnplayer-slider-inner {
+    background-color: var( --Background-General);
+}
+#fnplayer-slider span {
+font-size: 6px !important;
+    white-space: nowrap;
+    color: var(--Text-Colors);
+}
+/*--------------------content--------------------*/
+.content, .shadow-sm, div.crumbs{
+    margin-right: 20%!important;
+}
+.content {
+    margin-top: calc(5% + 50px);
+}
+.datebg {
+    color: var(--Text-Colors)!important;
+font-size: 12px;
+font-family: 'Press Start 2P';
+}
+    
+img.flag {
+    height: 15px;
+    width: 15px;
+    content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/9/97/Emojis098.png/36px-Emojis098.png);
+    vertical-align: baseline;
+    margin-left: 5px;
+}
+
+/*post-content-comment*/
+
+.post-title-user
+{ text-decoration:none;
+font-size: 11px;
+}
+.post-header {
+font-size: 9px!important;}
+.post-title-date {
+    color: #bdafaf;
+    padding-left: 1rem;
+    font-family: 'Press Start 2P';
+}
+.col-md-6 {
+        margin-top: 10px;
+    }
+ .post__tags-list {
+    color: #666666;
+    margin-bottom: 10px;
+}
+.mt-3 {
+    margin-top: 5rem !important;
+}
+
+    span.comments_count span {
+        font-family: 'Press Start 2P';
+font-size: 0 !important;
+
+    }
+span.comments_count span::before {
+        padding: 0.3rem;
+        content: url(https://i1.beon.fun/55/16/1655/69/1110869/Speech_bubble-1-1.png);
+    }
+
+.post-text, .comment-text{
+    word-break: break-word;
+font-size: 16px;
+}
+.post-content, .comment-content{
+background: url(https://stardewvalleywiki.com/mediawiki/images/0/01/Night_Sky_Decal_2.png), url(https://i1.beon.fun/55/16/1655/85/1267585/image.psd-31.png);
+background-repeat:  no-repeat, repeat;
+        background-position: top right, center center;
+    box-shadow: var(--Pixel-border);
+    border-right: calc(var(--TextBox-Border-Size)* 2) solid var(--TextBox-Border-Shadow);
+    border-top: calc(var(--TextBox-Border-Size)* 2) solid var(--TextBox-Border-Shadow);
+    background-clip: padding-box;
+    padding: 1%;
+    background-position: top right, center center;
+    background-repeat:  no-repeat, repeat;
+    margin: 60px 40px 60px 40px !important;
+}
+
+div#commentpreviewplace
+{
+    font-family: Nunito, sans-serif;
+    font-size: 1rem;
+}
+.post-title, h1 {
+ display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 6px solid transparent;
+        border-image: url(https://i1.beon.fun/55/16/1655/97/1267597/image.psd-32.png) 24 fill repeat;
+        border-image-width: 24px;
+        border-image-outset: 6px;
+        padding: 0px 18px 0px 18px !important;
+        font-size: 13px;
+                margin-top: auto;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        height: 50px;
+        text-align: center;
+        text-decoration: none;
+margin-bottom: 15px;
+    font-family: 'Press Start 2P';
+}
+a.post-title:hover
+		{font-size: 13.5px;
+			max-width: 100%;
+			color: var(--Link-Colors-Hover);
+			}
+.tag:before {
+    content: "🌠";
+    margin-right: 1px;
+font-size: 12px;
+}
+.textareabg{
+
+        background-color: #ffffff00;
+        background-image: linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2));
+        box-shadow: var(--Pixel-border);
+        font-family: 'Press Start 2P';
+        padding: 3% !important;
+        margin: 0px 60px 5px 60px !important;
+font-size: 10px;
+color: #42466e;
+}
+.textareabg span {
+    font-size: 12px;
+}
+.textarea-wrapper > textarea {
+    font-family: 'Nunito';
+    font-size: 16px;
+}
+form.messageform, input {
+font-size: 10px;
+}		
+select {
+    background:var( --Background-General);
+}
+.modal-content
+{
+position: relative;
+display: flex;
+			flex-direction: column;
+			width: 100%;
+			pointer-events: auto;
+			background-image: linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2));
+			box-shadow: var(--Pixel-border);
+			border-right: calc(var(--TextBox-Border-Size) * 2) solid var(--TextBox-Border-Shadow);
+			border-top: calc(var(--TextBox-Border-Size) * 2) solid var(--TextBox-Border-Shadow);
+			background-clip: padding-box;
+			border: 1px solid rgba(0, 0, 0, 0.2);
+			border-radius: 0.3rem;
+outline: 0;
+		}
+
+
+.likebutton
+		{
+			color: #979696;
+			transition: color 0.5s ease;
+			width: 14px;
+			content: url(https://i1.beon.fun/55/16/1655/18/596618/image.png);
+			cursor: url("https://i1.beon.fun/55/16/1655/86/1267686/image.psd-36-2.png"), auto;
+		}
+.liked, .reposted, .bookmarked
+		{
+			color: #FF0000 !important;
+			content: url(https://i1.beon.fun/55/16/1655/4/596704/image-1.png);
+			cursor: url("https://i1.beon.fun/55/16/1655/86/1267686/image.psd-36-2.png"), auto;
+		}
+.fa-retweet:before, .fa-heart:before, .fa-bookmark:before, .fa-trash-alt:before, .fa-exclamation-triangle:before, .fa-quote-left:before
+               {
+			content: "";
+		}
+		.fa-retweet:after
+		{
+			content: url(https://i1.beon.fun/55/16/1655/7/596707/image-5.png);
+			cursor: url("https://i1.beon.fun/55/16/1655/86/1267686/image.psd-36-2.png"), auto;
+		}
+[href$="/edit"], a[href^="//beon.fun/repost/comment/"], a[href^="//beon.fun/repost/post/"], a[href^="//beon.fun/repost/topic/"]
+		{
+			content: "";
+			text-decoration: unset;
+			font-size: 0px;
+		}
+		[href$="/edit"]::after
+		{
+			content: url(https://i1.beon.fun/55/16/1655/5/603905/image-3.png);
+			cursor: url("https://i1.beon.fun/55/16/1655/86/1267686/image.psd-36-2.png"), auto;
+			text-decoration: unset;
+		}
+		
+		a[href^="//beon.fun/repost/comment/"]::after
+		{
+			content: url(https://i1.beon.fun/55/16/1655/7/596707/image-5.png);
+			text-decoration: unset;
+			font-size: 0px;
+			cursor: url("https://i1.beon.fun/55/16/1655/86/1267686/image.psd-36-2.png"), auto;
+		}
+		
+                a[href^="//beon.fun/repost/topic/"]::after
+                  {
+                        content: url(https://i1.beon.fun/55/16/1655/7/596707/image-5.png);
+			font-size: 0px;
+			text-decoration: unset;
+			cursor: url("https://i1.beon.fun/55/16/1655/86/1267686/image.psd-36-2.png"), auto;
+		}
+		a[href^="//beon.fun/repost/post/"]::after
+		{
+			content: url(https://i1.beon.fun/55/16/1655/7/596707/image-5.png);
+			font-size: 0px;
+			text-decoration: unset;
+			cursor: url("https://i1.beon.fun/55/16/1655/86/1267686/image.psd-36-2.png"), auto;
+		}
+		
+		.fa-heart:after
+		{
+			content: url(https://i1.beon.fun/55/16/1655/16/601716/image-6-1.png);
+			cursor: url("https://i1.beon.fun/55/16/1655/86/1267686/image.psd-36-2.png"), auto;
+		}
+                span[data-target="#deleteconfirmmodal"]::before, [onclick="deleteComment(this)"]:before {
+content: url(https://i1.beon.fun/55/16/1655/5/596705/image-2.png);
+}
+		
+		.fa-bookmark:after
+		{
+			content: url(https://i1.beon.fun/55/16/1655/31/596731/image-8.png);
+			cursor: url("https://i1.beon.fun/55/16/1655/86/1267686/image.psd-36-2.png"), auto;
+		}
+               .fa-quote-left:after{
+               content: "❞";
+               font-size: 16px;
+               font-family: 'Press Start 2P';
+               }
+		
+               
+		.fa-exclamation-triangle:after
+		{
+			content: url(https://i1.beon.fun/55/16/1655/30/596730/image-7.png);
+			cursor: url("https://i1.beon.fun/55/16/1655/86/1267686/image.psd-36-2.png"), auto;
+		}
+              .fa-smile-wink:before {
+               content: url("https://i1.beon.fun/55/16/1655/67/1110567/36px-Emojis080-1.png");
+               width: 15px;
+               height: 15px;
+}
+a[href^="javascript:void(0);"]:not(.emj-dropdown-content a){ 
+width: 25px;
+display: inline-flex;
+height: 25px;}
+[src*="//beon.fun/i/smiles"] {
+    transform: scale(0.6);
+    filter: hue-rotate(200deg);
+}
+
+[src="//beon.fun/i/smiles/smile.png"] {
+content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/a/ad/Emojis000.png/36px-Emojis000.png);
+}
+[src="//beon.fun/i/smiles/sad.png"]{ content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/f/fb/Emojis012.png/36px-Emojis012.png);
+}
+[src="//beon.fun/i/smiles/big-smile.png"]{ content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/b/b2/Emojis002.png/36px-Emojis002.png);
+}
+[src="//beon.fun/i/smiles/kiss.png"]{ content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/8/81/Emojis006.png/36px-Emojis006.png);
+}
+[src="//beon.fun/i/smiles/wink.png"]{ content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/7/7f/Emojis005.png/36px-Emojis005.png);
+}
+[src="//beon.fun/i/smiles/surprised.png"]{ content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/d/dd/Emojis007.png/36px-Emojis007.png);
+}
+[src="//beon.fun/i/smiles/tongue-sticking-out.png"]{ content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/5/56/Emojis027.png/36px-Emojis027.png);
+}
+[src="//beon.fun/i/smiles/angry.png"]{ content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/a/a3/Emojis021.png/36px-Emojis021.png);
+}
+[src="//beon.fun/i/smiles/devil.png"]{ content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/f/fd/Emojis030.png/36px-Emojis030.png);
+}
+[src="//beon.fun/i/smiles/angel.png"]{ content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/7/74/Emojis022.png/36px-Emojis022.png);
+}
+[src="//beon.fun/i/smiles/cry.png"]{ content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/2/29/Emojis013.png/36px-Emojis013.png);
+}
+[src="//beon.fun/i/smiles/upset.png"]{ content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/6/66/Emojis017.png/36px-Emojis017.png);
+}
+[src="//beon.fun/i/smiles/confused.png"]{ content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/8/8a/Emojis011.png/36px-Emojis011.png);
+}
+[src="//beon.fun/i/smiles/undecided.png"]{ content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/5/5b/Emojis016.png/36px-Emojis016.png);
+}
+[src="//beon.fun/i/smiles/turn-red.png"]{ content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/f/f6/Emojis008.png/36px-Emojis008.png);
+}
+[src="//beon.fun/i/smiles/sun-glasses.png"]{ content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/2/27/Emojis025.png/36px-Emojis025.png);
+}
+[src="//beon.fun/i/smiles/thumbs-up.png"]{ content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Emojis035.png/36px-Emojis035.png);
+}
+[src="//beon.fun/i/smiles/thumbs-down.png"]{ content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/c/c7/Emojis036.png/36px-Emojis036.png);
+}
+[src="//beon.fun/i/smiles/shocked.png"]{ content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/c/ce/Emojis020.png/36px-Emojis020.png);
+}
+[src="//beon.fun/i/smiles/shhh.png"]{ content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/8/89/Emojis028.png/36px-Emojis028.png);
+}
+[src="//beon.fun/i/smiles/crazy.png"]{ content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/9/96/Emojis024.png/36px-Emojis024.png);
+}
+[src="//beon.fun/i/smiles/tired.png"]{ content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/9/99/Emojis009.png/36px-Emojis009.png);
+}
+[src="//beon.fun/i/smiles/cunning.png"]{ content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/8/81/Emojis023.png/36px-Emojis023.png);
+}
+[src="//beon.fun/i/smiles/thinking.png"]{ content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/a/a5/Emojis019.png/36px-Emojis019.png);
+}
+
+@media only screen and (max-width: 800px)
+	{
+.left-menu, div.blog__about {
+position: relative;
+flex-direction: column;
+width: 90%;
+}
+.left-menu h3 {
+    background-size: 28px 28px, auto;
+height: 30px;
+  font-size: 12px !important;
+        width: 100%;
+        color: #42466e!important;
+        text-shadow: 0 0 #aa5454;
+background-position: right center;
+}
+.left-menu h3:hover    {
+font-size: 13px !important;
+color: #42466e;
+}
+.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments {
+    max-height: 30px!important;
+    width: 100%;
+display: unset;
+    z-index: 0; 
+transition-delay: 5s;
+}
+.blog__gifts:active, .blog__tags:active, .left-menu__user-notification:active,div.left-menu__user-notification.left-menu__unread-message:active, .left-menu__friends, .left-menu__friends_offline:active, div.left-menu__user-notification.left-menu__friends:active, .left-menu__friends.left-menu__friends_offline:active,div.notifications__comments:active,  div.community__moders:active, div.community__members:active, div.blog__read-me:active,div.blog__iread:active, div.blog__last-comments:active {
+height: auto;
+    max-height: 500px !important;
+        min-width: unset;
+    box-shadow: unset;
+    background-image: linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+    overflow: visible;
+    z-index: 0; 
+    transition: max-height 0.5s ease-in;
+}
+
+blog__gifts:hover, .blog__tags:hover, .left-menu__user-notification:hover,div.left-menu__user-notification.left-menu__unread-message:hover, .left-menu__friends:hover, .left-menu__friends_offline:hover, div.left-menu__user-notification.left-menu__friends:hover, .left-menu__friends.left-menu__friends_offline:hover,div.notifications__comments:hover, div.community__moders:hover, div.community__members:hover, div.blog__read-me:hover,div.blog__iread:hover, div.blog__last-comments:hover {
+    box-shadow: unset;
+    transition: unset!important;
+    min-width: unset!important;
+}
+    .left-menu > div.mobile_open_menu > h3 {
+  color: #42466e!important;
+        text-shadow: 0 0 #aa5454;
+background: linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+}
+    .left-menu > div.mobile_open_menu {
+        align-self: center;
+    }
+div.left-menu {
+        margin: 25px 10px 35px 20px;
+    z-index: 0;
+}
+ div.blog__about {
+        align-self: center;
+        margin-left: 5px;
+        margin-bottom: 20px;
+    }
+.content, .shadow-sm, div.crumbs {
+    margin-right: 0% !important;
+}
+.content {
+    margin-top: unset;
+}
+.post-content, .comment-content {
+    margin: 60px 10px 40px 10px !important;
+}
+div.crumbs {
+    margin: 10px 0px 0px 0px !important;
+}
+div.blog__about:hover {
+position: relative;
+width: inherit;
+background: url(https://glen-themes.gitlab.io/abt-pages/15/imgs/bg_pattern.png);
+    box-shadow: var(--Pixel-border);
+    border-right: calc(var(--TextBox-Border-Size)* 2) solid var(--TextBox-Border-Shadow);
+    border-top: calc(var(--TextBox-Border-Size)* 2) solid var(--TextBox-Border-Shadow);
+    background-clip: padding-box;
+}
+.post-title, h1 {
+font-size: 10px;
+padding: 4px!important;
+min-width: 100px;
+}
+span.comments_count a {
+        font-size: 0.5rem;
+    }
+
+.post-avatar > a > img {
+    max-width: 70px;
+    object-fit: cover;
+}
+    [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before {
+        position: fixed;
+        bottom: 60%;
+        left: 0px;
+        width: 40px;
+        content: "↑ ";
+        color: #e9e4ff !important;
+        font-size: 40px !important;
+    }
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]{
+   fonr-size: 0px; 
+bottom: 60%;
+        left: 0px;
+}
+		a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+			z-index: 3;
+position: fixed;			  
+        left: 0;
+        font-size: 0px;
+        bottom: 30%;
+		}
+		  a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before{
+    content: "↓"!important;
+    text-shadow: 1px 1px 2px #ffffff, 0 0 1px black, 0 0 0.2px white;
+    color: #e9e4ff !important;
+    font-size: 40px;
+z-index: 3;
+position: fixed;			  
+        left: 0;
+        bottom: 30%;			  
+}
+
+.textareabg {
+    margin: 0px 10px 5px 10px !important;
+}
+.textareabg  .fas, .textareabg span{
+        font-size: 0.8rem;
+}
+
+nav.navbar {
+    margin: 0.5% 0% 0px 0px !important;
+}
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: var(--Text-Colors) !important;
+    transition-duration: .25s;
+}
+.menu__btn {
+    z-index: 200;
+}
+.menu__box {
+    border-image-slice: 35 42 27 38 fill;
+    border-image-width: 35px 42px 27px 38px;
+    border-image-repeat: round stretch;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/83/1267583/image.psd-30.png);
+    border-style: solid;
+    z-index: 100;
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 40px 0;
+    list-style: none;
+    background-color: #eceff100;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    transition-duration: .25s;
+}
+.bodybg {
+    background-size: auto, 40%, 40% 100%;
+}
+
+.post-content [href$="/unsubscribe"], #app > main > div.content > div.post-content.post-page > div:nth-child(3) > div > a{
+    font-size: 7px;
+}
+}

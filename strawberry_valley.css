@@ -527,9 +527,11 @@ background: url(https://i1.beon.fun/55/16/1655/51/1267251/image.psd.png), url(ht
     background-size: 40px 65px, 40px 65px, auto;
 }
 .comment-content {
-background: url(https://i1.beon.fun/55/16/1655/70/1110570/image-17.png), url(https://glen-themes.gitlab.io/abt-pages/15/imgs/bg_pattern.png);
-background-repeat:  no-repeat, repeat;
-        background-position: top right, center center;}
+background:  url(https://i1.beon.fun/55/16/1655/51/1267251/image.psd.png), url(https://i1.beon.fun/55/16/1655/91/1116891/output-onlinepngtools-1.png);
+background-position: top right, center center;
+    background-repeat: no-repeat, repeat;
+background-size:  40px 65px, auto;
+}
 div#commentpreviewplace
 {
     font-family: Nunito, sans-serif;

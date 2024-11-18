@@ -19,8 +19,19 @@ ul {
 }
 body {
     cursor: url(https://glen-themes.gitlab.io/abt-pages/15/imgs/Stardew-Valley-Cursor.png), auto;
+	   animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
-* { }
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 .bodybg {
 background-image: url(https://i1.beon.fun/55/16/1655/40/1111440/orange.png), 

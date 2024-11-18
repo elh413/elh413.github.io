@@ -846,6 +846,7 @@ span.comments_count a {
 			z-index: 3;
 position: fixed;			  
         left: 0;
+        font-size: 0px;
         bottom: 30%;
 		}
 		  a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before{

@@ -851,6 +851,7 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none{
     color: #f5eadb !important;
     font-size: 40px;
 z-index: 3;
+position: fixed;			  
         left: 0;
         bottom: 30%;			  
 }

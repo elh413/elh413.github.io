@@ -863,6 +863,8 @@ span.comments_count a {
     }
 [style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]{
    fonr-size: 0px; 
+	bottom: 60%;
+        left: 0px;
 }
 		a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
 			z-index: 3;

@@ -555,6 +555,8 @@ font-size: 12px;
         font-family: 'Press Start 2P';
         padding: 3% !important;
         margin: 0px 60px 5px 60px !important;
+	    font-size: 10px;
+
 }
 .textarea-wrapper > textarea {
     font-family: 'Nunito';
@@ -675,9 +677,16 @@ content: url(https://i1.beon.fun/55/16/1655/5/596705/image-2.png);
                height: 15px;
 }
 a[href^="javascript:void(0);"]:not(.emj-dropdown-content a){ 
-width: 15px;
+width: 25px;
 display: inline-flex;
-height: 15px;}
+height: 25px;}
+[src*="//beon.fun/i/smiles"]{
+    transform: scale(0.5);
+}
+.textareabg span {
+    font-size: 12px;
+}
+
 [src="//beon.fun/i/smiles/smile.png"] {
 content: url(https://stardewvalleywiki.com/mediawiki/images/thumb/a/ad/Emojis000.png/36px-Emojis000.png);
 }

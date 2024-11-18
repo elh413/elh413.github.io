@@ -842,9 +842,6 @@ span.comments_count a {
 [style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]{
    fonr-size: 0px; 
 }
-a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none{
- font-size: 0px;
-}
 		  a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before{
     content: "↓"!important;
     text-shadow: 1px 1px 2px #ffffff, 0 0 1px black, 0 0 0.2px white;
@@ -861,13 +858,18 @@ position: fixed;
 .textareabg  .fas, .textareabg span{
         font-size: 0.8rem;
 }
+		a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none, [onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+			position: fixed;
+    bottom: 60%;
+			font-size: 0px;
+        left:0px;
+		}
 [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before {
 position: fixed;
     bottom: 60%;
         left:0px;
-width: 40px;
-	
-	 content: "↑ ";
+width: 40px;	
+ content: "↑ ";
 	    color: #f5eadb;
         font-size: 40px !important;
         

@@ -829,23 +829,23 @@ span.comments_count a {
     object-fit: cover;
 }
 [style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"], a.my-menu.for-mobile.d-none.d-md-inline {
-    background: url(https://stardewvalleywiki.com/mediawiki/images/b/b2/Animals_Icon.png) no-repeat center / contain;
     position: fixed;
     bottom: 5px;
         left:0px;
 width: 40px;
-        font-size: 0px !important;
+	 content: "↑ ";
+	    color: #f5eadb;
+        font-size: 40px !important;
         height: 60px;
 }
 a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none{
-background: url(https://stardewvalleywiki.com/mediawiki/images/d/db/Starfruit.png) no-repeat center / 30px;
-        width: 45px;
-        height: 45px;
-        position: fixed;
-        left:0px;
-        top: 10px;
-        font-size: 0;
-        z-index: 3;
+ font-size: 0px;
+}
+		  a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before{
+    content: "↓"!important;
+    text-shadow: 1px 1px 2px #ffffff, 0 0 1px black, 0 0 0.2px white;
+    color: #f5eadb !important;
+    font-size: 40px;
 }
 .textareabg {
     margin: 0px 10px 5px 10px !important;

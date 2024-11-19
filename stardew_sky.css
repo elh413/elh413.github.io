@@ -577,6 +577,7 @@ img.flag {
 .post-avatar {
     display: table;
     width: 1px;
+	    margin-bottom: auto;
     float: left;
     margin-right: 5px;
     min-width: 30px;

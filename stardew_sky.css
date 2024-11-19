@@ -483,7 +483,17 @@ img.flag {
     vertical-align: baseline;
     margin-left: 5px;
 }
-
+.post-avatar {
+    display: table;
+    width: 1px;
+    float: left;
+    margin-right: 5px;
+    min-width: 30px;
+    background-image: linear-gradient(to top, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+    background-size: 160px 150px;
+    padding: 5px;
+    box-shadow: var(--Box-Shadow);
+}
 /*post-content-comment*/
 
 .post-title-user

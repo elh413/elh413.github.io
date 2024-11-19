@@ -332,6 +332,29 @@ z-index: 999;
 display: block;
 transition: max-height 0.5s ease-in;
 }
+ div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu) {
+max-height: 70px;
+    width: 70px;
+    overflow: hidden;
+    display: block;
+    transition: max-height 0.5s ease-in;
+}
+ div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu):hover{
+height: auto;
+    max-height: 500px!important;
+min-width: 400px!important;
+    box-shadow: var(--Pixel-border);
+    z-index: 1;
+    background-image: linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+    overflow: visible;
+display: block;
+z-index: 999;
+display: block;
+transition: max-height 0.5s ease-in;
+}
+div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu) > h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/1/15/Calendar.png), linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+}
 div.blog__about {
        order: -1;
 position: fixed;
@@ -945,5 +968,17 @@ nav.navbar {
 
 .post-content [href$="/unsubscribe"], #app > main > div.content > div.post-content.post-page > div:nth-child(3) > div > a{
     font-size: 7px;
+}
+		 div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu) {
+max-height: 30px!important;
+    width: 100%!important;
+    overflow: hidden;
+    display: block;
+    transition: max-height 0.5s ease-in;
+}
+div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu):hover {
+    box-shadow: unset;
+    transition: unset!important;
+    min-width: unset!important;
 }
 }

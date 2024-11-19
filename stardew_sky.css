@@ -511,7 +511,7 @@ font-size: 9px!important;}
     span.comments_count span {
         font-family: 'Press Start 2P';
 font-size: 0 !important;
-
+filter: hue-rotate(230deg);
     }
 span.comments_count span::before {
         padding: 0.3rem;

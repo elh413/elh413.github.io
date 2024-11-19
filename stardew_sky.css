@@ -353,7 +353,7 @@ display: block;
 transition: max-height 0.5s ease-in;
 }
 div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu) > h3 {
-background-image: url(https://stardewvalleywiki.com/mediawiki/images/1/15/Calendar.png), linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/thumb/1/15/Gray_Sleeping_Junimo.png/48px-Gray_Sleeping_Junimo.png), linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
 }
 div.blog__about {
        order: -1;

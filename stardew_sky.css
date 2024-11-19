@@ -486,6 +486,69 @@ font-size: 6px !important;
     white-space: nowrap;
     color: var(--Text-Colors);
 }
+
+/*------MainPage-----*/
+div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu):nth-child(1) > h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/c/c4/Iridium_Bar.png), linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+}
+div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu):nth-child(2) > h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/4/4b/Purple_Mushroom.png), linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+}
+
+ div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu):nth-child(3) > h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/6/63/Abigail_Icon.png), linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+}
+
+ div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu):nth-child(5) > h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/2/2f/Crocus.png), linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+}
+ div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu):nth-child(6) > h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/c/cf/Quartz.png), linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+}
+ div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu):nth-child(7) > h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/2/2e/Amethyst.png), linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+}
+div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu):nth-child(8) > h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/8/8f/Eggplant.png), linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+}
+div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu):nth-child(9) > h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/1/10/Krobus_Icon.png), linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+}
+div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu):nth-child(10) > h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/6/69/Wine.png), linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+}
+div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu):nth-child(11) > h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/9/96/Challenge_Bait.png), linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+}
+div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu):nth-child(12) > h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/f/fc/Fairy_Dust.png), linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+}
+div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu):nth-child(13) > h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/0/06/Treasure_Totem.png), linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+}
+div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu):nth-child(14) > h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/1/1e/Ancient_Drum.png), linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+}
+div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu):nth-child(15) > h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/thumb/3/3f/Small_Crystal.png/36px-Small_Crystal.png), linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+}
+div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu):nth-child(16) > h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/7/78/Qi_Gem.png), linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+  margin-top: 0px!important;
+}
+div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu):nth-child(17) > h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/7/7e/Fireworks_%28Purple%29.png), linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+  margin-top: 0px!important;
+  margin-top: 0px!important;
+}
+div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu):nth-child(18) > h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/thumb/b/bb/Purple_Sleeping_Junimo.png/48px-Purple_Sleeping_Junimo.png), linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+  margin-top: 0px!important;
+}
+div.left-menu > div:not(.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments, div.blog__about, div.mobile_open_menu):nth-child(19) > h3 {
+background-image: url(https://stardewvalleywiki.com/mediawiki/images/thumb/9/9c/Fallen_Purple_Book.png/48px-Fallen_Purple_Book.png), linear-gradient(to bottom, var(--TextBox-Background-Gradient-1), var(--TextBox-Background-Gradient-2)) !important;
+  margin-top: 0px!important;
+}
 /*--------------------content--------------------*/
 .content, .shadow-sm, div.crumbs{
     margin-right: 20%!important;
@@ -878,7 +941,7 @@ background: url(https://i1.beon.fun/55/16/1655/85/1267585/image.psd-31.png);
     background-clip: padding-box;
 }
 .post-title, h1 {
-font-size: 10px;
+font-size: 8px;
 padding: 4px!important;
 min-width: 100px;
 }

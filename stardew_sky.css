@@ -84,6 +84,11 @@ font-family: 'Press Start 2P';
     font-size: 7px;
     color: var(--Text-Colors);
 }
+span[style="font-size: 0.7em;"] {
+    font-size: 11px;
+font-family: unset;
+color:black;
+}
 .post-title-date {
     font-size: 6px;
     color: var(--Text-Colors);

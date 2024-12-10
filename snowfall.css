@@ -339,7 +339,9 @@ margin-right: 10px;
         filter: drop-shadow(2px -3px 1px #a2cfe7);
 }
 div.post-text.comment-text {
-border: unset;}
+border: unset;
+	filter: unset;
+}
 .mt-3 {
     margin-top: 5rem !important;
 }

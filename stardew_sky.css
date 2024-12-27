@@ -685,6 +685,10 @@ font-size: 12px;
 font-size: 10px;
 color: #42466e;
 }
+a.messageform__taglink.tag, span.cur-p
+{
+color: #e9e4ff;
+}
 .textareabg span {
     font-size: 12px;
 }

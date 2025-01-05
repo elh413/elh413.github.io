@@ -326,6 +326,10 @@ div.crumbs {
     background-image: radial-gradient(#77777729 1px, transparent 0), linear-gradient(0deg, #3e689145 30%, #3e68912b 60%, transparent 90%) !important;
     background-size: 5px 5px, auto !important;
     background-position: -13px -3px !important;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	
 }
 main.py-4:before {
     content: "";

@@ -184,7 +184,7 @@ background: #000000;
 /*--------------------top-menu--------------------*/
 .shadow-sm  {
 border-bottom: solid #0e3d62 1px;
-background-image: radial-gradient(#77777729 1px, transparent 0), linear-gradient(180deg, #3e68915c 30%, #3e68914f 60%, transparent 90%)!important;
+background-image: radial-gradient(#77777729 1px, transparent 0), linear-gradient(180deg, #3e689145 30%, #3e68912b 60%, transparent 90%) !important;
 }
 .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
     background-color: #5994ce;
@@ -321,9 +321,11 @@ div.crumbs {
 
 /*--------------------.py-4--------------------*/
 .py-4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    background-image: radial-gradient(#77777729 1px, transparent 0), linear-gradient(0deg, #3e689145 30%, #3e68912b 60%, transparent 90%) !important;
+    background-size: 5px 5px, auto !important;
+    background-position: -13px -3px !important;
 }
 main.py-4:before {
     content: "";

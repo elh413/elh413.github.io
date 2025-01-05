@@ -958,7 +958,9 @@ display: none!important;
     width: 100%;
 margin-top: unset;}
 #menu__toggle:checked ~ .menu__box {
-    padding-top: 80px;}
+    padding-top: 80px;
+height: fit-content;
+}
 .hamburger-menu {
     opacity: 1;
 }

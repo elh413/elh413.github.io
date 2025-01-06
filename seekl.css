@@ -350,6 +350,10 @@ content: url(https://i1.beon.fun/55/16/1655/9/1316909/ezgif-4-94c05ed399.gif);
 color: black;
 font-size: 0px;
 }
+.left-menu-text {
+    padding-left: 10px;
+    text-align: center;
+}
 .left-menu a,  .blog__tags a {
 font-size: 12px;
 color: #613ABF!important;}

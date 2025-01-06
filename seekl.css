@@ -203,18 +203,18 @@ background-image: radial-gradient(#77777729 1px, transparent 0), linear-gradient
     position: absolute;
 left: calc(50% + 5rem);
     opacity: 0.7;
-    top: 35px;
+    top: 37px;
     z-index: 999;
 }
  .hamburger-menu:hover {
 opacity: 1;
 }
 .navbar-light .navbar-brand {
-color: rgb(245 237 0);
+   color: rgb(245 237 0);
     z-index: 9999;
     font-size: 0px;
     opacity: 0.7;
-    top: 90px;
+    top: 91px;
     left: 50%;
     position: absolute;
 }
@@ -230,6 +230,7 @@ color: rgb(245 237 0);
     border-style: solid;
     content: url(https://i1.beon.fun/55/16/1655/96/1316896/Bez-nazvaniya-13.png);
     display: block;
+	padding-top: 1px;
 }
 .navbar-light .navbar-brand:hover, .navbar-brand:hover {
 opacity: 1;

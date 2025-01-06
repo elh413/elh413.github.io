@@ -188,7 +188,7 @@ background-image: radial-gradient(#77777729 1px, transparent 0), linear-gradient
 .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
     background-color: #613ABF;
     height: 2px;
-    width: 30px;
+    width: 23px;
 }
 .menu__btn > span::after {
     content: '';

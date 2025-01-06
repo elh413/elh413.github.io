@@ -357,7 +357,10 @@ font-size: 0px;
 .left-menu a,  .blog__tags a {
 font-size: 12px;
 color: #5994ce!important;}
-
+.left-menu-text {
+    padding-left: 10px;
+    text-align: center;
+}
 
 .left-menu__gift a{
 font-size: 8px !important;}

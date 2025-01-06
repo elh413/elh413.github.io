@@ -188,7 +188,7 @@ background-image: radial-gradient(#77777729 1px, transparent 0), linear-gradient
 .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
     background-color: #613ABF;
     height: 2px;
-    width: 23px;
+    width: 25px;
 }
 .menu__btn > span::after {
     content: '';
@@ -201,7 +201,7 @@ background-image: radial-gradient(#77777729 1px, transparent 0), linear-gradient
 .hamburger-menu {
     display: block;
     position: absolute;
-left: calc(50% + 77px);
+left: calc(50% + 5rem);
     opacity: 0.7;
     top: 35px;
     z-index: 999;

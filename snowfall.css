@@ -229,7 +229,7 @@ div.crumbs {
 }
 /*--------------------.py-4--------------------*/
 /*--------------------left-menu--------------------*/
-.blog__gifts, .blog__tags, .left-menu__user-notification, .left-menu__friends_offline, div.left-menu__user-notification, .left-menu__friends, .left-menu__friends.left-menu__friends_offline, div.left-menu__user-notification.left-menu__unread-message, div.notifications__comments, div.community__moders, div.community__members, div.blog__read-me, div.blog__iread, div.blog__last-comments {
+.left-menu > div:not(div.blog__about) {
     margin-top: 20px;
     border-image-slice: 63 85 133 45 fill;
     border-image-width: 31px 42px 66px 22px;
@@ -243,9 +243,9 @@ max-height:70px;
 overflow: hidden;
 transition: max-height 0.5s ease-in;
 }
-.blog__gifts:hover, .blog__tags:hover, .left-menu__user-notification:hover,div.left-menu__user-notification.left-menu__unread-message:hover, .left-menu__friends:hover, .left-menu__friends_offline:hover, div.left-menu__user-notification.left-menu__friends:hover, .left-menu__friends.left-menu__friends_offline:hover,div.notifications__comments:hover, div.community__moders:hover, div.community__members:hover, div.blog__read-me:hover,div.blog__iread:hover, div.blog__last-comments:hover
-		{height: auto;
-    max-height: 500px!important;
+ .left-menu > div:not(div.blog__about):hover {
+height: auto;
+    max-height: 800px!important;
     overflow: visible;
 display: block;
 z-index: 999;
@@ -427,6 +427,18 @@ object-fit: cover;
 width: 70%;
     margin-left: auto;
 }
+.info_container,.post-content.dialog-preview {
+    background: #f6f6f6;
+}
+.info_header {
+    display: block;
+    border-bottom: 1px solid #368db9;
+    background-color: #88d7ff;
+    color: #597f8f;
+    font-weight: bold;
+    font-size: 110%;
+    clear: left;
+}
 .post-row, .comment-row {
     display: flex;
     flex-direction: row-reverse;
@@ -528,9 +540,13 @@ z-index: 999;
 display: block;
 transition: max-height 0.5s ease-in;
 }
-.left-menu > div.mobile_open_menu > h3 {       
- color: #597f8f;
-}
+.left-menu > div.mobile_open_menu > h3 {
+        font-size: 18px;
+height: 40px;
+    padding: 0px;
+    margin-top: 0px !important;
+    }
+
 .navbar-expand-md .navbar-collapse {
         filter: unset;
     display: none!important;

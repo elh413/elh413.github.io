@@ -1,0 +1,816 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap');
+
+/*--------------------Features--------------------*/
+fa[href^="//beon.fun/roleplays"], img.flag, [src="/i/logo2-deer.png"],  div.post-content.blog_total_counter, body > div.bottombg > div.footer__infolinks.p-1, .left-menu br, [src="/i/user.png"], [src="/i/online.png"], [src="/i/offline.png"], [src="/i/blog.png"], #page__admincontact, #page__rendertime, .pagination-goto, div#footer.p-1, .m2, [src="//beon.fun/i/design-off.png"], .user:before, #navbarSupportedContent > ul.navbar-nav.ml-auto > div > table > tbody > tr:nth-child(1) > td:nth-child(4) > ul > li > a:nth-child(2), #app > div:nth-child(4), h1, div.mobile_open_menu
+{
+display: none!important;
+}
+[src^="https://music.yandex.ru/iframe/#track/"] {
+height: 50px !important; 
+width: 100% !important;
+max-width: 350px !important; 
+}
+.header_header__Rdmtp:after {
+    background: linear-gradient(180deg, #cb7275 100%, #fde1e0)!important;
+    opacity: 1!important;
+}
+.header_header__Rdmtp {
+        background: pink !important;
+    }
+* {
+outline: 0;
+text-decoration: unset!important;
+}
+span.imagewrapper, span.embed-responsive.embed-responsive-16by9 {
+    background: linear-gradient(#fecac9, #fdefee, #fecac9);
+    filter: blur(0.3px);
+}
+
+.imagefsme:not(.user *):not(.blog *):not(.link-container *),.embed-responsive iframe{
+    filter: opacity(0.6);
+    padding: 0 !important;
+}
+
+a, span {
+transition: all 0.2s ease-in;   
+    text-decoration: unset;
+    color: #cb7275;}
+.fa-heart:before, a[href^="//beon.fun/repost/comment/"]::before,a[href^="//beon.fun/repost/comment/"]::before, a[href^="//beon.fun/repost/comment/"]::before{
+ font-size: 0.8rem!important;
+    padding: 0rem!important;
+}
+a:hover {
+font-weight: bolder;
+    text-decoration: unset;
+color: #776666;
+transition: max-height 0.5s ease-in;
+}
+.avatars-fullscreen-link-wrapper {
+background: linear-gradient(#fecbcd, #fefaf096);
+    }
+input[type="submit"], html [type=button]:not(.btn) {
+    margin: 5px;
+    font-family: inherit;
+    border: outset #3d2625 1px;
+    color: #3d2625;
+    background-color: #f8aea8 !important;
+    font-size: 12px;
+    font-weight: bolder;
+}
+input[type="text"] {
+margin: 0;
+    font-family: inherit;
+    border: solid #3d2625 1px;
+    color: #3d2625;
+    width: 60%;
+    font-size: 12px;
+    background: linear-gradient(#fecbcd, #fefaf096);
+} 
+
+input[type="submit"]:hover{ 
+transform: translateY(1px) !important;
+text-decoration: unset!important;
+    color: #3d2625;
+    background: linear-gradient(#fecbcd, #fefaf096);
+}
+.btn:not(:disabled):not(.disabled) {
+    color: #fff;
+    background-color: #3d2625;
+    border-color: #3d2625;
+}
+ .btn:not(:disabled):not(.disabled):hover{
+    background: linear-gradient(#fecbcd, #fefaf096);
+}
+.textareabg {
+    border-image-slice: 45 160 10 15 fill;
+    border-image-width: 45px 160px 10px 15px;
+    border-image-outset: 0px 0px 0px 0px;
+    padding: 20px 15px 0px 10px;
+    border-image-repeat: stretch stretch;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/15/1333815/image.psd-11-1.png);
+    border-style: solid;
+    padding: 35px 20px 15px 25px !important;
+background-color: transparent;
+}
+.textarea-wrapper > textarea, select, select > * {
+
+    background: #fee4e3;
+}
+
+.custom-file-label, .custom-file-label:after {
+    background: #fee4e3;
+    color: #3d2625 !important;
+}
+select > *:focus{ 
+background: #fff!important;
+}
+.sign {
+    font-size: 9px;
+    margin-top: 5px;
+color: #cb7275;
+}
+
+.post-avatar > a > img {
+    max-height: 100px;
+    min-width: 100px;
+    object-fit: cover;
+}
+
+.post-avatar a:before {
+    content: "";
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background-image: url(https://i1.beon.fun/55/16/1655/44/1329544/frame.png), url(https://i1.beon.fun/55/16/1655/27/1334327/43ac61da-fb58-4a9b-8e01-be32902fdde9.png);
+    background-size: cover;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+ div.post-content.post-page > div:nth-child(3) {
+margin-bottom: 15px;
+}
+.post-header, .post-header {
+    margin-bottom: 10px;
+    border-image-slice: 45 160 10 15 fill;
+    border-image-width: 45px 160px 10px 15px;
+    border-image-outset: 0px 0px 0px 0px;
+    padding: 20px 15px 0px 10px;
+    border-image-repeat: stretch stretch;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/45/1334745/image.psd-97.png);
+    border-style: solid;
+}
+.avatar-select-label-selected {
+    border: 4px solid #3d2625;
+}
+.quotation {
+    border-left: 3px solid #3d2625;
+}
+::selection{
+background: #3d2625 !important;
+color: white;
+}
+::-webkit-scrollbar
+		{
+			width: 10px;
+			height: 10px;
+
+		}
+		::-webkit-scrollbar-thumb
+		{
+			background:#f8aea8 !important;
+		}
+		::-webkit-scrollbar-track
+		{
+margin: 1%;
+			background: linear-gradient(#fecbcd, #fefaf096);
+			background-clip: content-box;
+		}
+
+a.my-menu.for-mobile.d-none.d-md-inline {
+        font-size: 0px !important;
+        background: url(https://i1.beon.fun/55/16/1655/41/1289041/Bez-nazvaniya-9.png),#ea9088;
+        width: 30px;
+        height: 30px;
+        transform: rotate(180deg);
+        background-size: 22px, auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50%;
+margin-top: 50px;
+    }
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]{
+   font-size: 0px; 
+background: url(https://i1.beon.fun/55/16/1655/41/1289041/Bez-nazvaniya-9.png), #ea9088;
+        width: 30px;
+        height: 30px;
+        background-size: 22px, auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50%;
+        left: 1%;
+        position: absolute;
+}
+
+/*--------------------BG--------------------*/
+body {
+font-family: 'Anonymous Pro' !important;
+    background:url(https://i1.beon.fun/55/16/1655/96/1333996/image.psd-92.png), linear-gradient(45deg, #eec3c2, transparent, #eec3c2);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 35%, 100%;
+    color: #351d1c;
+    background-position: bottom left -5%;
+    background-color: #fee4e3;
+scroll-behavior: smooth;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+div#app {
+width: 100%;
+height: 100%;
+background-image: url(https://i1.beon.fun/55/16/1655/93/1333993/image.psd-91.png);
+background-size: 50%;
+animation: SAKURA 105s linear infinite;
+}
+@keyframes SAKURA {
+0% { background-position: 0 0, 0 0, 0 0; }
+100% { background-position: 500px 1000px, 400px 400px, 300px 300px; }
+}
+}
+@keyframes animatedBackground{
+0% {
+    background-position: 0 0;
+}
+
+100% {
+    background-position: 0px 100%;
+}
+}
+
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/*--------------------top-menu--------------------*/
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    background: url(https://i1.beon.fun/55/16/1655/46/1334746/brand.png);
+    background-repeat: no-repeat;
+    width: 117px;
+    height: 101px;
+    color: #3d2625 !important;
+    font-family: cursive;
+    padding: 40px 14px 10px 13px;
+    background-size: 117px 101px;
+
+}
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgb(0 0 0 / 0%) !important;
+}
+
+.bg-white {
+    background-color: #ffffff00;
+}
+.ml-auto {
+margin-left: unset!important;
+margin-right: auto;
+}
+.pc-menu a {
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #351d1c !important;
+}
+.pc-menu {
+    line-height: 0.85;
+    border-image-slice: 90 140 70 95 fill;
+    border-image-width: 90px 140px 70px 95px;
+    padding: 30px 75px 5px 40px;
+    border-image-repeat: round round;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/47/1334747/pcmenu.png);
+    border-style: solid;
+}
+::marker {
+color:transparent;
+}
+
+/*--------------------Crumbs--------------------*/
+div.crumbs {
+    margin-top: 10px;
+    background: #fee4e35e;
+    padding-bottom: 5px;
+    border: inset 2px #220e0c;
+}
+.datebg {
+    color: #cb7275;
+}
+.post-row, .comment-row  {
+       background: #fee4e3f2;
+    background-image: linear-gradient(to bottom, #3d262529 1px, #fee4e300 1px);
+    background-size: 1px 21px;
+    padding: 15px;
+    border: solid 3px #3d2625;
+}
+/*--------------------.py-4--------------------*/
+/*--------------------left-menu--------------------*/
+.left-menu {
+display: grid;
+ grid-template-columns: repeat(3, minmax(100px, auto));
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 0px;
+    border: unset !important;
+    min-width: 160px;
+width: auto;
+    position: absolute;
+    overflow-x: inherit;
+    z-index: 9999;
+    margin-top: 60px;
+
+}
+.left-menu > div {
+    margin-bottom: 40px;
+    border-image-slice: 16 125 132 180 fill;
+    border-image-width: 10px 83px 88px 120px;
+    border-image-outset: 0px 0px 30px 0px;
+    border-image-repeat: round round;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/14/1329914/4f0fc80f-48f1-4a66-a4ff-997725976970_removalai_preview.png);
+    border-style: solid;
+    height: 100px;
+    overflow: hidden;
+    display: table-caption;
+width: 160px;
+    padding-bottom: 40px;
+transition:width .15s linear .15s, height .15s linear .15s;
+}
+ .left-menu > div:hover {
+height: auto;
+    max-height: fit-content!important;
+    overflow: visible;
+   max-width: 400px;
+    max-height: none;
+    width: 100%;
+    height: 100%;
+display: block;
+z-index: 999;
+transition:width .15s linear .15s, height .15s linear .15s;
+}
+
+.left-menu-text:not(div > h3) {
+padding: 0px 20px 5px 20px!important;
+color: #351d1c;
+}
+ .left-menu a{
+ padding: 0px 15px 5px 15px !important;
+max-width: 400px;
+word-break: break-all;
+color: #f0847b;
+    font-size: 1rem;
+}
+
+.left-menu h3 {
+color: #cb7275;
+    border-image-slice: 125 145 30 120 fill;
+    border-image-width: 83px 96px 0px 80px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: stretch stretch;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/72/1331772/image.psd.png);
+    border-style: solid;
+    padding: 45px 0px 20px 10px;
+    text-align-last: center;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: transparent !important;
+}
+
+div.blog__about > h3 {
+color: #521814;
+    padding-bottom: 30px;
+    filter:     filter: sepia(0.1) contrast(1.3);
+}
+
+div.community__moders > h3,  div.left-menu__user-notification.left-menu__unread-message > h3,  #app > main > div.left-menu > div.notifications__comments.left-menu__user-notification > h3,#app > main > div.left-menu > div.left-menu__user-notification.left-menu__unread-notifications > h3, #app > main > div.left-menu > div.community__members > h3, #app > main > div.left-menu > div.left-menu__user-notification.left-menu__friends > h3, #app > main > div.left-menu > div.blog__read-me > h3, #app > main > div.left-menu > div.blog__tags > h3, #app > main > div.left-menu > div.blog__last-comments > h3, #app > main > div.left-menu > div.notifications__comments > h3,  div.blog__gifts > h3 {
+font-size:0px!important;
+} 
+ div.left-menu__user-notification.left-menu__unread-message,  #app > main > div.left-menu > div.notifications__comments.left-menu__user-notification,#app > main > div.left-menu > div.left-menu__user-notification.left-menu__unread-notifications, #app > main > div.left-menu > div.notifications__comments{
+order: 20;
+filter:saturate(1.1) sepia(0.1) contrast(1.1);
+}
+
+div.left-menu__user-notification.left-menu__unread-message > p
+{
+padding: 10px;
+}
+div.community__moders > h3:before{
+content: 'Модераторы';
+font-size:16px!important;
+}
+div.left-menu__user-notification.left-menu__unread-message > h3:before{
+content:'Сообщения';
+font-size:16px!important;
+}
+ #app > main > div.left-menu > div.notifications__comments > h3:before {
+content:'Комментарии';
+font-size:16px!important;
+}
+#app > main > div.left-menu > div.left-menu__user-notification.left-menu__unread-notifications > h3:before {
+content:'Отметки';
+font-size:16px!important;
+}
+ #app > main > div.left-menu > div.community__members > h3:before {
+content:'Участники';
+font-size:16px!important;
+}
+#app > main > div.left-menu > div.left-menu__user-notification.left-menu__friends > h3:before {
+content:'Друзья';
+font-size:16px!important;
+}
+#app > main > div.left-menu > div.blog__read-me > h3:before {
+content:'Читают';
+font-size:16px!important;
+}
+#app > main > div.left-menu > div.blog__tags > h3:before {
+content:'Категории';
+font-size:16px!important;
+}
+#app > main > div.left-menu > div.blog__last-comments > h3:before {
+content:'Последнее';
+font-size:16px!important;
+}
+
+div.blog__gifts > h3:before  {
+content:'Подарки';
+font-size:16px!important;
+}
+/*player*/
+#fnplayer-volume-mask {
+    border-color: #fee4e300 transparent transparent transparent;
+}
+#fnplayer-play {
+    border-color: transparent transparent transparent #f8aea8;
+}
+
+#fnplayer-stop {
+    background: #f8aea8;
+}
+#beon-fnplayer {
+    width: 90%;
+    background-color: #fee4e3;
+    margin: 3%;
+}
+#fnplayer-volume-inner {
+    background-color: #f8aea8;
+    border: 1px solid #f8aea8;
+}
+#fnplayer-slider {
+    background-color: #f8aea8;
+}
+#fnplayer-slider-inner {
+    background-color: #fee4e3;
+}
+#fnplayer-slider span {
+font-size: 6px !important;
+    white-space: nowrap;
+    color: #fee4e3;
+}
+
+
+.mw-100 {
+    max-width: 100% !important;
+    border-radius: 0.35rem;
+    border: inset 1px #f8aea8;
+}
+/*--------------------content--------------------*/
+
+.post-text, .comment-text, .comment-base {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+.mt-3 {
+    margin-top: 5rem !important;
+}
+[href$="/edit"]::before{
+content: "✎";
+    text-decoration: unset;
+    font-size: 15px !important;
+    font-weight: bolder;
+    color: #351d1c;
+}
+a[href^="//beon.fun/repost/post/"]::before, a[href^="//beon.fun/repost/topic/"]::before, a[href^="//beon.fun/repost/comment/"]::before{
+    content: "\f079";
+font-family: 'Font Awesome 5 Free'!important;
+    font-size: 15px !important;
+    font-weight: 900;
+color: #351d1c;
+}
+span[data-target="#deleteconfirmmodal"]::before{
+content: "\f2ed";
+    font-size: 14px !important;
+font-family: 'Font Awesome 5 Free'!important;
+    font-weight: 900;
+ color: #351d1c;
+}
+span[data-target="#deleteconfirmmodal"]::before,   [onclick="deleteComment(this)"]:before{
+content: "\f2ed";
+font-family: 'Font Awesome 5 Free'!important;
+     color: #351d1c !important;
+}
+[href$="/edit"], a[href^="//beon.fun/repost/post/"], a[href^="//beon.fun/repost/topic/"], a[href^="//beon.fun/repost/comment/"], span[data-target="#deleteconfirmmodal"], [onclick="deleteComment(this)"], .fa-trash-alt:before{  
+font-size: 0px!important;
+}
+.fa-heart:before, [href$="/edit"]::before, a[href^="//beon.fun/repost/post/"]::before, a[href^="//beon.fun/repost/topic/"]::before, a[href^="//beon.fun/repost/comment/"]::before, span[data-target="#deleteconfirmmodal"]::before, .fa-retweet:before, .fa-bookmark:before, .fa-exclamation-triangle:before, .fa-quote-left:before, .fa-step-forward:before, .fa-step-backward:before, [onclick="deleteComment(this)"]:before {
+font-size: 12px !important;
+}
+.post-content, .comment-content {
+    min-height: 200px;
+    margin: 5% 10px 5% !important;
+}
+a[href^="/design/disable"] {
+    font-size: 0px !important;
+    position: absolute;
+    top: -60px;
+    border-image-slice: 0 0 0 0 fill;
+    border-image-width: 0px 0px 0px 0px;
+    border-image-outset: 20px 35px 15px 25px;
+    border-image-repeat: stretch stretch;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/20/1332520/20df9d81-7b12-49f3-9148-387a368854d1_removalai_preview-1-1.png);
+    border-style: solid;
+}
+a[href^="/design/disable"]:before {
+content: "Отключить Дизайн";
+    font-size: 18px !important;
+    color: #3d2625;
+    font-weight: bolder;
+
+}
+.post-title, h1,.post-title-user,div.post-header > span, .left-menu a, .left-menu text, .left-menu span, .blog__tags a,     span.comments_count span::before {
+    font-size: 0.9rem;
+    text-decoration: unset;
+
+}
+.content {
+    margin-left: auto;
+max-width:calc(100% - 500px);
+}
+
+.user-drop-menu {
+    margin-left: unset;
+    margin-right: unset;
+}
+.modal-content {
+    background: #fee4e3;
+    background-image: linear-gradient(to bottom, #3d262529 1px, #fee4e300 1px);
+    background-size: 1px 21px;
+    padding: 15px;
+    border: solid 3px #3d2625;
+}
+ div.post-header > a.post-title:after {
+        content: "❀";
+        padding-left: 5px;
+        color: #cb7275;
+        font-size: 14px;
+}
+
+.tag:before {
+content: "❀༉";
+    font-weight: bolder;
+    padding-left: 5px;
+    color: #cb7275;
+    font-size: 9px;
+    text-shadow: 0px 1px #fce0e0;
+}
+/*--------------------Mobile--------------------*/
+@media (max-width: 700px) {
+ .shadow-sm,  .left-menu, .content, .modal-content{
+        width: 100% !important;
+        margin: 0 !important;
+max-width: 100%;
+    }
+    body {
+    background-size: 130%, 130%;
+        background-position: bottom left 30%;
+    }
+.post-avatar img {
+max-height: 70px;
+min-width: 70px;
+min-height: 70px;
+object-fit: cover;
+}
+.left-menu {
+    display: flex;
+    min-width: unset;
+    position: relative;
+margin-top: 65px !important;
+    overflow-x: inherit;
+    flex-direction: column;
+    z-index: 0;
+}
+.sign {
+    font-size: 8px;
+}
+.post-avatar, .post-text, .comment-base {
+border: unset;
+padding: unset;
+filter: unset;
+}
+
+.left-menu > div{
+        background: linear-gradient(0deg, #f5e8e8, #ffebeb);
+        border: inset 2px #f8aea8;
+
+}
+ .left-menu > div > h3 {
+        border: unset;
+}
+
+ .fas, .far, .tag_bar > * {
+        font-size: 0.8rem;
+        padding: 0.25rem;
+        line-height: 30px;
+    }
+
+.fa-heart:before, [href$="/edit"]::before, a[href^="//beon.fun/repost/post/"]::before, a[href^="//beon.fun/repost/topic/"]::before, a[href^="//beon.fun/repost/comment/"]::before, span[data-target="#deleteconfirmmodal"]::before, .fa-retweet:before, .fa-bookmark:before, .fa-exclamation-triangle:before, .fa-quote-left:before, .fa-step-forward:before, .fa-step-backward:before, [onclick="deleteComment(this)"]:before,     span.comments_count span::before, span.comments_count a {
+    font-size: 12px !important;
+}
+.post-content, .comment-content {
+   margin: 20% 0px 0% !important;
+}
+.left-menu > div {
+    margin-bottom: 25px;
+    height: 40px;
+    overflow: hidden;
+margin-bottom: 0px;
+width: 100%;
+    padding-bottom: 40px;
+transition:width .15s linear .15s, height .15s linear .15s;
+}
+ .left-menu > div:hover {
+height: auto;
+    max-height: fit-content!important;
+    overflow: visible;
+    max-width: none;
+    max-height: none;
+    width: 100%;
+    height: 100%;
+display: block;
+z-index: 0;
+transition:width .15s linear .15s, height .15s linear .15s;
+}
+
+		 .left-menu > div:active
+{height: auto;
+   
+    overflow: visible;
+display: block;
+z-index: 999;
+transition: max-height 0.5s ease-in;
+}
+.left-menu h3 {
+color: #cb7275;
+padding: 5px 0px 30px 0px;
+    text-align-last: center;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: transparent !important;
+}
+.left-menu > div.mobile_open_menu > h3 {       
+ color: #351d1c;
+}
+.navbar-expand-md .navbar-collapse {
+        filter: unset;
+    display: none!important;
+}
+.postsiblings.row, #app > main > div.content > div.post-content.post-page > div:nth-child(3), .post__tags-list{
+    padding: 0px;
+    font-size: 10px;
+}
+    .d-inline {
+        left: 90%;
+        top: 25%;
+        position: fixed;
+        z-index: 10;
+font-size: 0px !important;
+    height: 30px;
+    width: 30px;
+ background: url(https://i1.beon.fun/55/16/1655/41/1289041/Bez-nazvaniya-9.png), #ea9088;
+   background-size: 32px 32px;
+    background-position: center;
+   transform: rotate(180deg);
+    border-radius: 50% !important;
+background-size: 25px, auto;
+        background-repeat: no-repeat;
+    }
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+font-size: 0px !important;
+    height: 30px;
+    width: 30px;
+       background: url(https://i1.beon.fun/55/16/1655/41/1289041/Bez-nazvaniya-9.png), #ea9088;
+    background-size: 32px 32px;
+    background-position: center;
+    border-radius: 50% !important;
+    margin-left: 20px;
+position: fixed;
+background-size: 25px, auto;
+        background-repeat: no-repeat;
+    margin-top: -30px;
+ left: 85%;
+        top: 55%;
+    }
+
+.menu__box {
+    z-index: 1;
+        background: #fee4e3;
+        background-image: linear-gradient(to bottom, #3d262529 1px, #fee4e300 1px);
+        background-size: 1px 21px;
+        padding: 15px;
+    padding: 0px 20px 35px 15px;
+    border-style: solid;
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    list-style: none;
+    transition-duration: .25s;
+}
+.menu__item {
+    color: #3d2625;
+}
+.menu__btn {
+    display: flex;
+        right: 110px;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    background: url(https://i1.beon.fun/55/16/1655/44/1334244/sakura_2346288.png);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    width: 50px;
+        filter: drop-shadow(2px 4px 3px #ea9088);
+    height: 50px;
+    background-position: center;
+    z-index: 9999;
+}
+.navbar, .navbar>.container, .navbar>.container-fluid {
+    display: flex
+;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+#menu__toggle:checked ~ .menu__btn{    
+transform: rotate(300deg);
+transition: max-height 0.5s ease-in;
+
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background-color: #61616100;
+}
+::-webkit-scrollbar
+		{
+			width: 0px;
+			height: 0px;
+
+		}
+		::-webkit-scrollbar-thumb
+		{
+			background:#f8aea8 !important;
+		}
+		::-webkit-scrollbar-track
+		{
+margin: 0%;
+			background: linear-gradient(#fecbcd, #fefaf096);
+			background-clip: content-box;
+		}
+
+div#app {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://i1.beon.fun/55/16/1655/93/1333993/image.psd-91.png);
+    background-size: 100%;
+    animation: SAKURA 105s linear infinite;
+}
+.post-title, h1,.post-title-user,div.post-header > span, .left-menu a, .left-menu text, .left-menu span, .blog__tags a,     span.comments_count span::before {
+    font-size: 0.7rem;
+    text-decoration: unset;
+}
+.post-header, .post-header {
+    padding: 5px 5px 0px 5px;
+border-image-source: url(https://i1.beon.fun/55/16/1655/15/1333815/image.psd-11-1.png);
+border-image-width: 22px 80px 5px 8px;
+}
+.post-row, .comment-row {
+    background: #fee4e3c2;
+background-image: linear-gradient(to bottom, #3d262529 1px, #fee4e300 1px);
+    background-size: 1px 21px;
+    padding: 15px;
+}
+.textareabg {
+    margin: 0 !important;
+}
+div.blog__about {
+background:#f9d8d7;
+}
+}

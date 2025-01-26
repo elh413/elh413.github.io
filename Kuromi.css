@@ -1,0 +1,851 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap');
+
+/*--------------------Features--------------------*/
+fa[href^="//beon.fun/roleplays"], img.flag, [src="/i/logo2-deer.png"],  div.post-content.blog_total_counter, body > div.bottombg > div.footer__infolinks.p-1, .left-menu br, [src="/i/user.png"], [src="/i/online.png"], [src="/i/offline.png"], [src="/i/blog.png"], #page__admincontact, #page__rendertime, .pagination-goto, div#footer.p-1, .m2, [src="//beon.fun/i/design-off.png"], .user:before, #navbarSupportedContent > ul.navbar-nav.ml-auto > div > table > tbody > tr:nth-child(1) > td:nth-child(4) > ul > li > a:nth-child(2), #app > div:nth-child(4), h1, div.mobile_open_menu
+{
+display: none!important;
+}
+[src^="https://music.yandex.ru/iframe/#track/"] {
+height: 50px !important; 
+width: 100% !important;
+max-width: 350px !important; 
+}
+.header_header__Rdmtp:after {
+    background: linear-gradient(180deg, #cb7275 100%, #fde1e0)!important;
+    opacity: 1!important;
+}
+.header_header__Rdmtp {
+        background: pink !important;
+    }
+* {
+outline: 0;
+text-decoration: unset!important;
+}
+span.imagewrapper, span.embed-responsive.embed-responsive-16by9 {
+    background: linear-gradient(#ccb4ce, #fdefee, #d5c0d8);
+    filter: blur(0.3px) drop-shadow(1px 1px 1px #f5c359d9);
+}
+
+.imagefsme:not(.user *):not(.blog *):not(.link-container *),.embed-responsive iframe{
+    filter: opacity(0.4);
+    padding: 0 !important;
+}
+
+a, span {
+transition: all 0.2s ease-in;   
+    text-decoration: unset;
+    color: #ffffff;}
+.fa-heart:before, a[href^="//beon.fun/repost/comment/"]::before,a[href^="//beon.fun/repost/comment/"]::before, a[href^="//beon.fun/repost/comment/"]::before{
+ font-size: 0.8rem!important;
+    padding: 0rem!important;
+}
+a:hover {
+font-weight: bolder;
+    text-decoration: unset;
+color: #ebcfec;
+transition: max-height 0.5s ease-in;
+}
+.avatars-fullscreen-link-wrapper {
+    background: linear-gradient(#c08bc6, #fefaf096);
+    }
+input[type="submit"], html [type=button]:not(.btn) {
+    margin: 5px;
+    font-family: inherit;
+    border: outset #3d2625 1px;
+    color: #fff;
+    background-color: #c08bc6 !important;
+    font-size: 12px;
+    font-weight: bolder;
+}
+input[type="text"] {
+margin: 0;
+    font-family: inherit;
+    border: solid #3d2625 1px;
+    color: #3d2625;
+    width: 60%;
+    font-size: 12px;
+    background: linear-gradient(#c08bc6, #fefaf096)
+} 
+
+input[type="submit"]:hover{ 
+transform: translateY(1px) !important;
+text-decoration: unset!important;
+    color: #3d2625;
+    background: linear-gradient(#c08bc6, #fefaf096);
+}
+.btn:not(:disabled):not(.disabled) {
+    color: #fff;
+    background-color: #a17ca5;
+    border-color: #3d2625;
+}
+ .btn:not(:disabled):not(.disabled):hover{
+    background:     background: linear-gradient(#a17ca5, #fefaf096);
+}
+.textareabg {
+padding: 20px 15px 0px 10px !important;
+    border-image-slice: 55 57 5 90 fill;
+    border-image-width: 36px 38px 4px 60px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: stretch stretch;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/2/1336302/HEADDER.png);
+    border-style: solid;
+    filter: drop-shadow(2px 2px 3px #f5c359d9);
+    background: transparent;
+    color: white;
+}
+.textarea-wrapper > textarea, select, select > * {
+
+    background: #d7c1d7;
+}
+
+.custom-file-label, .custom-file-label:after {
+    background: #d7c1d7;
+    color: #3d2625 !important;
+}
+select > *:focus{ 
+background: #fff!important;
+}
+.sign {
+    font-size: 9px;
+    margin-top: 5px;
+color: #5c4259;
+}
+
+.post-avatar > a > img {
+    max-height: 100px;
+    min-width: 100px;
+    object-fit: cover;
+}
+
+.post-avatar a:before {
+content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-image: url(https://i1.beon.fun/55/16/1655/50/1335750/b45e71b8-a539-4ce8-95ef-2357d82cbfcc_removalai_preview.png), linear-gradient(0deg, #a07aa473, #ddcbdf85, #a47aa978);
+    background-size: 101px 23px, 100px 105px;
+    background-position: 0px -5px, 0px 0px;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    margin-top: 0px;
+    border: solid #b07fab 3px;
+}
+ div.post-content.post-page > div:nth-child(3) {
+margin-bottom: 15px;
+}
+.post-header, .post-header {
+ margin-bottom: 10px;
+    padding: 20px 15px 0px 10px;
+    border-image-slice: 55 57 5 90 fill;
+    border-image-width: 36px 38px 4px 60px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: stretch stretch;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/2/1336302/HEADDER.png);
+    border-style: solid;
+    filter: drop-shadow(2px 2px 3px #f5c359d9);
+}
+.avatar-select-label-selected {
+    border: 4px solid #3d2625;
+}
+.quotation {
+    border-left: 3px solid #3d2625;
+}
+::selection{
+background: #5c4259 !important;
+color: white;
+}
+::-webkit-scrollbar
+		{
+			width: 10px;
+			height: 10px;
+
+		}
+		::-webkit-scrollbar-thumb
+		{
+			background:#924e99 !important;
+		}
+		::-webkit-scrollbar-track
+		{
+margin: 1%;
+			background: linear-gradient(#c08bc6, #fefaf096);
+			background-clip: content-box;
+		}
+
+a.my-menu.for-mobile.d-none.d-md-inline {
+font-size: 0px !important;
+    background: url(https://i1.beon.fun/55/16/1655/38/1337138/shooting-star_9204856.png);
+    width: 40px;
+    height: 55px;
+    transform: rotate(0deg);
+    background-size: 40px, auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: 50px;
+    filter: hue-rotate(330deg) drop-shadow(3px 3px 5px #febf55) brightness(1.1);
+    }
+a.my-menu.for-mobile.d-none.d-md-inline:hover{
+ animation: tilt-shaking ease 0.3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: infinite;
+}
+@keyframes tilt-shaking {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0eg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]{
+    font-size: 0px !important;
+    background: url(https://i1.beon.fun/55/16/1655/38/1337138/shooting-star_9204856.png);
+    width: 40px;
+    height: 55px;
+    transform: rotate(180deg);
+    background-size: 40px, auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    filter: hue-rotate(330deg) drop-shadow(3px 3px 5px #febf55) brightness(1.1);
+    margin-left: 40px;
+    left: 1%;
+    position: absolute;
+}
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:hover{
+ animation: til-shaking ease 0.3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: infinite;
+}
+@keyframes til-shaking {
+  0% { transform: rotate(180deg); }
+  25% { transform: rotate(185deg); }
+  50% { transform: rotate(180eg); }
+  75% { transform: rotate(175deg); }
+  100% { transform: rotate(180deg); }
+}
+/*--------------------BG--------------------*/
+div#app {
+    background:url(https://i1.beon.fun/55/16/1655/36/1337036/kuromia.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 35%;
+    background-position: bottom left -5%;
+ animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+scroll-behavior: smooth;
+font-family: 'Anonymous Pro' !important;
+background-image: url(https://i1.beon.fun/55/16/1655/2/1335802/starz.png), linear-gradient(0deg, #a07aa4, #ddcbdf, #a47aa9);
+background-size: 60%,100%;
+animation: SAKURA 240s linear infinite;
+}
+@keyframes SAKURA {
+0% { background-position: 500px 1000px, 0 0; }
+100% { background-position: 0 0, 0 0;}
+}
+}
+@keyframes animatedBackground{
+0% {
+    background-position: 0 0;
+}
+
+100% {
+    background-position: 0px 100%;
+}
+}
+
+
+/*--------------------top-menu--------------------*/
+.navbar-brand {
+font-size: 20px;
+    font-weight: bold;
+    background: url(https://i1.beon.fun/55/16/1655/15/1336315/navbar3.png);
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    color: #febf55 !important;
+    filter: drop-shadow(2px 2px 3px #f5c359);
+    font-family: cursive;
+    padding: 75px 20px 0px 27px;
+    background-size: 150px 150px;
+}
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgb(0 0 0 / 0%) !important;
+}
+
+.bg-white {
+    background-color: #ffffff00;
+}
+.ml-auto {
+margin-left: unset!important;
+margin-right: auto;
+}
+.pc-menu a {
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #5c4259 !important;
+}
+.pc-menu {
+border-image-slice: 85 90 160 95 fill;
+    border-image-width: 85px 90px 160px 95px;
+    border-image-outset: 10px 30px 10px 0px;
+    border-image-repeat: stretch;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/16/1336316/pcmn.png);
+    border-style: solid;
+    filter: drop-shadow(2px 2px 3px #f5c359);
+    line-height: 1.7 !important;
+}
+::marker {
+color:transparent;
+}
+
+/*--------------------Crumbs--------------------*/
+div.crumbs {
+margin-top: 10px;
+    background: #bb90c0;
+    padding-bottom: 5px;
+    border: inset 2px #220e0c;
+}
+.datebg {
+
+    font-weight: bold;
+    color: #fff !important;
+    filter: drop-shadow(2px 2px 3px #f5c359);
+}
+.post-row, .comment-row  {
+       background:#ceb6d1;
+    background-image: linear-gradient(to bottom, #3d262529 1px, #fee4e300 1px);
+    background-size: 1px 21px;
+    padding: 15px;
+    border: outset 2px #b07fab;
+}
+/*--------------------.py-4--------------------*/
+/*--------------------left-menu--------------------*/
+.left-menu {
+display: grid;
+ grid-template-columns: repeat(3, minmax(100px, auto));
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 0px;
+    border: unset !important;
+    min-width: 160px;
+width: auto;
+    position: absolute;
+    overflow-x: inherit;
+    z-index: 9999;
+    margin-top: 60px;
+
+}
+.left-menu > div {
+    margin-bottom: 40px;
+margin-bottom: 40px;
+    border-image-slice: 45 75 120 75 fill;
+    border-image-width: 30px 50px 80px 50px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: round;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/39/1335939/framep.png);
+    border-style: solid;
+    height: 100px;
+    overflow: hidden;
+    display: table-caption;
+width: 160px;
+    padding-bottom: 40px;
+transition:width .15s linear .15s, height .15s linear .15s;
+}
+ .left-menu > div:hover {
+height: auto;
+    max-height: fit-content!important;
+    overflow: visible;
+   max-width: 400px;
+    max-height: none;
+    width: 100%;
+    height: 100%;
+display: block;
+z-index: 999;
+transition:width .15s linear .15s, height .15s linear .15s;
+}
+
+.left-menu-text:not(div > h3) {
+padding: 0px 20px 5px 20px!important;
+color: #5c4259;
+}
+ .left-menu a{
+ padding: 0px 15px 5px 15px !important;
+max-width: 400px;
+word-break: break-all;
+color: #ffffff;
+    font-size: 1rem;
+}
+
+.left-menu h3 {
+color: #ffffff;
+    padding: 30px 0px 30px 0px;
+border-image-slice:46 74 0 40;
+border-image-width:30px 49px 0px 26px;
+border-image-outset:0px 0px 0px 0px;
+border-image-repeat:round round;
+border-image-source:url("https://i1.beon.fun/55/16/1655/50/1335750/b45e71b8-a539-4ce8-95ef-2357d82cbfcc_removalai_preview.png");
+border-style:solid;
+    text-align-last: center;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: transparent !important;
+    filter: drop-shadow(2px 2px 3px #f5c359);
+}
+
+div.blog__about > h3 {
+color: #521814;
+    padding-bottom: 35px;
+    filter:     filter: sepia(0.1) contrast(1.3);
+}
+
+div.community__moders > h3,  div.left-menu__user-notification.left-menu__unread-message > h3,  #app > main > div.left-menu > div.notifications__comments.left-menu__user-notification > h3,#app > main > div.left-menu > div.left-menu__user-notification.left-menu__unread-notifications > h3, #app > main > div.left-menu > div.community__members > h3, #app > main > div.left-menu > div.left-menu__user-notification.left-menu__friends > h3, #app > main > div.left-menu > div.blog__read-me > h3, #app > main > div.left-menu > div.blog__tags > h3, #app > main > div.left-menu > div.blog__last-comments > h3, #app > main > div.left-menu > div.notifications__comments > h3,  div.blog__gifts > h3 {
+font-size:0px!important;
+} 
+ div.left-menu__user-notification.left-menu__unread-message,  #app > main > div.left-menu > div.notifications__comments.left-menu__user-notification,#app > main > div.left-menu > div.left-menu__user-notification.left-menu__unread-notifications, #app > main > div.left-menu > div.notifications__comments{
+order: 20;
+filter:saturate(1.1) sepia(0.1) contrast(1.1);
+}
+
+div.left-menu__user-notification.left-menu__unread-message > p
+{
+padding: 10px;
+}
+div.community__moders > h3:before{
+content: 'Модераторы';
+font-size:16px!important;
+}
+div.left-menu__user-notification.left-menu__unread-message > h3:before{
+content:'Сообщения';
+font-size:16px!important;
+}
+ #app > main > div.left-menu > div.notifications__comments > h3:before {
+content:'Комментарии';
+font-size:16px!important;
+}
+#app > main > div.left-menu > div.left-menu__user-notification.left-menu__unread-notifications > h3:before {
+content:'Отметки';
+font-size:16px!important;
+}
+ #app > main > div.left-menu > div.community__members > h3:before {
+content:'Участники';
+font-size:16px!important;
+}
+#app > main > div.left-menu > div.left-menu__user-notification.left-menu__friends > h3:before {
+content:'Друзья';
+font-size:16px!important;
+}
+#app > main > div.left-menu > div.blog__read-me > h3:before {
+content:'Читают';
+font-size:16px!important;
+}
+#app > main > div.left-menu > div.blog__tags > h3:before {
+content:'Категории';
+font-size:16px!important;
+}
+#app > main > div.left-menu > div.blog__last-comments > h3:before {
+content:'Последнее';
+font-size:16px!important;
+}
+
+div.blog__gifts > h3:before  {
+content:'Подарки';
+font-size:16px!important;
+}
+/*player*/
+#fnplayer-volume-mask {
+    border-color: #d7c1d700 transparent transparent transparent;
+}
+#fnplayer-play {
+    border-color: transparent transparent transparent #924e99;
+}
+
+#fnplayer-stop {
+    background: #924e99;
+}
+#beon-fnplayer {
+    width: 90%;
+    background-color: #d7c1d7;
+    margin: 3%;
+}
+#fnplayer-volume-inner {
+    background-color: #924e99;
+    border: 1px solid #924e99;
+}
+#fnplayer-slider {
+    background-color: #924e99;
+}
+#fnplayer-slider-inner {
+    background-color: #d7c1d7;
+}
+#fnplayer-slider span {
+font-size: 6px !important;
+    white-space: nowrap;
+    color: #d7c1d7;
+}
+
+
+.mw-100 {
+    max-width: 100% !important;
+    border-radius: 0.35rem;
+    border: inset 1px #924e99;
+}
+/*--------------------content--------------------*/
+
+.post-text, .comment-text, .comment-base {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+.mt-3 {
+    margin-top: 5rem !important;
+}
+[href$="/edit"]::before{
+content: "✎";
+    text-decoration: unset;
+    font-size: 15px !important;
+    font-weight: bolder;
+    color: #5c4259;
+}
+a[href^="//beon.fun/repost/post/"]::before, a[href^="//beon.fun/repost/topic/"]::before, a[href^="//beon.fun/repost/comment/"]::before{
+    content: "\f079";
+font-family: 'Font Awesome 5 Free'!important;
+    font-size: 15px !important;
+    font-weight: 900;
+color: #5c4259;
+}
+span[data-target="#deleteconfirmmodal"]::before{
+content: "\f2ed";
+    font-size: 14px !important;
+font-family: 'Font Awesome 5 Free'!important;
+    font-weight: 900;
+ color: #5c4259;
+}
+span[data-target="#deleteconfirmmodal"]::before,   [onclick="deleteComment(this)"]:before{
+content: "\f2ed";
+font-family: 'Font Awesome 5 Free'!important;
+     color: #5c4259 !important;
+}
+[href$="/edit"], a[href^="//beon.fun/repost/post/"], a[href^="//beon.fun/repost/topic/"], a[href^="//beon.fun/repost/comment/"], span[data-target="#deleteconfirmmodal"], [onclick="deleteComment(this)"], .fa-trash-alt:before{  
+font-size: 0px!important;
+}
+.fa-heart:before, [href$="/edit"]::before, a[href^="//beon.fun/repost/post/"]::before, a[href^="//beon.fun/repost/topic/"]::before, a[href^="//beon.fun/repost/comment/"]::before, span[data-target="#deleteconfirmmodal"]::before, .fa-retweet:before, .fa-bookmark:before, .fa-exclamation-triangle:before, .fa-quote-left:before, .fa-step-forward:before, .fa-step-backward:before, [onclick="deleteComment(this)"]:before {
+font-size: 12px !important;
+}
+.post-content, .comment-content {
+    min-height: 200px;
+    margin: 5% 10px 5% !important;
+}
+a[href^="/design/disable"] {
+    font-size: 0px !important;
+    position: absolute;
+    top: -70px;
+}
+a[href^="/design/disable"]:before {
+content: "Отключить Дизайн";
+    font-size: 14px !important;
+    color: #fff;
+    font-weight: bolder;
+    background: url(https://i1.beon.fun/55/16/1655/31/1337231/disable.png);
+    width: 130px;
+    height: 70px;
+    display: block;
+    word-break: break-word;
+    background-size: 130px 70px;
+    text-align: center;
+    padding: 25px;
+
+}
+.post-title, h1,.post-title-user,div.post-header > span, .left-menu a, .left-menu text, .left-menu span, .blog__tags a,     span.comments_count span::before {
+    font-size: 0.9rem;
+    text-decoration: unset;
+
+}
+.content {
+    margin-left: auto;
+max-width:calc(100% - 500px);
+}
+
+.user-drop-menu {
+    margin-left: unset;
+    margin-right: unset;
+}
+.modal-content {
+    background: #d7c1d7;
+    background-image: linear-gradient(to bottom, #3d262529 1px, #d7c1d700 1px);
+    background-size: 1px 21px;
+    padding: 15px;
+    border: solid 3px #3d2625;
+}
+ div.post-header > a.post-title:after {
+    content: "☾";
+    padding-left: 5px;
+    color: #924e99;
+    font-size: 14px;
+}
+
+.tag:before {
+    content: "✩༉";
+    font-weight: bold;
+    padding-left: 5px;
+    color: #fbca77;
+    font-size: 12px;
+    text-shadow: 0px 1px #ceb6d1;
+}
+/*--------------------Mobile--------------------*/
+@media (max-width: 700px) {
+ .shadow-sm,  .left-menu, .content, .modal-content{
+        width: 100% !important;
+        margin: 0 !important;
+max-width: 100%;
+    }
+    body {
+    background-size: 130%, 130%;
+        background-position: bottom left 30%;
+    }
+.post-avatar img {
+        max-height: 70px !important;
+        min-width: 70px !important;
+        min-height: 70px;
+        object-fit: cover ! Important;
+}
+.post-avatar a:before {
+    content: "";
+    position: absolute;
+    height: 70px;
+    width: 70px;
+}
+.left-menu {
+    display: flex;
+    min-width: unset;
+    position: relative;
+margin-top: 65px !important;
+    overflow-x: inherit;
+    flex-direction: column;
+    z-index: 0;
+}
+.sign {
+    font-size: 8px;
+color: #5c4259;
+}
+.post-avatar, .post-text, .comment-base {
+border: unset;
+padding: unset;
+filter: unset;
+}
+
+.left-menu > div {
+        background: linear-gradient(0deg, #ad86b0, #dccaab);
+        border: inset 2px #924e99;
+    }
+ .left-menu > div > h3 {
+        border: unset;
+}
+
+ .fas, .far, .tag_bar > * {
+        font-size: 0.8rem;
+        padding: 0.25rem;
+        line-height: 30px;
+    }
+
+.fa-heart:before, [href$="/edit"]::before, a[href^="//beon.fun/repost/post/"]::before, a[href^="//beon.fun/repost/topic/"]::before, a[href^="//beon.fun/repost/comment/"]::before, span[data-target="#deleteconfirmmodal"]::before, .fa-retweet:before, .fa-bookmark:before, .fa-exclamation-triangle:before, .fa-quote-left:before, .fa-step-forward:before, .fa-step-backward:before, [onclick="deleteComment(this)"]:before,     span.comments_count span::before, span.comments_count a {
+    font-size: 12px !important;
+}
+.post-content, .comment-content {
+   margin: 20% 0px 0% !important;
+}
+.left-menu > div {
+    margin-bottom: 25px;
+    height: 40px;
+    overflow: hidden;
+margin-bottom: 0px;
+width: 100%;
+    padding-bottom: 40px;
+transition:width .15s linear .15s, height .15s linear .15s;
+}
+ .left-menu > div:hover {
+height: auto;
+    max-height: fit-content!important;
+    overflow: visible;
+    max-width: none;
+    max-height: none;
+    width: 100%;
+    height: 100%;
+display: block;
+z-index: 0;
+transition:width .15s linear .15s, height .15s linear .15s;
+}
+
+		 .left-menu > div:active
+{height: auto;
+   
+    overflow: visible;
+display: block;
+z-index: 999;
+transition: max-height 0.5s ease-in;
+}
+    .left-menu h3 {
+        color: #ffffff;
+        padding: 5px 0px 30px 0px;
+        text-align-last: center;
+        font-size: 16px;
+        font-weight: bold;
+        background: linear-gradient(45deg, #aa83af, #c7a2b7);
+    }
+.left-menu > div.mobile_open_menu > h3 {       
+ color: #5c4259;
+}
+.navbar-expand-md .navbar-collapse {
+        filter: unset;
+    display: none!important;
+}
+.postsiblings.row, #app > main > div.content > div.post-content.post-page > div:nth-child(3), .post__tags-list{
+    padding: 0px;
+    font-size: 10px;
+}
+    .d-inline {
+        left: 90%;
+        top: 25%;
+        position: fixed;
+        z-index: 10;
+font-size: 0px !important;
+        height: 35px;
+        width: 35px;
+        background: url(https://i1.beon.fun/55/16/1655/38/1337138/shooting-star_9204856.png), #b183aa;
+   background-size: 32px 32px;
+    background-position: center;
+   transform: rotate(-50deg);
+    border-radius: 50% !important;
+background-size: 25px, auto;
+    filter: hue-rotate(330deg) drop-shadow(3px 3px 5px #febf55) brightness(1.1);
+        background-repeat: no-repeat;
+    }
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+font-size: 0px !important;
+    height: 35px;
+        width: 35px;
+        background: url(https://i1.beon.fun/55/16/1655/38/1337138/shooting-star_9204856.png), #b183aa;
+   background-size: 32px 32px;
+    background-position: center;
+    border-radius: 50% !important;
+    margin-left: 20px;
+        transform: rotate(150deg);
+position: fixed;
+background-size: 25px, auto;
+filter: hue-rotate(330deg) drop-shadow(3px 3px 5px #febf55) brightness(1.1);
+        background-repeat: no-repeat;
+    margin-top: -30px;
+ left: 85%;
+        top: 55%;
+    }
+
+.menu__box {
+    z-index: 1;
+        background: #d7c1d7;
+        background-image: linear-gradient(to bottom, #3d262529 1px, #d7c1d700 1px);
+        background-size: 1px 21px;
+        padding: 15px;
+    padding: 0px 20px 35px 15px;
+    border-style: solid;
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    list-style: none;
+    transition-duration: .25s;
+}
+.menu__item {
+    color: #3d2625;
+}
+.menu__btn {
+display: flex;
+        right: 55px;
+        align-items: center;
+        position: relative;
+        cursor: pointer;
+        background: url(https://i1.beon.fun/55/16/1655/61/1337261/moon_9988062.png);
+        background-size: 48px 46px;
+        background-repeat: no-repeat;
+        width: 175px;
+        filter: drop-shadow(2px 4px 5px #f7bd5e);
+        height: 50px;
+        background-position: center;
+        z-index: 9999;
+}
+.navbar, .navbar>.container, .navbar>.container-fluid {
+    display: flex
+;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+#menu__toggle:checked ~ .menu__btn{    
+transform: rotate(300deg);
+transition: max-height 0.5s ease-in;
+
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background-color: #61616100;
+}
+::-webkit-scrollbar
+		{
+			width: 0px;
+			height: 0px;
+
+		}
+		::-webkit-scrollbar-thumb
+		{
+			background:#924e99 !important;
+		}
+		::-webkit-scrollbar-track
+		{
+margin: 0%;
+			background: linear-gradient(#fecbcd, #fefaf096);
+			background-clip: content-box;
+		}
+
+
+.post-title, h1,.post-title-user,div.post-header > span, .left-menu a, .left-menu text, .left-menu span, .blog__tags a,     span.comments_count span::before {
+    font-size: 0.7rem;
+    text-decoration: unset;
+}
+
+.post-row, .comment-row {
+    background: #d7c1d7;
+background-image: linear-gradient(to bottom, #3d262529 1px, #d7c1d700 1px);
+    background-size: 1px 21px;
+    padding: 15px;
+}
+.textareabg {
+    margin: 0 !important;
+}
+div.blog__about {
+background: linear-gradient(45deg, #aa83af, #c7a2b7);
+}
+div#app {
+    background-size: 100%;
+}
+.navbar-brand {
+    font-size: 13px;
+    width: 100px;
+    height: 100px;
+    padding: 50px 20px 0px 20px;
+    background-size: 100px 100px;
+}
+}

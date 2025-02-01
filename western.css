@@ -342,10 +342,11 @@ background: transparent !important;
     padding-left: 10px;
     text-align: center;
 color: #ee797bc4;
+        font-size: 15px;
 }
 
 .left-menu a, .blog__tags a {
-    font-size: 12px;
+    font-size: 15px;
      font-family: georgia, "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
         color: #e9d6b4 !important;
         font-weight: 100;

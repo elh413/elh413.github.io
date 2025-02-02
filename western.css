@@ -183,7 +183,7 @@ position: fixed; /*измените это значение на 'absolute', е�
 left: 0px;
 font-size: 0px;
 width: 100%;
-bottom: 1px;
+bottom: 0px;
  background-size: calc(calc(100vw + 2.2vh + 0.1vmin));
     background-repeat: no-repeat;
     background-position: top -0vw center;

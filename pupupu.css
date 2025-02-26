@@ -371,7 +371,7 @@ padding: 5px;
 a#attach_file_click {
         right: 35px;
     }
-.comment_headline, .profile_postcomment {
+.comment_headline, .profile_postcomment, div.profile_postcomment {
     border: unset;
 }
 textarea#comment_body {

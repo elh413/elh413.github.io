@@ -14,10 +14,6 @@ background-position: 500px 1000px, 0 0 }
 background-position: 0 0, 0 0
 }
 }
-
-img.menu_icon2 {
-display: none!important;	
-}
 @media (max-width: 768px){
 /*--------------------Features--------------------*/
 
@@ -28,6 +24,9 @@ text-decoration: unset;
     transition: all 0.2s ease-in;
     text-decoration: unset;
     color: #ffffff;
+}
+img.menu_icon2 {
+display: none!important;	
 }
  a:link:hover {
  filter: drop-shadow(2px 2px 3px #f5c359);
@@ -489,6 +488,9 @@ text-decoration: unset!important;
     transition: all 0.2s ease-in;
     text-decoration: unset;
     color: #ffffff;
+}
+img.menu_icon2 {
+display: none!important;	
 }
  a:link:hover {
  filter: drop-shadow(2px 2px 3px #f5c359);

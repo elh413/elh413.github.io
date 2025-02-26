@@ -26,7 +26,7 @@ text-decoration: unset;
     color: #ffffff;
 }
 img.menu_icon2, button.btn.btn-outline-success:before {
-display: none!important;	
+display: none;	
 }
  a:link:hover {
  filter: drop-shadow(2px 2px 3px #f5c359);
@@ -482,7 +482,7 @@ text-decoration: unset!important;
     color: #ffffff;
 }
 img.menu_icon2 {
-display: none!important;	
+display: none;	
 }
  a:link:hover {
  filter: drop-shadow(2px 2px 3px #f5c359);

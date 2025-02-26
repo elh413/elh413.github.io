@@ -91,7 +91,7 @@ color: white;
 		::-webkit-scrollbar-track
 		{
 margin: 1%;
-			background: linear-gradient(#c08bc6, #fefaf096);
+			background: #ceb6d1;
 			background-clip: content-box;
 		}
 

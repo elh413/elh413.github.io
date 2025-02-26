@@ -3,7 +3,7 @@ body {
 scroll-behavior: smooth;
 font-family: 'Anonymous Pro';
 background-image: url(https://i1.beon.fun/55/16/1655/2/1335802/starz.png);
-	background: #ceb6d1;
+	background-color: #ceb6d1;
 background-size: 100%;
 animation: STAR 300s linear infinite;
         background-repeat: repeat;

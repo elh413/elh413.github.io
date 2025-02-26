@@ -163,6 +163,9 @@ padding: 0px;
         font-weight: bold;
         color: black;
 }
+div.portal_spacer {
+    height: 0px;
+}
 a.top_menu_item:link, ul.seBlogCategoryList {
     color: #3d2625;
     font-weight: bolder;

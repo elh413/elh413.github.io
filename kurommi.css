@@ -203,8 +203,6 @@ a.top_menu_item:link, ul.seBlogCategoryList {
 }
 div.menu_item_dropdown a {
     background: #ceb6d1;
-    background-image: linear-gradient(to bottom, #3d262529 1px, #fee4e300 1px);
-    background-size: 1px 21px;
     border: outset 2px #b07fab;
     color: white;
     font-weight: bolder;
@@ -669,8 +667,6 @@ a.top_menu_item:link {
 }
 div.menu_item_dropdown a {
     background: #ceb6d1!important;
-    background-image: linear-gradient(to bottom, #3d262529 1px, #fee4e300 1px)!important;
-    background-size: 1px 21px!important;
     border: outset 2px #b07fab!important;
     color: white !important;
     font-weight: bolder;
@@ -712,8 +708,6 @@ div#righthome {
 }
 .post_container, div[id^="comment_"] {
  background:#ceb6d1;
-    background-image: linear-gradient(to bottom, #3d262529 1px, #fee4e300 1px);
-    background-size: 1px 21px;
     padding: 15px;
     border: outset 2px #b07fab;
 }

@@ -25,7 +25,7 @@ text-decoration: unset;
     text-decoration: unset;
     color: #ffffff;
 }
-img.menu_icon2, [onclick="window.scrollTo(0,100000); return false;"]:after {
+img.menu_icon2, button.btn.btn-outline-success:before {
 display: none!important;	
 }
  a:link:hover {
@@ -222,15 +222,7 @@ button#newupdates {
 position: absolute;
         right: 5px;
     }
-button.btn.btn-outline-success:before {
-content: '';
-        width: 30px;
-        height: 31px;
-        display: block;
-        background: url(https://i1.beon.fun/55/16/1655/38/1337138/shooting-star_9204856.png) no-repeat center / 28px;
-        opacity: 1;
-        filter: drop-shadow(2px 2px 3px #f5c359);
-    }
+
 button.navbar-toggler, button.navbar-toggler:hover {
         opacity: 1;
         height: 33px;

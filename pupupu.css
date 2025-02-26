@@ -25,7 +25,7 @@ text-decoration: unset;
     text-decoration: unset;
     color: #ffffff;
 }
-img.menu_icon2 {
+img.menu_icon2, [onclick="window.scrollTo(0,100000); return false;"]:after {
 display: none!important;	
 }
  a:link:hover {

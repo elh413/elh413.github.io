@@ -25,9 +25,23 @@ text-decoration: unset;
     text-decoration: unset;
     color: #ffffff;
 }
-img.menu_icon2 {
+img.menu_icon,button.btn.btn-outline-success:before {
 display: none;	
 }
+[onclick="window.scrollTo(0,100000); return false;"]:after {
+        background: url(https://i1.beon.fun/55/16/1655/38/1337138/shooting-star_9204856.png);
+        width: 40px;
+        height: 55px;
+        transform: rotate(0deg);
+        background-size: 40px, auto;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50%;
+        filter: hue-rotate(330deg) drop-shadow(3px 3px 5px #febf55) brightness(1.1);
+        content: "";
+        display: block;
+    }	
  a:link:hover {
  filter: drop-shadow(2px 2px 3px #f5c359);
 }
@@ -48,6 +62,13 @@ color: white;
 #mobile_menu {
     background: transparent;
 }
+#mobile_menu .menu_item_dropdown a {
+    background: linear-gradient(#c08bc6, #a474a9);
+    color: #3d2625;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px;
+}	
 #mobile_photo_wrap {
     text-align: center;
     padding: 7px;
@@ -300,7 +321,7 @@ content: "";
     border: solid #b07fab 3px;
 }
 div[id^="comment_"] {
-    margin-bottom: 15%;}
+    margin-bottom: 15%!important;}
 div[id^="comment_"] > div:nth-child(1){
     margin-top: 0px;
 }
@@ -316,7 +337,7 @@ div[id^="comment_"] > div:nth-child(1){
         filter: drop-shadow(2px 2px 3px #f5c359d9);
         color: #5c4259;
         position: absolute;
-        margin-top: -35px;
+        margin-top: -40px;
         left: 0;
         width: 100%;
 }

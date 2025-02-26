@@ -73,25 +73,7 @@ margin: 1%;
 body > table > tbody > tr > td > div > a:nth-child(5){
     filter: drop-shadow(2px 2px 3px #f5c359);
 }
-[onclick="window.scrollTo(0,100000); return false;"]:after{
-        background: url(https://i1.beon.fun/55/16/1655/38/1337138/shooting-star_9204856.png);
-        width: 40px;
-        height: 55px;
-        transform: rotate(0deg);
-        background-size: 40px, auto;
-        position: absolute;
-        background-repeat: no-repeat;
-        background-position: center;
-        border-radius: 50%;
-        filter: hue-rotate(330deg) drop-shadow(3px 3px 5px #febf55) brightness(1.1);
-        content: "";
-        display: block;
-}
-[onclick="window.scrollTo(0,100000); return false;"]:hover:after {
- animation: tilt-shaking ease 0.3s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: infinite;
-}
+
 @keyframes tilt-shaking {
   0% { transform: rotate(0deg); }
   25% { transform: rotate(5deg); }
@@ -479,15 +461,7 @@ div.blog_leftphoto > a {
 color: white;
         padding: 30px 10px 30px 10px !important;
 }
-a.menu_item:link {
-    color: #fffdfe!important;
-    font-weight: bolder;
-    font-size: 16px;
-    text-transform: uppercase;
-}
-a.menu_item:link:hover{ 
- color: #5c4259!important;
-}
+
 ::marker  {
 color: transparent;
 }

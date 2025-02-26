@@ -1,4 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap');
+
+body {
+scroll-behavior: smooth;
+font-family: 'Anonymous Pro';
+background-image: url(https://i1.beon.fun/55/16/1655/2/1335802/starz.png), linear-gradient(0deg, #a07aa4, #ddcbdf, #a47aa9);
+background-size: 60%,100%;
+animation: STAR 180s linear infinite;
+        background-repeat: repeat;
+}
+@keyframes STAR {
+0% { 
+background-position: 500px 1000px, 0 0 }
+100% { 
+background-position: 0 0, 0 0
+}
+}
 @media (max-width: 768px){
 /*--------------------Features--------------------*/
 
@@ -126,29 +142,16 @@ animation: til-shaking ease 0.3s;
     justify-content: center;
 }
 /*--------------------BG--------------------*/
-.body {
+
+ .body {
     background: url(https://i1.beon.fun/55/16/1655/36/1337036/kuromia.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 45%;
+    background-size: 100%;
     background-position: right top;
+padding: 0px;
+    padding-top: 45px;
 }
-body {
-scroll-behavior: smooth;
-font-family: 'Anonymous Pro' !important;
-background-image: url(https://i1.beon.fun/55/16/1655/2/1335802/starz.png), linear-gradient(0deg, #a07aa4, #ddcbdf, #a47aa9);
-background-size: 60%,100%;
-animation: STAR 180s linear infinite;
-        background-repeat: repeat;
-}
-@keyframes STAR {
-0% { 
-background-position: 500px 1000px, 0 0 }
-100% { 
-background-position: 0 0, 0 0;
-}
-}
- 
 /*--------------------.py-4--------------------*/
 #content_flex {
     display: flex;
@@ -618,18 +621,6 @@ animation: til-shaking ease 0.3s;
     background-size: 45%;
     background-position: right top;
 }
-body {
-scroll-behavior: smooth;
-font-family: 'Anonymous Pro' !important;
-background-image: url(https://i1.beon.fun/55/16/1655/2/1335802/starz.png), linear-gradient(0deg, #a07aa4, #ddcbdf, #a47aa9);
-background-size: 60%,100%;
-animation: STAR 180s linear infinite;
-        background-repeat: repeat;
-}
-@keyframes STAR {
-0% { background-position: 500px 1000px, 0 0; }
-100% { background-position: 0 0, 0 0;}
-}
 /*--------------------.py-4--------------------*/
 #content_flex {
     display: flex;
@@ -950,5 +941,9 @@ span#notify_total {
     height: 30px;
     min-width: 31px;
 background: black;
+}
+div#designs {
+ border: solid #3d2625 1px;
+    background-color: #c390c6;
 }
 }

@@ -14,9 +14,8 @@ background-position: 500px 1000px, 0 0 }
 background-position: 0 0, 0 0
 }
 }
-img.menu_icon2 {
-    display: none;
-}
+
+
 @media (max-width: 768px){
 /*--------------------Features--------------------*/
 
@@ -124,6 +123,9 @@ animation: til-shaking ease 0.3s;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+img.menu_icon2 {
+    display: none;
 }
 /*--------------------BG--------------------*/
 
@@ -592,6 +594,9 @@ animation: til-shaking ease 0.3s;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+img.menu_icon2 {
+    display: none;
 }
 /*--------------------BG--------------------*/
 .body {

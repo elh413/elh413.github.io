@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap');
+
+/* General Styles */
+body {
+  scroll-behavior: smooth;
+  font-family: 'Anonymous Pro', monospace;
+  background-color: #ceb6d1;
+  background-image: url(https://beon.vip/uploads_user/3000/2587/393bee88ed3355200c8c17396df7a2dd.png);
+  background-size: cover; /* Use cover instead of 100% for better performance */
+  animation: STAR 300s linear infinite;
+  background-repeat: repeat;
+}
+
+@keyframes STAR {
+  0% { background-position: 500px 1000px; }
+  100% { background-position: 0 0; }
+}
+
+/* Simplify Media Queries */
+@media (max-width: 768px) {
+  body {
+    background-size: contain; /* Adjust for smaller screens */
+  }
+
+  .noUpdates, a:link, span, a.copyright:link, a:visited {
+    transition: all 0.2s ease-in;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  img.menu_icon, button.btn.btn-outline-success:before {
+    display: none;
+  }
+
+  [onclick="window.scrollTo(0,100000); return false;"]:after {
+    background: url(https://i1.beon.fun/55/16/1655/38/1337138/shooting-star_9204856.png);
+    width: 40px;
+    height: 55px;
+    transform: rotate(0deg);
+    background-size: 40px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    filter: hue-rotate(330deg) drop-shadow(3px 3px 5px #febf55) brightness(1.1);
+    content: "";
+    display: block;
+  }
+
+  a:link:hover {
+    filter: drop-shadow(2px 2px 3px #f5c359);
+  }
+
+  .page-item:first-child .page-link, .page-item:last-child .page-link {
+    border: solid #3d2625 1px;
+    color: #3d2625;
+    font-size: 12px;
+    background: linear-gradient(#c08bc6, #fefaf096);
+    font-weight: bolder;
+  }
+
+  .page-item:first-child .page-link:hover, .page-item:last-child .page-link:hover {
+    background: #5c4259;
+  }
+
+  ::selection {
+    background: #5c4259;
+    color: white;
+  }
+
+  #mobile_menu {
+    background: transparent;
+  }
+
+  #mobile_menu .menu_item_dropdown a {
+    background: linear-gradient(#c08bc6, #a474a9);
+    color: #3d2625;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px;
+  }
+
+  #mobile_photo_wrap {
+    text-align: center;
+    padding: 7px;
+    border: solid #3d2625 1px;
+    color: #3d2625;
+    font-weight: bolder;
+    background: linear-gradient(#c08bc6, #fefaf096);
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #924e99;
+  }
+
+  ::-webkit-scrollbar-track {
+    margin: 1%;
+    background: #ceb6d1;
+    background-clip: content-box;
+  }
+
+  body > table > tbody > tr > td > div > a:nth-child(5) {
+    filter: drop-shadow(2px 2px 3px #f5c359);
+  }
+
+  @keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+  [onclick="scrolltop(); return false;"]:before {
+    content: "";
+    display: block;
+    background: url(https://i1.beon.fun/55/16/1655/38/1337138/shooting-star_9204856.png);
+    width: 40px;
+    height: 55px;
+    transform: rotate(180deg);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    filter: hue-rotate(330deg) drop-shadow(3px 3px 5px #febf55) brightness(1.1);
+  }
+
+  [onclick="scrolltop(); return false;"]:hover:before {
+    animation: tilt-shaking ease 0.3s infinite;
+  }
+
+  .modal-content, #TB_window {
+    background: #d7c1d7;
+    background-image: linear-gradient(to bottom, #3d262529 1px, #d7c1d700 1px);
+    background-size: 1px 21px;
+    padding: 15px;
+    border: solid 3px #3d2625;
+  }
+
+  .modal-header .close {
+    padding: 2px 6px;
+    margin: unset;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* Optimize for Larger Screens */
+@media (min-width: 768px) {
+  body {
+    background-size: 45%;
+  }
+
+  .top_header {
+    box-shadow: none;
+    border-bottom: none;
+    background: transparent;
+    border-image-slice: 85 90 160 95 fill;
+    border-image-width: 85px 90px 160px 95px;
+    border-image-outset: 30px 30px 10px 0px;
+    border-image-repeat: stretch;
+    border-image-source: url(https://i1.beon.fun/55/16/1655/16/1336316/pcmn.png);
+    border-style: solid;
+    filter: drop-shadow(2px 2px 3px #f5c359);
+    width: 98.5%;
+  }
+
+  [src="./images/logo_new.png"] {
+    display: none;
+  }
+
+  .top_header [href="./"]:before {
+    content: 'Beon.vip';
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 3;
+    border-image-slice: 46 74 0 40;
+    border-image-width: 33px 51px 0px 28px;
+    border-image-outset: 41px 51px 0px 28px;
+    border-image-repeat: round round;
+    border-image-source: url(https://beon.vip/uploads_image/9a/f1/9af1bfe93753917eeea98f5852079575.png);
+  }
+}
+
+/* Additional Optimizations */
+/* Combine repeated styles and reduce redundancy */
+a.top_menu_item:link, a.top_menu_item:link:before, a.top_menu_item:link:visited:before {
+  color: #3d2625;
+  font-weight: bolder;
+}
+
+a.top_menu_item:link:before, a.top_menu_item:link:visited:before {
+  content: "✩༉";
+  font-weight: bold;
+  padding-left: 5px;
+  color: #fbca77;
+  font-size: 12px;
+  text-shadow: 0px 1px #ceb6d1;
+}
+
+/* Simplify gradients and filters */
+button.btn.btn-primary, button.btn.btn-secondary, button:not(:disabled), input#comment_submit {
+  padding: 7px;
+  border: solid #3d2625 1px;
+  color: #3d2625;
+  font-weight: bolder;
+  background: linear-gradient(#c08bc6, #fefaf096);
+}
+
+button.btn.btn-primary:hover, button:not(:disabled):hover, button#newupdates:hover, input#comment_submit:hover {
+  transform: translateY(1px);
+  text-decoration: none;
+  color: #3d2625;
+  background: linear-gradient(#c08bc6, #fefaf096);
+}

@@ -289,7 +289,7 @@ div#righthome {
     border: outset 2px #b07fab;
 }
 .seBlogComments {
-margin-top: 50px;
+margin-top: 50px!important;
 }
 div#user_status, .blog_user_status {
     color: #5c4259;
@@ -337,8 +337,8 @@ div[id^="comment_"] > div:nth-child(1){
         color: #5c4259;
         position: absolute;
         margin-top: -40px;
-        left: 0;
-        width: 100%;
+        left: 3%;
+        width: 94.5%;
 }
 .profile_comment_author a{
 color: white;
@@ -716,6 +716,7 @@ div#righthome {
 .post_image img, .seBlogComments img.photo {
 max-height: 100px!important;
 min-width: 100px;
+min-height: 100px;
 object-fit: cover;
 }
 #user_status {

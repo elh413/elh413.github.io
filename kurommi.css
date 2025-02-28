@@ -344,6 +344,9 @@ div[id^="comment_"] > div:nth-child(1){
 color: white;
         font-weight: bolder;
 }
+	.profile_comment_author b {
+    font-size: 14px;
+}
  h6.card-subtitle.mb-2.text-muted.post_date {
     line-height: 2;
     border-image-slice: 55 57 5 90 fill;

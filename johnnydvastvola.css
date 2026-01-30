@@ -289,7 +289,7 @@ color:white!important;
     display: flex;
     justify-content: center;
 }
-main.py-4 {padding-top: 0 !important;padding-bottom: 0 !important;background: url(https://i1.beon.fun/55/16/1655/74/1341274/output-onlinepngtools-4.png), url(https://i1.beon.fun/55/16/1655/73/1341273/output-onlinepngtools-5.png),linear-gradient(#e7c5a5 1px, transparent 0), linear-gradient(180deg, #56511c00 30%, #e1c199 60%, #aa6864 120%), url(https://i1.beon.fun/55/16/1655/14/1340614/output-onlinepngtools-29.png);background-size: 25%, 25%, 5px 5px, contain;background-color: #96a6b0;background-repeat: no-repeat, no-repeat, repeat, repeat, repeat;background-attachment: fixed;background-position: bottom left, bottom right, -13px -3px, center;}
+main.py-4 {padding-top: 0 !important;padding-bottom: 0 !important;background: url(https://i1.beon.fun/55/16/1655/74/1341274/output-onlinepngtools-4.png), url(https://i1.beon.fun/55/16/1655/73/1341273/output-onlinepngtools-5.png), linear-gradient(#e7c5a536 1px, transparent 0), linear-gradient(180deg, #56511c00 30%, #e1c199 60%, #aa6864 120%), url(https://i1.beon.fun/55/16/1655/14/1340614/output-onlinepngtools-29.png);background-size: 25%, 25%, 5px 5px, contain;background-color: #96a6b0;background-repeat: no-repeat, no-repeat, repeat, repeat, repeat;background-attachment: fixed;background-position: bottom left, bottom right, -13px -3px, center;}
 /*--------------------left-menu------------------*/
 .left-menu {
 width: 100%;
@@ -746,7 +746,7 @@ border-style: solid;
 }
 /*--------------------BG--------------------*/
 body {
-        background: url(https://i1.beon.fun/55/16/1655/73/1341273/output-onlinepngtools-5.png), linear-gradient(#e7c5a5 1px, transparent 0), linear-gradient(180deg, #56511c00 30%, #e1c199 60%, #aa6864 90%), url(https://i1.beon.fun/55/16/1655/14/1340614/output-onlinepngtools-29.png);
+        background: url(https://i1.beon.fun/55/16/1655/73/1341273/output-onlinepngtools-5.png), linear-gradient(#e7c5a51c 1px, transparent 0), linear-gradient(180deg, #56511c00 30%, #e1c199 60%, #aa6864 90%), url(https://i1.beon.fun/55/16/1655/14/1340614/output-onlinepngtools-29.png);
         background-size: 75%, 5px 5px, contain;
         background-color: #95abb3;
         background-repeat: no-repeat, repeat, repeat, repeat;
@@ -771,6 +771,7 @@ body {
 .shadow-sm {
     box-shadow: 0 .125rem .25rem rgb(0 0 0 / 0%) !important;
 }
+
 .navbar-brand {
     font-size: 0px !important;
     font-weight: 100;
@@ -843,6 +844,7 @@ height: 40px;
     font-weight: 100;
     font-family: "Rubik Dirt" !important;
 }
+    
 /*--------------------left-menu-------------------*/
 .left-menu:hover {
     opacity: 1;
@@ -1181,6 +1183,11 @@ span.comments_count {
     .fas, .far, .tag_bar > * {
         font-size: 0.8rem;
     }
-
+div#app {
+    padding: 0.3%;
+    background-image: url(https://i1.beon.fun/55/16/1655/10/1641210/image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 }

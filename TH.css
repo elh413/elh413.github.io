@@ -1,0 +1,347 @@
+
+body {
+  background:url(https://cache.be-on.su/images/Elhracoon_c9933ad50f20c5f4fc1dd56a3c050c45_1769886992173264757.png);
+  padding: 0% 10% 0% 10%!important;
+}
+
+#__nuxt > div {
+  box-shadow: 0.354rem 0.354rem 0rem 0rem #FE7CBA;
+  border: solid 2px #000000;
+  background-color: #FEDCED;
+  padding: 0%;
+  background-size: 36px;
+  background-image: url(https://cache.be-on.su/images/Elhracoon_d8e336aff9c8f7e36de2327dbaa528b0_1769939554772407427.png);
+}
+
+
+.header[data-v-e6a04ded] {
+  box-shadow: unset;
+  border-image-slice: 0 0 81 0;
+  border-image-width: 0px 0px 55px 0px;
+  border-image-outset: 0px 0px 52px 0px;
+  border-image-repeat: repeat;
+  border-image-source: url(https://cache.be-on.su/images/Elhracoon_5d51016054b9b264cd7adf325f931461_1769939586153725056.gif);
+  border-style: solid;
+  margin-bottom: 55px;
+  width: 100%;
+}
+
+.header-wrapper[data-v-e6a04ded] {
+  justify-content: space-between;
+  max-width: 100%;
+  background-image: linear-gradient(180deg, #FFFFFF 0%, #FFB8DB 100%);
+  padding: 0%;
+  border-top: unset;
+}
+
+div.logo-text > a {
+  color: black!important; 
+  font-size: 0px;
+}
+div.logo-text > a:after {
+  content:'𝔅𝔢𝔒𝔫';
+  font-size: 30px;
+}
+
+.down-link[data-v-e6a04ded] {
+  color: black!important; 
+  font-size: 0px;
+}
+.down-link[data-v-e6a04ded]:after {
+  content:'';
+  background: url(https://cache.be-on.su/images/Elhracoon_b4aac2d1fcff88b63c96f098b24ae2d4_1769944879092474993.gif);
+  width: 30px;
+  background-repeat: no-repeat;
+  height: 30px;
+  background-position: top right;
+}
+.down-link[data-v-e6a04ded]:before {
+  content:'𝔇𝔬𝔴𝔫';
+  font-size: 30px;
+}
+
+.theme-toggler[data-v-e9d72590] {
+  display: none;
+}
+
+
+.col-lg-3 {
+  flex: 0 0 auto;
+  width: 15%;
+  margin-right: 5%;
+}
+
+#__nuxt > div > section > div > div.col-lg-3:after {
+  content:"";
+  width: 200px;
+  position: sticky;
+  display: block;
+  background-size: 170px 170px!important;
+  height: 250px;
+  background: url(https://cache.be-on.su/images/Elhracoon_4b2d287b80117362dd3bab62cea3a0e7_1770053096125046899.jpeg);
+  background-repeat: no-repeat;
+  background-color: #000000fa;
+  box-shadow: 0.354rem 0.354rem 0rem 0rem #fe7cba;
+  background-position: center top 20px;
+  object-fit: cover;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+.sidebar-content-text-left[data-v-d299a349], 
+.sidebar-content-text-left[data-v-e9a73b78] {
+  transform: scaleY(0);
+  overflow: hidden;
+  max-height: 0px;
+  transition: max-height 0.5s ease-out;
+}
+
+.sidebar-item[data-v-d299a349]:hover .sidebar-content-text-left[data-v-d299a349],
+.sidebar-item[data-v-e9a73b78]:hover .sidebar-content-text-left[data-v-e9a73b78] {
+  overflow-y: auto;
+  max-height: 300px;
+  height: auto;
+  transform: scaleY(1);
+  transition: max-height 0.5s ease-out;
+  background: #000000;
+  color: #ffffff;
+  padding: 1px;
+  height: fit-content;
+  font-size: 12px;
+  font-family: Comfortaa;
+  border-width: 11px;
+  border-style: solid;
+  border-image: url(https://cache.be-on.su/images/Elhracoon_36691ea455b86c223864212ec1af6b54_1769942804630178252.png) 11 round;
+  border-image-outset: 10px;
+}
+
+.sidebar-item-green[data-v-e9a73b78], 
+.sidebar-item-green[data-v-d299a349], 
+.sidebar-item-red[data-v-d299a349], 
+.sidebar-item-yellow[data-v-d299a349], 
+.sidebar-item-yellow[data-v-e9a73b78], 
+.btn-danger {
+  background: #fe7cba !important;
+  color: #ffffff !important;
+  box-shadow: 0.354rem 0.354rem 0rem 0rem #000000;
+}
+
+
+.post {
+  background: #000000;
+  color: #ffffff;
+  padding: 1px;
+  height: fit-content;
+  width: 100%;
+  font-size: 18px;
+  font-family: Comfortaa;
+  border-width: 11px;
+  border-style: solid;
+  border-image: url(https://cache.be-on.su/images/Elhracoon_36691ea455b86c223864212ec1af6b54_1769942804630178252.png) 11 round;
+  border-image-outset: 10px;
+  box-shadow: 0.354rem 0.354rem 0rem 0rem #fe7cba;
+}
+
+.post-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: -17px;
+}
+
+.post-title>a {
+  color: #fe7ca8 !important;
+  font-size: 12px;
+  background: #000000;
+  padding: 3px;
+}
+
+.post-info {
+  color: #ffe8f7;
+  font-size: 9px;
+}
+
+.post-container, 
+.post-content {
+  padding: 10px;
+}
+
+.avatar-img {
+  max-height: 79px;
+  width: 85px;
+  object-fit: cover;
+  clip-path: shape(from 50% 91%, line to 90% 50%, arc to 50% 9% of 1%, arc to 10% 50% of 1%);
+}
+
+.post-avatar {
+  margin-top: 10px;
+}
+
+.post-avatar a:before {
+  content: "";
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  transform: translate(0px, -10px);
+  filter: opacity(0.9);
+  background-size: cover;
+  background-image:url(https://cache.be-on.su/images/Elhracoon_5960cbffa4d4b822a30079e3a43b092d_1769893781736184329.png);
+  object-fit: cover;
+  clip-path: shape(from 50% 91%, line to 90% 50%, arc to 50% 9% of 1%, arc to 10% 50% of 1%);
+  z-index: 9999;
+}
+
+.mt-4 {
+  margin-top: 1.5rem !important;
+  transform: scale(0.8);
+}
+
+.signature:after {
+  content: url(https://cache.be-on.su/images/Elhracoon_2054557964b3e4ed75262fd3b83f0298_1770053079481597972.png);
+  position: sticky;
+  height: fit-content;
+  width: 100px;
+  display: block;
+}
+
+
+.px-2 {
+  margin-top: 5%;
+  border: solid black 1px;
+  width: 100%;
+  background: #000 !important;
+  color: #ffffff !important;
+  box-shadow: 0.354rem 0.354rem 0rem 0rem #fe7cba;
+}
+
+.form-control-sm {
+  margin-top: 10px;
+  border: solid 1px;
+}
+
+
+.force-link, 
+.spoiler-toggle[data-v-1b9dc302], 
+a, 
+.down-link[data-v-e6a04ded], 
+.sidebar-row>a[data-v-d299a349], 
+.sidebar-row>a[data-v-e9a73b78], 
+svg:not(:host).svg-inline--fa, 
+svg:not(:root).svg-inline--fa, 
+.signature, 
+.post-actions>.post-action[data-v-25bcea50] {
+  color: #fe7ca8!important;
+}
+
+[type=button]:not(:disabled), 
+[type=reset]:not(:disabled), 
+[type=submit]:not(:disabled), 
+button:not(:disabled), 
+.btn-success {
+  cursor: pointer;
+  background: linear-gradient(to right, #fe7cba 0%, #fe7cba 100%);
+  border: unset;
+  color: white!important;
+}
+
+.users[data-v-5ee74f4f] {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, 1fr);
+  overflow-x: auto;
+  padding: 0px;
+}
+
+.user-card[data-v-5ee74f4f] {
+  align-content: center;
+}
+
+
+::-webkit-scrollbar {
+  background-color: #fe7cba !important;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  margin: 5px;
+  font-family: inherit;
+  background-color: #000000 !important;
+  border: solid #fe7cba 2px;
+}
+
+
+img[src="/i/user.png"] {
+  display: none;
+}
+
+.modal-backdrop[data-v-330a551a] {
+  z-index: 9999999;
+}
+
+
+.mt-3 {
+  margin-top: 3rem !important;
+}
+
+
+@media (min-width: 769px) {
+  .d-lg-none {
+    display: block !important;
+  }
+  
+  .d-lg-block {
+    display: none !important;
+  }
+  
+  div.mobile-menu.open {
+    width: auto;
+  }
+  
+  #posts > div > div.mt-3.mode, 
+  #posts > div > div.mt-3.avatars,
+  #posts > div > div:nth-child(5), 
+  #posts > div > div:nth-child(2) > div:nth-child(1), 
+  #posts > div > div:nth-child(2) > div:nth-child(3),
+  #posts > div > div:nth-child(2) > div.post-actions.mt-3 {
+    margin-top: 1rem!important;
+  }
+}
+
+@media (max-width: 769px) {
+
+body {
+    padding: 0%!important;
+}
+.col-lg-3 {
+    width: 100%;
+    margin-right: 0%;
+}
+.sidebar-item[data-v-d299a349]:hover .sidebar-content-text-left[data-v-d299a349], .sidebar-item[data-v-e9a73b78]:hover .sidebar-content-text-left[data-v-e9a73b78] {
+margin: 20px;
+}
+div.signature.py-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#__nuxt > div > section > div > div.col-lg-3:after {
+margin-left: 100px;
+}
+.force-link, .spoiler-toggle[data-v-1b9dc302], a {
+    color: #fe7ca8 !important;
+font-size: 12px;
+}
+.post-content {
+font-size: 12px;
+}
+.row>* {
+    width: 95%;
+    margin: 10px;
+}
+.post {
+border: unset;
+    box-shadow: 0.354rem 0.354rem 0rem 0rem #fe7cba;
+}
+}

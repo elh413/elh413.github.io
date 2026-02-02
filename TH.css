@@ -12,7 +12,9 @@ body {
   background-size: 36px;
   background-image: url(https://cache.be-on.su/images/Elhracoon_d8e336aff9c8f7e36de2327dbaa528b0_1769939554772407427.png);
 }
-
+.mobile-menu[data-v-e6a04ded] {
+    background: black;
+}
 
 .header[data-v-e6a04ded] {
   box-shadow: unset;
@@ -139,7 +141,6 @@ div.logo-text > a:after {
   border-style: solid;
   border-image: url(https://cache.be-on.su/images/Elhracoon_36691ea455b86c223864212ec1af6b54_1769942804630178252.png) 11 round;
   border-image-outset: 10px;
-  box-shadow: 0.354rem 0.354rem 0rem 0rem #fe7cba;
 }
 
 .post-header {
@@ -340,8 +341,5 @@ font-size: 12px;
     width: 95%;
     margin: 10px;
 }
-.post {
-border: unset;
-    box-shadow: 0.354rem 0.354rem 0rem 0rem #fe7cba;
 }
-}
+

@@ -337,9 +337,12 @@ font-size: 12px;
 .post-content {
 font-size: 12px;
 }
+.post {
+box-shadow: 0.354rem 0.354rem 0rem 0rem #FE7CBA;
+border: unset;
+}
 .row>* {
     width: 95%;
     margin: 10px;
 }
 }
-

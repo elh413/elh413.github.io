@@ -333,28 +333,6 @@ img[src="/i/user.png"] {
     background: #8f81d8;
 }
 
-.avatar-img {max-height: 100px;width: 100px;min-height: 100px;object-fit: cover;border-radius: 50%;}
-.post-avatar{
-margin-top: 10px;
-}
-.post-avatar a:before {
-  content: "";
-  position: absolute;
-  height: 120px;
-  filter: sepia(100%) 
-  saturate(300%) 
-  hue-rotate(210deg) 
-  brightness(70%) 
-  contrast(110%);
-  width: 120px;
-  transform: translate(-10px, -10px);
-  background-size: cover;
-  background-image:url(https://cache.be-on.su/images/Elhracoon_408ce1ae3399e17c38b4b59efd89f434_1770361060654990785.png);
-  }
-.post-avatar a:hover:before{
-transition: all 1s ease-in;
-background-image: url(https://cache.be-on.su/images/Elhracoon_50c9754814102540386871a114fc2074_1770361060463602363.png);
-}
 
 #posts > div > div.mt-3.mode, 
 #posts > div > div.mt-3.avatars,

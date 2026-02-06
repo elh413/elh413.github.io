@@ -399,17 +399,7 @@ background-image: none!important;
 background: none!important;
 }
 
-.avatar-img {
-    max-height: 50px;
-    min-height: 50px;
-    object-fit: cover;
-    border-radius: unset;
-    width: 50px;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-}
-.post-avatar a:before {
-background: unset;    
-}
+
 .signature {
     font-size: 0px;
 }

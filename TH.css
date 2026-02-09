@@ -3,7 +3,10 @@ body {
   background:url(https://cache.be-on.su/images/Elhracoon_c9933ad50f20c5f4fc1dd56a3c050c45_1769886992173264757.png);
   padding: 0% 10% 0% 10%!important;
 }
-
+.quote[data-v-6f40746e]:before, ::selection {
+    background: #fe7cba;
+  color: white;
+}
 #__nuxt > div {
   box-shadow: 0.354rem 0.354rem 0rem 0rem #FE7CBA;
   border: solid 2px #000000;
@@ -36,7 +39,7 @@ body {
   border-top: unset;
 }
 
-.down-link[data-v-2172b50b]  {
+.down-link[data-v-2172b50b], .logo-text[data-v-2172b50b]  {
   color: black!important; 
   font-size: 0px;
 }

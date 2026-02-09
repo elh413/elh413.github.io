@@ -33,15 +33,15 @@ body {
 
 .header-wrapper {
   justify-content: space-between;
-  max-width: 100%;
+  max-width: 100%!important;
   background-image: linear-gradient(180deg, #FFFFFF 0%, #FFB8DB 100%);
   padding: 0%;
   border-top: unset;
 }
 
-.down-link[data-v-2172b50b], .logo-text[data-v-2172b50b]  {
-  color: black!important; 
-  font-size: 0px;
+.down-link[data-v-2172b50b], .logo-text[data-v-2172b50b], div.logo-text > a {
+  color: black!important;
+  font-size: 0px!important;
 }
 div.logo-text > a:after {
   content:'𝔅𝔢𝔒𝔫';

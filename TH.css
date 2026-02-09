@@ -16,7 +16,7 @@ body {
     background: black;
 }
 
-.header[data-v-e6a04ded] {
+.header{
   box-shadow: unset;
   border-image-slice: 0 0 81 0;
   border-image-width: 0px 0px 55px 0px;
@@ -28,7 +28,7 @@ body {
   width: 100%;
 }
 
-.header-wrapper[data-v-e6a04ded] {
+.header-wrapper {
   justify-content: space-between;
   max-width: 100%;
   background-image: linear-gradient(180deg, #FFFFFF 0%, #FFB8DB 100%);
@@ -36,7 +36,7 @@ body {
   border-top: unset;
 }
 
-div.logo-text > a {
+.down-link[data-v-2172b50b]  {
   color: black!important; 
   font-size: 0px;
 }
@@ -45,11 +45,11 @@ div.logo-text > a:after {
   font-size: 30px;
 }
 
-.down-link[data-v-e6a04ded] {
+.down-link {
   color: black!important; 
   font-size: 0px;
 }
-.down-link[data-v-e6a04ded]:after {
+.down-link:after {
   content:'';
   background: url(https://cache.be-on.su/images/Elhracoon_b4aac2d1fcff88b63c96f098b24ae2d4_1769944879092474993.gif);
   width: 30px;
@@ -57,7 +57,7 @@ div.logo-text > a:after {
   height: 30px;
   background-position: top right;
 }
-.down-link[data-v-e6a04ded]:before {
+.down-link:before {
   content:'𝔇𝔬𝔴𝔫';
   font-size: 30px;
 }
@@ -91,7 +91,7 @@ div.logo-text > a:after {
 }
 
 .sidebar-content-text-left[data-v-d299a349], 
-.sidebar-content-text-left[data-v-e9a73b78] {
+.sidebar-content-text-left {
   transform: scaleY(0);
   overflow: hidden;
   max-height: 0px;
@@ -99,7 +99,7 @@ div.logo-text > a:after {
 }
 
 .sidebar-item[data-v-d299a349]:hover .sidebar-content-text-left[data-v-d299a349],
-.sidebar-item[data-v-e9a73b78]:hover .sidebar-content-text-left[data-v-e9a73b78] {
+.sidebar-item:hover .sidebar-content-text-left {
   overflow-y: auto;
   max-height: 300px;
   height: auto;
@@ -117,11 +117,11 @@ div.logo-text > a:after {
   border-image-outset: 10px;
 }
 
-.sidebar-item-green[data-v-e9a73b78], 
+.sidebar-item-green, 
 .sidebar-item-green[data-v-d299a349], 
 .sidebar-item-red[data-v-d299a349], 
 .sidebar-item-yellow[data-v-d299a349], 
-.sidebar-item-yellow[data-v-e9a73b78], 
+.sidebar-item-yellow, 
 .btn-danger {
   background: #fe7cba !important;
   color: #ffffff !important;
@@ -168,7 +168,16 @@ div.logo-text > a:after {
 .post-content {
   padding: 10px;
 }
-
+.post-footer > div:last-child > a.force-link[href^="/post/"] {
+                                                              font-size: 0px;}
+span.likes-counter {
+  font-size: 18px!important;
+}
+.post-footer > div:last-child > a.force-link[href^="/post/"]:before {
+    content: '🗨️ ';
+    font-size: 18px;
+    filter: invert(30%) sepia(30%) saturate(2000%) hue-rotate(300deg) brightness(90%) contrast(100%);
+}
 .avatar-img {
   max-height: 79px;
   width: 85px;
@@ -232,7 +241,7 @@ a,
 svg:not(:host).svg-inline--fa, 
 svg:not(:root).svg-inline--fa, 
 .signature, 
-.post-actions>.post-action[data-v-25bcea50] {
+.post-actions>.post-action, .sidebar-friend-online[data-v-c17164da]:visited,.sidebar-row>a[data-v-c17164da] {
   color: #fe7ca8!important;
 }
 
@@ -298,6 +307,16 @@ img[src="/i/user.png"] {
   
   div.mobile-menu.open {
     width: auto;
+    background: #000000;
+    color: #ffffff;
+    padding: 1px;
+    height: fit-content;
+    font-size: 18px;
+    font-family: Comfortaa;
+    border-width: 11px;
+    border-style: solid;
+    border-image: url(https://cache.be-on.su/images/Elhracoon_36691ea455b86c223864212ec1af6b54_1769942804630178252.png) 11 round;
+    border-image-outset: 10px;
   }
   
   #posts > div > div.mt-3.mode, 
@@ -319,7 +338,7 @@ body {
     width: 100%;
     margin-right: 0%;
 }
-.sidebar-item[data-v-d299a349]:hover .sidebar-content-text-left[data-v-d299a349], .sidebar-item[data-v-e9a73b78]:hover .sidebar-content-text-left[data-v-e9a73b78] {
+.sidebar-item[data-v-d299a349]:hover .sidebar-content-text-left[data-v-d299a349], .sidebar-item:hover .sidebar-content-text-left {
 margin: 20px;
 }
 div.signature.py-2 {

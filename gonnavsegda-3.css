@@ -324,5 +324,5 @@ div.mt-3.avatars::-webkit-scrollbar-thumb {
     height: 16px;
     color: #e0d4d4;
 }
-.post-footer > div:last-child > a.force-link[href^="/post/"]:before {height: 20px;width: 20px;display: block;float: right;}
+.post-footer > div:last-child > a.force-link[href^="/post/"]:before {height: 0px;width: 25px;display: block;float: right;}
 }

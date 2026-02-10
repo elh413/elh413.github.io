@@ -129,7 +129,7 @@ body {
 
 
 .header-wrapper {
-    max-width: 100%;
+    max-width: 100%!important;
     background: linear-gradient(to right, #f8c9c9 0%, #edc3de 100%);
     justify-content: flex-end!important;
     height: 40px;

@@ -1,0 +1,320 @@
+
+/* ========== ОСНОВНЫЕ (ГЛОБАЛЬНЫЕ) СТИЛИ И ФОН ========== */
+body {
+background:linear-gradient(180deg, #353446bd, #4c5068d4) fixed, 
+    url(https://cache.be-on.su/images/Elhracoon_7852c59c29301ea985b90d750a727a15_1770462150548005687.png),  
+    url(https://cache.be-on.su/images/Elhracoon_21029f26b09115df3b22940051dcb359_1770462083958489474.png) fixed; 
+}
+body::-webkit-scrollbar {
+    width: 10px;
+    background: #696a7b;
+    border-left: 1px solid #4c4f5f;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #4c4f5f;
+    box-shadow: inset 0px 0 2px 0px #343434;
+}
+
+/* ========== ШАПКА (HEADER) ========== */
+.header {
+    box-shadow: 0 .125rem .25rem #00000013;
+    width: 100%;
+    position: fixed;
+    z-index: 9999999;
+      height: 50px;
+      background: #4c4f5f;
+}
+.logo-text {
+    font-weight: unset;
+    background: url(https://cache.be-on.su/images/Elhracoon_e298e9f6d2f36dec0517fe87658cff3d_1770622131043650211.gif) no-repeat center / cover;
+    width: 150px;
+    height: 50px;
+    font-size: 0!important;
+    position: fixed !important;
+    left: -20px;
+    top: 0;
+}
+.burger[data-v-2172b50b] {
+    cursor: pointer;
+    height: 49px;
+    right: 49px;
+    top: 0px;
+    width: 50px;
+    box-shadow: 0px 0px 0px 1px #35344663;
+    position: fixed;
+    padding: 10px 0px 0px 0px;
+}
+.burger span[data-v-2172b50b]  {
+    border-radius: 0px;
+    display: block;
+    height: 5px;
+    margin-bottom: 4px;
+    transform: scale(0.5);
+    margin-top: 3px;
+    background-color: #d5c8c9 !important;
+}
+.down-link{
+    top: 0;
+    right: 0;
+    position: fixed;
+    font-size: 0!important;
+    width: 50px;
+    height: 49px;
+    background: url(https://cache.be-on.su/images/Elhracoon_cf1525ec9a16851eb3abc6d4ea5859df_1770574770426749997.png) no-repeat center;
+    box-shadow: 0px 0px 0px 1px #35344663;
+}
+.theme-toggler[data-v-e9d72590],
+img[src="/i/user.png"],
+#__nuxt > div > nav > div.item.header-wrapper > div.burger.d-lg-none.d-block > span:nth-child(1),
+#__nuxt > div > nav > div.item.header-wrapper > div:nth-child(1) > div > div.logo-desc {
+  display: none;
+}
+
+/* ========== БОКОВАЯ ПАНЕЛЬ (SIDEBAR) ========== */
+.sidebar-item {
+    width: 100%;
+    background: #e0d4d4;
+    margin: 0px 0 20px 0;
+    padding: 0px 0px 10px 0;
+    box-shadow: inset 0 0 2px 0px #353446;
+}
+.sidebar-item[data-v-e9a73b78].sidebar-item[data-v-e9a73b78] {
+    background: linear-gradient(180deg, #e0d4d4, #c9a1a19e) fixed;
+    margin: 0px 0 20px 0;
+    padding: 0px 0px 10px 0px;
+    box-shadow: inset 0 0 2px 0px #353446;    
+}
+.sidebar-item-green, 
+.sidebar-item-green[data-v-d299a349],  
+.sidebar-item-red[data-v-d299a349], 
+.sidebar-item-yellow, 
+.sidebar-item-yellow[data-v-e9a73b78]{ 
+  background: #4c4f5f !important;
+    box-shadow: inset 0 0px 0px 1px #35344663, 0 0px 2px 0px #353446 !important;
+    margin: 0px 0px 10px 0px;
+    color: #f57d27;
+    text-shadow: 0 0 2px #00000066;
+}
+
+/* ========== СОДЕРЖИМОЕ ПОСТА (POST CONTENT) ========== */
+.post {
+    font-size: .9rem;
+    background: #e0d4d4;
+    box-shadow: 0 0 2px 0px #353446;
+    border: 5px solid #4c4f5f;
+    min-height: auto;
+    padding: 0px 10px 0px 0px;
+    margin: 10px 10px 20px 10px !important;
+}
+.post-container {
+    padding: 10px;
+}
+.post-avatar img {
+    border: 4px solid #4c4f5f;
+    background: #4c4f5f;
+}
+.post-title>a {
+    color: #f57d27 !important;
+    text-shadow: 0 0 2px #00000066;
+    background: #4c4f5f;
+    font-size: 20px;
+    padding: 4px 10px 4px 2px;
+    box-shadow: 2px 0px 1px -1px #6f6f6fc4;
+    border-bottom-right-radius: 10px;
+    margin: -2px 0px 0px -6px;
+    max-width: calc(100% - 50px);
+    line-height: 1.1;
+}
+
+.px-1 {
+    color: #e0d4d4;
+}
+
+.post-header-item.post-author {
+ display: none; 
+}
+.item {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.post-info {
+    color: #a7a9a900;
+}
+
+/* ========== ФУТЕР ПОСТА (POST FOOTER) ========== */
+div.post-footer.mt-4 {
+    width: 75%;
+    margin-top: 0px !important;
+    margin-left: 26%;
+    height: 25px;
+    background: #4c4f5f;
+    position: sticky;
+    top: 100%;
+    border-top-left-radius: 10px;
+    box-shadow: 0px 1px 0 #4c4f5f;
+    padding: 0px 10px 0px 20px;
+}
+.post-footer > div:last-child > a.force-link[href^="/post/"] { 
+      color: #e0d4d4!important;
+  margin-left: calc(75% - 100px);
+}
+.post-footer > div:last-child > a.force-link[href^="/post/"] {
+    font-size: 0px;
+}
+.post-footer > div:last-child > a.force-link[href^="/post/"]:before {
+    content: url(https://cache.be-on.su/images/Elhracoon_b3d2e5509bfeb8a4a1d4adb2341724a6_1770747397757156360.png);
+    filter: invert(72%) sepia(31%) saturate(49%) hue-rotate(314deg) brightness(109%) contrast(101%);
+}
+span.likes-counter {
+  font-size: 14px!important;
+  color: #e0d4d4;
+}
+
+/* ========== КНОПКИ И ССЫЛКИ (BUTTONS & LINKS) ========== */
+[type=button]:not(:disabled), 
+.[type=reset]:not(:disabled),  
+[type=submit]:not(:disabled),  
+button:not(:disabled),  
+.btn-success {
+    background: linear-gradient(0deg, #80828d, #e0d4d4)!important;
+    border: 1px solid #9a9fbb;
+}
+[type=button]:not(:disabled), 
+[type=reset]:not(:disabled), 
+[type=submit]:not(:disabled), 
+button:not(:disabled), 
+.btn-success {
+    background: linear-gradient(0deg, #80828d, #e0d4d4);
+    border: 1px solid #9a9fbb;
+    border-radius: unset!important;
+}
+.sidebar-friend-online[data-v-d299a349]:visited, 
+.down-link[data-v-e6a04ded], 
+.sidebar-row>a[data-v-d299a349], 
+.sidebar-row>a[data-v-e9a73b78], 
+.button[data-v-8e8bf78e], 
+button.btn.btn-link.btn-sm, a, .force-link,
+.spoiler-toggle[data-v-1b9dc302],
+a.sidebar-row.sidebar-friend-online.force-link {
+    color: #000!important;
+}
+a.force-link[href="#"] {
+   display: none;
+}
+.svg-inline--fa {
+    height: 17px;
+    color: #e0d4d4;
+}
+
+/* ========== ПАГИНАЦИЯ И СПИСКИ (PAGINATION & LISTS) ========== */
+.pagination[data-v-55e5b455] {
+    display: block;
+    margin-right: 0px;
+    text-align: left;
+    color: #000;
+    width: 100%;
+}
+.users[data-v-5ee74f4f] {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(3, 1fr);
+    overflow-x: auto;
+    padding: 0px;
+}
+.user-card[data-v-5ee74f4f] {
+    align-content: center;
+}
+
+/* ========== МОДАЛЬНЫЕ ОКНА И ВСПОМОГАТЕЛЬНЫЕ ЭЛЕМЕНТЫ (MODALS & UTILITY) ========== */
+.modal-window[data-v-330a551a] {
+    border-radius: 8px;
+    background: #e0d4d4;
+    box-shadow: 0 0 2px 0px #353446;
+    border: 5px solid #4c4f5f;
+    min-height: auto;
+    padding: 0px 10px 0px 0px;
+    margin: 10px 10px 20px 10px !important;
+}
+.px-2 {
+    background: #4c4f5f;
+    border: 5px solid #e0d4d4;
+    width: calc(100% - 20px);
+    padding: 10px !important;
+    margin: 10px !important;
+    box-shadow: 0 0 2px 0px #353446;
+    color: #e0d4d4;
+}
+.avatars[data-v-25bcea50] {
+    overflow-y: auto;
+    width: 400px;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px;
+    height: 160px;
+}
+div.mt-3.avatars::-webkit-scrollbar {
+    width: 10px;
+    background: #696a7b;
+    border-left: 1px solid #4c4f5f;
+}
+div.mt-3.avatars::-webkit-scrollbar-thumb {
+    background-color: #4c4f5f;
+    box-shadow: inset 0px 0 2px 0px #343434;
+}
+.mobile-menu[data-v-e6a04ded] {
+    height: calc(100% - 52px) !important;
+    background: #e0d4d4 !important;
+    box-shadow: 0 0 2px 0px #353446 !important;
+    border: 10px double #4c4f5f;
+}
+.mobile-wrapper a[data-v-e6a04ded]:hover  {
+    background: #4c4f5f;
+    color: #e8e8e8 !important;
+    transition: 0s;
+}
+.mobile-wrapper a[data-v-e6a04ded] {
+    font-size: 18px;
+}
+
+/* ========== АДАПТИВНЫЕ СТИЛИ (MEDIA QUERIES) ========== */
+@media (min-width: 992px) {
+    div.header-column.d-none.d-lg-block {
+        display: none!important;  
+    } 
+    .col-lg-3 {
+        width: 20%;
+    }
+    .col-lg-9 {
+        flex: 0 0 auto;
+        width: 80%;
+    }
+    .burger {
+        display: block !important;
+    }
+    .header-wrapper[data-v-e6a04ded] {
+        max-width: 100%;
+    }
+}
+.col-lg-9, #__nuxt > div > section > div > div.col-lg-3 {
+    margin-top: 50px;
+}
+#__nuxt > div > section > div > div.col-lg-3 {
+    margin-top: 110px;
+}
+@media (max-width: 992px) {
+.d-block {
+    display: block !important;
+    font-weight: 500;
+    text-align: center;
+    background: #4c4f5f !important;
+    color: #f57d27;
+    border: unset;
+    text-shadow: 0 0 2px #00000066;
+}
+.svg-inline--fa {
+    height: 16px;
+    color: #e0d4d4;
+}
+.post-footer > div:last-child > a.force-link[href^="/post/"]:before {height: 20px;width: 20px;display: block;float: right;}
+}

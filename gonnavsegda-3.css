@@ -262,19 +262,21 @@ div.mt-3.avatars::-webkit-scrollbar-thumb {
     background-color: #4c4f5f;
     box-shadow: inset 0px 0 2px 0px #343434;
 }
-.mobile-menu[data-v-e6a04ded] {
+.mobile-menu{
     height: calc(100% - 52px) !important;
     background: #e0d4d4 !important;
     box-shadow: 0 0 2px 0px #353446 !important;
     border: 10px double #4c4f5f;
+    transition-duration: .25s;
 }
-.mobile-wrapper a[data-v-e6a04ded]:hover  {
+.mobile-wrapper a:hover{
     background: #4c4f5f;
     color: #e8e8e8 !important;
     transition: 0s;
 }
-.mobile-wrapper a[data-v-e6a04ded] {
-    font-size: 18px;
+.mobile-wrapper a {
+    font-size: 14px!important;
+    transition-duration: .25s;
 }
 
 /* ========== АДАПТИВНЫЕ СТИЛИ (MEDIA QUERIES) ========== */

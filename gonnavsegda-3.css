@@ -1,5 +1,5 @@
 
-/* ========== ОСНОВНЫЕ (ГЛОБАЛЬНЫЕ) СТИЛИ И ФОН ========== */
+
 body {
 background:linear-gradient(180deg, #353446bd, #4c5068d4) fixed, 
     url(https://cache.be-on.su/images/Elhracoon_7852c59c29301ea985b90d750a727a15_1770462150548005687.png),  
@@ -15,7 +15,7 @@ body::-webkit-scrollbar-thumb {
     box-shadow: inset 0px 0 2px 0px #343434;
 }
 
-/* ========== ШАПКА (HEADER) ========== */
+
 .header {
     box-shadow: 0 .125rem .25rem #00000013;
     width: 100%;
@@ -26,14 +26,20 @@ body::-webkit-scrollbar-thumb {
 }
 .logo-text {
     font-weight: unset;
-    background: url(https://cache.be-on.su/images/Elhracoon_e298e9f6d2f36dec0517fe87658cff3d_1770622131043650211.gif) no-repeat center / cover;
-    width: 150px;
-    height: 50px;
     font-size: 0!important;
     position: fixed !important;
     left: -20px;
     top: 0;
 }
+.logo-text a {
+    background: url(https://cache.be-on.su/images/Elhracoon_e298e9f6d2f36dec0517fe87658cff3d_1770622131043650211.gif) no-repeat center / cover;
+    width: 150px;
+    height: 50px;
+        position: fixed !important;
+    left: -20px;
+    top: 0;
+}
+
 .burger[data-v-2172b50b] {
     cursor: pointer;
     height: 49px;
@@ -70,7 +76,7 @@ img[src="/i/user.png"],
   display: none;
 }
 
-/* ========== БОКОВАЯ ПАНЕЛЬ (SIDEBAR) ========== */
+
 .sidebar-item {
     width: 100%;
     background: #e0d4d4;
@@ -96,7 +102,7 @@ img[src="/i/user.png"],
     text-shadow: 0 0 2px #00000066;
 }
 
-/* ========== СОДЕРЖИМОЕ ПОСТА (POST CONTENT) ========== */
+
 .post {
     font-size: .9rem;
     background: #e0d4d4;
@@ -141,7 +147,7 @@ img[src="/i/user.png"],
     color: #a7a9a900;
 }
 
-/* ========== ФУТЕР ПОСТА (POST FOOTER) ========== */
+
 div.post-footer.mt-4 {
     width: 75%;
     margin-top: 0px !important;
@@ -170,7 +176,7 @@ span.likes-counter {
   color: #e0d4d4;
 }
 
-/* ========== КНОПКИ И ССЫЛКИ (BUTTONS & LINKS) ========== */
+
 [type=button]:not(:disabled), 
 .[type=reset]:not(:disabled),  
 [type=submit]:not(:disabled),  
@@ -206,7 +212,7 @@ a.force-link[href="#"] {
     color: #e0d4d4;
 }
 
-/* ========== ПАГИНАЦИЯ И СПИСКИ (PAGINATION & LISTS) ========== */
+
 .pagination[data-v-55e5b455] {
     display: block;
     margin-right: 0px;
@@ -225,7 +231,7 @@ a.force-link[href="#"] {
     align-content: center;
 }
 
-/* ========== МОДАЛЬНЫЕ ОКНА И ВСПОМОГАТЕЛЬНЫЕ ЭЛЕМЕНТЫ (MODALS & UTILITY) ========== */
+
 .modal-window[data-v-330a551a] {
     border-radius: 8px;
     background: #e0d4d4;
@@ -279,7 +285,7 @@ div.mt-3.avatars::-webkit-scrollbar-thumb {
     transition-duration: .25s;
 }
 
-/* ========== АДАПТИВНЫЕ СТИЛИ (MEDIA QUERIES) ========== */
+
 @media (min-width: 992px) {
     div.header-column.d-none.d-lg-block {
         display: none!important;  

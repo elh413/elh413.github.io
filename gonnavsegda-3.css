@@ -15,7 +15,11 @@ body::-webkit-scrollbar-thumb {
     box-shadow: inset 0px 0 2px 0px #343434;
 }
 
-
+.dark {
+    --bg: #212529;
+    --text: #232222;
+    --header-column-a: #fff;
+}
 .header {
     box-shadow: 0 .125rem .25rem #00000013;
     width: 100%;

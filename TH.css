@@ -83,7 +83,7 @@ div.logo-text > a:after {
   display: block;
   background-size: 170px 170px!important;
   height: 250px;
-  background: url(https://cache.be-on.su/images/Elhracoon_4b2d287b80117362dd3bab62cea3a0e7_1770053096125046899.jpeg);
+  background: url(https://cache.be-on.su/images/Elhracoon_a68c19036eb6c060fca575948f7b7020_1772956083340485933.jpeg);
   background-repeat: no-repeat;
   background-color: #000000fa;
   box-shadow: 0.354rem 0.354rem 0rem 0rem #fe7cba;
@@ -91,6 +91,7 @@ div.logo-text > a:after {
   object-fit: cover;
   margin-left: 10px;
   margin-top: 40px;
+  object-fit: cover
 }
 
 .sidebar-content-text-left[data-v-d299a349], 

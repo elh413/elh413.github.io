@@ -18,7 +18,11 @@ body {
 .mobile-menu[data-v-e6a04ded] {
     background: black;
 }
-
+.icon-user[data-v-50df9285] {
+    height: 15px;
+    width: 15px;
+    filter: hue-rotate(300deg);
+}
 .header{
   box-shadow: unset;
   border-image-slice: 0 0 81 0;
@@ -48,7 +52,7 @@ div.logo-text > a:after {
   font-size: 30px;
 }
 
-.down-link {
+.down-link[data-v-d920f8f9] {
   color: black!important; 
   font-size: 0px;
 }
@@ -68,7 +72,15 @@ div.logo-text > a:after {
 .theme-toggler[data-v-e9d72590] {
   display: none;
 }
-
+.nav-arrow[data-v-782d9006], .page-link[data-v-782d9006] {
+    align-items: center;
+    background: black;
+    border: none;
+    box-shadow: 0.354rem 0.354rem 0rem 0rem #FE7CBA !important;
+    display: inline-flex;
+    justify-content: center;
+    line-height: 1;
+}
 
 .col-lg-3 {
   flex: 0 0 auto;

@@ -18,11 +18,7 @@ body {
 .mobile-menu[data-v-e6a04ded] {
     background: black;
 }
-.icon-user[data-v-50df9285] {
-    height: 15px;
-    width: 15px;
-    filter: hue-rotate(300deg);
-}
+
 .header{
   box-shadow: unset;
   border-image-slice: 0 0 81 0;
@@ -79,9 +75,10 @@ div.logo-text > a:after {
     box-shadow: 0.354rem 0.354rem 0rem 0rem #FE7CBA !important;
     display: inline-flex;
     justify-content: center;
-    line-height: 1;
 }
-
+.router-link-active.router-link-exact-active.nav-arrow.force-link{
+line-height: 2;  
+}
 .col-lg-3 {
   flex: 0 0 auto;
   width: 15%;

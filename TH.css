@@ -48,7 +48,7 @@ div.logo-text > a:after {
   font-size: 30px;
 }
 
-.down-link[data-v-d920f8f9] {
+.down-link[data-v-814a03e1] {
   color: black!important; 
   font-size: 0px;
 }
@@ -221,7 +221,12 @@ span.likes-counter {
 
 .mt-4 {
   margin-top: 1.5rem !important;
-  transform: scale(0.8);
+}
+div.col.comment-text-wrapper { 
+  box-shadow: 0.354rem 0.354rem 0rem 0rem #FE7CBA; 
+  background: black;
+  color: white; 
+  font-weight: 600; 
 }
 
 .signature:after {

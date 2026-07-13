@@ -43,7 +43,12 @@ div#app {
   background-size: 30px 30px;
   background-color: #f8f0f0 !important;
 }
-
+.player-btn-primary {
+    background: linear-gradient(to right, #f8c9c9, #edc3de) !important;
+}
+.player-time, div.player-progress-fill,.player-volume-icon {
+    color: #edc3dd;
+}
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;

@@ -138,7 +138,7 @@ div.logo-text > a::after {
     border-image: url("https://cache.be-on.su/images/Elhracoon_36691ea455b86c223864212ec1af6b54_1769942804630178252.png") 11 / 1 / 10px round;
 }
 
-.sidebar-item-green, .sidebar-item-green[data-v-d299a349], .sidebar-item-red[data-v-d299a349], .sidebar-item-yellow[data-v-d299a349], .sidebar-item-yellow, .btn-danger {
+.sidebar-item-green, .sidebar-item-green[data-v-d299a349], .sidebar-item-red, .sidebar-item-yellow, .sidebar-item-yellow, .btn-danger {
     box-shadow: rgb(0, 0, 0) 0.354rem 0.354rem 0rem 0rem;
     background: rgb(254, 124, 186) !important;
     color: rgb(255, 255, 255) !important;
